@@ -1,0 +1,3127 @@
+{
+	"componentChunkName": "component---src-pages-index-jsx",
+	"path": "/",
+	"result": {
+		"data": {
+			"hero": {
+				"url": "/static/c1ce8f9ba961a16bde0b28fe4a16fd4b/hero-banner.jpg",
+				"childImageSharp": {
+					"mobile": {
+						"base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwL/2gAMAwEAAhADEAAAAZKAxwFh/8QAFhABAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEBAAEFAtsFv//EABcRAAMBAAAAAAAAAAAAAAAAAAECEEL/2gAIAQMBAT8BTIn/xAAXEQADAQAAAAAAAAAAAAAAAAABAhAx/9oACAECAQE/AWwz/8QAFhAAAwAAAAAAAAAAAAAAAAAAABAh/9oACAEBAAY/AiL/xAAYEAEBAQEBAAAAAAAAAAAAAAABABEhof/aAAgBAQABPyF6NgDGqey3/9oADAMBAAIAAwAAABDzz//EABcRAAMBAAAAAAAAAAAAAAAAAAABEWH/2gAIAQMBAT8QjB0h/8QAFhEBAQEAAAAAAAAAAAAAAAAAARBB/9oACAECAQE/EEiGT//EABkQAQADAQEAAAAAAAAAAAAAAAEAESEx4f/aAAgBAQABPxBjuFthgwZtB4iXs//Z",
+						"width": 748,
+						"height": 256,
+						"src": "/static/c1ce8f9ba961a16bde0b28fe4a16fd4b/a18c1/hero-banner.jpg",
+						"srcSet": "/static/c1ce8f9ba961a16bde0b28fe4a16fd4b/a18c1/hero-banner.jpg 1x,\n/static/c1ce8f9ba961a16bde0b28fe4a16fd4b/e9d0d/hero-banner.jpg 1.5x,\n/static/c1ce8f9ba961a16bde0b28fe4a16fd4b/92585/hero-banner.jpg 2x",
+						"srcWebp": "/static/c1ce8f9ba961a16bde0b28fe4a16fd4b/83353/hero-banner.webp",
+						"srcSetWebp": "/static/c1ce8f9ba961a16bde0b28fe4a16fd4b/83353/hero-banner.webp 1x,\n/static/c1ce8f9ba961a16bde0b28fe4a16fd4b/7be04/hero-banner.webp 1.5x,\n/static/c1ce8f9ba961a16bde0b28fe4a16fd4b/db3c2/hero-banner.webp 2x"
+					},
+					"desktop": {
+						"base64": "data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAQD/8QAFQEBAQAAAAAAAAAAAAAAAAAAAwL/2gAMAwEAAhADEAAAAZKAxwFh/8QAFhABAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEBAAEFAtsFv//EABcRAAMBAAAAAAAAAAAAAAAAAAECEEL/2gAIAQMBAT8BTIn/xAAXEQADAQAAAAAAAAAAAAAAAAABAhAx/9oACAECAQE/AWwz/8QAFhAAAwAAAAAAAAAAAAAAAAAAABAh/9oACAEBAAY/AiL/xAAYEAEBAQEBAAAAAAAAAAAAAAABABEhof/aAAgBAQABPyF6NgDGqey3/9oADAMBAAIAAwAAABDzz//EABcRAAMBAAAAAAAAAAAAAAAAAAABEWH/2gAIAQMBAT8QjB0h/8QAFhEBAQEAAAAAAAAAAAAAAAAAARBB/9oACAECAQE/EEiGT//EABkQAQADAQEAAAAAAAAAAAAAAAEAESEx4f/aAAgBAQABPxBjuFthgwZtB4iXs//Z",
+						"width": 1496,
+						"height": 512,
+						"src": "/static/c1ce8f9ba961a16bde0b28fe4a16fd4b/c0e95/hero-banner.jpg",
+						"srcSet": "/static/c1ce8f9ba961a16bde0b28fe4a16fd4b/c0e95/hero-banner.jpg 1x",
+						"srcWebp": "/static/c1ce8f9ba961a16bde0b28fe4a16fd4b/5e366/hero-banner.webp",
+						"srcSetWebp": "/static/c1ce8f9ba961a16bde0b28fe4a16fd4b/5e366/hero-banner.webp 1x"
+					}
+				}
+			},
+			"options": {
+				"siteMetadata": {
+					"show_mixtape_1": false,
+					"show_mixtape_2": false,
+					"show_zine": true
+				}
+			},
+			"items": {
+				"nodes": [
+					{
+						"data": {
+							"Region": "Jharsa Village, Gurugram, Harayana",
+							"Name": "Help Underprivileged women in Jharsa, Gurugram",
+							"Slug": "care-dalitwomen",
+							"Rupees_Goal": 653000,
+							"Rupees_Reached": 15000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief to Women"],
+							"Category_Rank": ["7"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Need help with-</p>\n<ul>\n<li>Providing <strong>meals and grocery items</strong> to women working in different area of gurugram Haryana</li>\n<li>Distributing** Sanitary pads and medicare facilities** for labour class women and adivasis</li>\n<li>Disbursing personal protective equipment packs (including medical masks and gloves) to labour class women communities</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Jharkhand",
+							"Name": "Covid-19 Emergency Relief Fund Jharkhand",
+							"Slug": "agadhbodh-covid",
+							"Rupees_Goal": 1000000,
+							"Rupees_Reached": 9000,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Mask distribution, food distribution, providing oxygen cylinder, medicine, and spreading awareness in Jharkhand</li>\n<li>Facebook: <a href=\"https://www.facebook.com/Agadhbodh-Foundation-768171233228908/\">https://www.facebook.com/Agadhbodh-Foundation-768171233228908/</a></li>\n</ul>"
+								}
+							},
+							"URL": "https://twitter.com/livid_shark/status/1391620449839194113/photo/1",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi",
+							"Name": "Migrant Workers Solidarity Network (MWSN)",
+							"Slug": "mwsn",
+							"Rupees_Goal": 2500000,
+							"Rupees_Reached": 832000,
+							"Urgent": true,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": true,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>* MWSN is running a national level helpline for distressed workers, mostly coming from marginalised backgrounds. The helpline started in March 2020 in 10 different languages during the first Covid-19 induced lockdown. In the first phase of lockdown they were able to assist in over 40,000 cases.</p>\n<p>Distribution of dry ration in slums for urban poor.</p>\n<p>Return tickets of distressed Migrant Workers and direct cash transfer to workers and daily wagers in urgent cases.</p>\n<p>Essential healthcare supplies to stranded workers.</p>"
+								}
+							},
+							"URL": "https://patreon.com/mwsn",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Dongria villages, Niyamgiri, Odisha",
+							"Name": "Help The Tribal Communities of Odisha Battle Covid-19",
+							"Slug": "awareness-medical-assistance-odisha",
+							"Rupees_Goal": 1000000,
+							"Rupees_Reached": 80000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief to dalit and adivasi communities"],
+							"Category_Rank": ["4"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>A team will work in cooperation with Niyamgiri Surakhya Samiti, putting greater emphasis on COVID preventive and curative measures.</li>\n<li>In the Dongria villages, people also have high cases of malaria. The team in Niyamgiri will address the rising cases of malaria along with COVID-19 and any other illness that needs immediate attention.</li>\n<li>Individual contributions only</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "West Bengal",
+							"Name": "Relief Appeal for Cyclone Yaas",
+							"Slug": "cyclone-yaas-funds",
+							"Rupees_Goal": 1000000,
+							"Rupees_Reached": 469189,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for Rural"],
+							"Category_Rank": ["1"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>The state Fishworkers Union is raising funds for relief and rehabilitation work.</li>\n<li>The coastal districts of Purba Medinipur and South 24 Parganas have seen widespread flooding, leading to extensive destruction of fishing gear and livelihood spaces (ponds, agrarian lands)</li>\n<li>Raising funds for:\n<ul>\n<li>Repair of boats</li>\n<li>Replacement of nets</li>\n<li>Stocking fish in pukurs (fresh water ponds)</li>\n</ul>\n</li>\n</ul>\n<p>The account is strictly for Indian donors.</p>"
+								}
+							},
+							"URL": "https://www.instagram.com/p/CPZ_U0rpbjA/",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Shillong, Meghalaya",
+							"Name": "Help Daily Wage Earner Transwomen In Shillong, Meghalaya",
+							"Slug": "daily-wage-transwomen-shillong",
+							"Rupees_Goal": 160000,
+							"Rupees_Reached": 97892,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Help raise funds to help 20 transwomen from Shillong who have lost their job due to the ongoing lockdown.</li>\n<li>They used to work at tea-shop or cafeteria as waitress; beautician at beauty parlours and as househelp. They had migrated from various parts of Meghalaya to find opportunities in the capital Shillong.</li>\n<li>I intend to raise Rs 160000 to help them with their Rent + Dry Ration + Medicines and other sanitary and hygiene needs. </li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-transwoman-daily-wage-workers",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Meerut",
+							"Name": "Raising funds for two Covid patients in Meerut",
+							"Slug": "funds-covid-meerut",
+							"Rupees_Goal": 100000,
+							"Rupees_Reached": 0,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Raising funds for medical expenses for two COVID positive patients in Meerut, UP who are in need of urgent hospitalisation. Neelam, 51 and Maya, 75+ years of age</li>\n<li>Mr. Arora is the sole earning member of the family and only got discharged the day before yesterday. As it stands, the family has no way to afford the treatment cost for two of its other members. </li>\n<li>The attendant, Mr. Arora's niece, Aarti has been running from pillar to post to take care of all three patients simultaneously. Besides her, there is only her brother who is still very young and cannot possibly take care of any of these patients by himself.</li>\n<li><strong>The family will need these funds in the next four days</strong></li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Amravati, Maharashtra",
+							"Name": "Help Mohammad Shah Battle Black Fungus Infection",
+							"Slug": "urgent-medication-covid",
+							"Rupees_Goal": 80000,
+							"Rupees_Reached": 60952,
+							"Urgent": true,
+							"Status": "Unpublished",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Just as Mohammad Salim Shah (67 yrs old) was recovering from covid19 in April this year, he suffered a massive heart attack. The bypass surgery could not be conducted due to severity of black fungus infection that had spread to his bones. A temporary angioplasty was done at the time.</p>\n<p>In May and June we raised money to pay for treatment of the infection and fortunately, the doctors were able to bring it under control.</p>\n<p>On 9th July, Shah was taken for a check up and an angiography was done. The results show extremely critical condition as  blockage is building up again and the first angioplasty will not hold out for much longer. An operation to insert two stents is now urgently required.</p>\n<p>Shah's son Mudassar has been taking care of him since March and hasn't been able to attend work. Without his salary, his finances have fast depleted. Your help will be greatly appreciated.</p>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Calcutta",
+							"Name": "Financial support to Akash Gosh for Covid treatment",
+							"Slug": "financial-support-akash",
+							"Rupees_Goal": 250000,
+							"Rupees_Reached": 0,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Akash has been hospitalized since 16/04/21 in a critical situation. His 2 lungs are critically damaged.</li>\n<li>A few days back he lost his father due to covid. His family is now unable to bear the hospital charges.</li>\n<li>His friend, Sunny is collecting donations for his medical expense.</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": "sunnydassg@okaxis"
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi",
+							"Name": "Support Liza and Her Family of 5 ",
+							"Slug": "financial-support-post-covid-death",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Financial Distress after Death in Family"],
+							"Category_Rank": ["8"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Liza lost her father due to covid-19, who was a retired JVN teacher who didn't receive a pension.</li>\n<li>She needs funds to assist her family of 5, including herself, her 3 sisters and her mother</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Sundarbans, West Bengal",
+							"Name": "Cyclone Yaas- People Of Sundarbans Needs All Of You",
+							"Slug": "sundarbans-cyclone-yaas",
+							"Rupees_Goal": 2000000,
+							"Rupees_Reached": 177927,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for Rural"],
+							"Category_Rank": ["1"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>We are looking for the following support.\n1. Empty cement bag which will be used for rebuilding river embankments.\n2. Water for drinking purpose\n3. Tarpaulins and Mosquito Nets\n4. Dry ration and food support\n5. Clothes and utensils\n6. Hygiene materials\n7. Bleaching\n8. Mask and Sanitizers</p>"
+								}
+							},
+							"URL": "https://www.impactguru.com/fundraiser/help-mukti-ngo",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Manipur",
+							"Name": "Care for Manipur is Seeking Financial Support",
+							"Slug": "care-for-manipur",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for Rural"],
+							"Category_Rank": ["1"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>We have come together to help save lives during this pandemic by providing medical supplies and monetary aid, in line with and fully observing the guidelines laid down by the state authorities. <strong>We aim to raise INR 1 crore by 15th June, 2021 to meet the following objectives:</strong></p>\n<ul>\n<li><strong>25 concentrators</strong></li>\n<li><strong>200 oxygen cylinders</strong></li>\n<li><strong>10 ICU Beds</strong></li>\n</ul>"
+								}
+							},
+							"URL": "https://careformanipur.org/donate/",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Jharkhand",
+							"Name": "Ranchi Support Group",
+							"Slug": "ranchi-support-group",
+							"Rupees_Goal": 946000,
+							"Rupees_Reached": 0,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Ranchi Support Group is an off-shoot of Lahu bolega is a collective of individuals who started working in the domain of public health in Ranchi, Jharkhand (India)</li>\n<li>We plan the reach 300 COVID-19 patients/ their families as per the plan.</li>\n<li>Help will be given in the form of ration kits, Medicine, Medical costs</li>\n<li> The identified government hospitals are Covid-19 Care Center Risaldar, Doranda, RIMS Ranchi, Sadar Hospital. 60 percent of the effort of the support provided by the collective will be concentrated here. The remaining 40 percent of the effort of the organization will be towards charitable hospitals like Sewa Sadan, K C Rai Memorial hospital etc in Ranchi</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "",
+							"Name": "Financial Help for Vijendra's  Family",
+							"Slug": "financial-help-vijendra",
+							"Rupees_Goal": 450000,
+							"Rupees_Reached": 270000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Financial Distress after Death in Family"],
+							"Category_Rank": ["8"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Vijendra's mother is no more and his family's financial condition is very poor.</li>\n<li>They are not able to pay hospital bills as the family makes less than 1 lakh per annum</li>\n<li>He is a BA student from Jaipur, Rajasthan.</li>\n</ul>\n<p>His best friend Deepak Kumar has started this fundraiser to help them pay all the pending medical expenses and hospital bills.</p>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": "7240726591@upi"
+						}
+					},
+					{
+						"data": {
+							"Region": "Noida, Uttar Pradesh",
+							"Name": "Support Aakash and his brother's education ",
+							"Slug": "financial-assistance-college-fees",
+							"Rupees_Goal": 700000,
+							"Rupees_Reached": 171103,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Financial Distress after Death in Family"],
+							"Category_Rank": ["8"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Aakash and his brother lost their father due to Covid-19. He was the sole earning member of the family and ran a small business that was facing losses.</li>\n<li>He is enrolled as PGDM student in a college in Noida and his brother is in second year of engineering.</li>\n<li>The funds raised from this will cover 2 years fees of his brother's fees and a year of his own.</li>\n<li>Their fees have to be submitted by July, 2021</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/support-for-education-me-and-my-brother-needs-support-for-education",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Nasik, Maharashtra",
+							"Name": "Support The Society for Empowerment of the Deafblind",
+							"Slug": "empowerment-deaf-blind",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p><strong>The Society for Empowerment of the Deafblind</strong>” (SEDB), a registered Non-Governmental Organisation (NGO).</p>\n<ul>\n<li>They are raising funds during this difficult time for the  a new <strong>training centre for deafblind youth to train them</strong>. Along with a <strong>strong user-friendly informative website</strong> that will reach every Deafblind people in India</li>\n<li>Donors can choose to-Sponsor a website payment or Sponsor a training (Education) or Sponsor Preparatory training amongst several other alternatives the details to which are in the fundraiser.</li>\n</ul>"
+								}
+							},
+							"URL": "http://sedbindia.org/support-us/",
+							"UPI_ID": "9998751125 - Zamir"
+						}
+					},
+					{
+						"data": {
+							"Region": "",
+							"Name": "Covid Prevention Action in Adivasi Villages (Oorus)",
+							"Slug": "oorus-covid-prevention",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief to dalit and adivasi communities"],
+							"Category_Rank": ["4"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>We request you to join hands with us to support the Adivasi settlements in equipping themselves to face this terrible situation of COVID 19</p>"
+								}
+							},
+							"URL": "https://www.instagram.com/p/CPJPQ6wpF-h/",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Hyderabad",
+							"Name": "My mother needs support for her treatment",
+							"Slug": "mother-covid-hyderabad",
+							"Rupees_Goal": 2000000,
+							"Rupees_Reached": 1074770,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Patient in Century Hospital, Hyderabad for more than 25 days and fighting covid, her lungs are damaged.</li>\n<li>Family has exhausted their savings</li>\n</ul>\n<p>Patient Name: Vijaya Laxmi\nPlace: Hyderabad\nHospital Name: Century Hospital\nPatient's Daughter: Harika Xavier</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-vijaya-laxmi-3",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bangalore, Karnataka",
+							"Name": "Support trans people & people living with HIV meet their livelihood",
+							"Slug": "bengaluru-livelihood-HIV",
+							"Rupees_Goal": 1500000,
+							"Rupees_Reached": 46751,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>We are an organisation called Jeeva, and we work in the state of Karnataka on the rights on gender and sexual minorities. </p>\n<p>We provide legal empowerment and mental health support to the community. We provide rations, and work on community-driven sanitation improvement programs in deprived urban areas. We also lobby with the government to support the community. </p>\n<p>We are seeking urgent support to provide dry rations and funds for rent for 1,000 community members, including trans people and people living with HIV. </p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-sexual-and-gender-minorities-and-people-living-with-hiv",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Uttarakhand",
+							"Name": "#HelpPahad Uttarakhand Calls for Donations",
+							"Slug": "help-pahad-uttarakhand",
+							"Rupees_Goal": 8000000,
+							"Rupees_Reached": 1300000,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for Rural"],
+							"Category_Rank": ["1"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Your donations will help us supply COVID support kits to villages in the hilly regions of Uttarakhand, which await basic medical equipment like oxymeters, thermometers etc. These kits will be supplied to ASHA health workers and village representatives to help track the health of patients and ensure timely intervention, as needed.</p>\n<p><a href=\"www.facebook.com\">www.facebook.com</a>/shegngo\n<a href=\"www.shegngo.com\">www.shegngo.com</a></p>"
+								}
+							},
+							"URL": "https://pages.razorpay.com/helppahad",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "West Bengal",
+							"Name": "Durbar collecting funds for COVID-19 affected Sex Workers in West Bengal",
+							"Slug": "durbar-sex-workers-west-bengal",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Collecting funds for COVID-19 affected sex workers in West Bengal facing imminent hunger and destitution. Durbar, the sex workers' collective, is committed to fend for this group along with other marginalised communities.</p>"
+								}
+							},
+							"URL": "https://twitter.com/AarKiBolboBolo/status/1395026250444378112/photo/1",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Jharkhand",
+							"Name": "Save Daily Wage Earners and Migrants From Dying of Hunger in Jharkhand",
+							"Slug": "daily-wage-earners-jharkhand",
+							"Rupees_Goal": 2500000,
+							"Rupees_Reached": 243572,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief to dalit and adivasi communities"],
+							"Category_Rank": ["4"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Your funds will be used to provide ration kits to 2500 families of daily wage earners and migrants in Jharkhand for the next few months. Each kit contains rations to feed a family of four for 2 weeks and kits will be given out twice a month to each family. A ration kit for a family would cost Rs.1000 consisting of rice, dal, soybean, cooking oil, sugar, tea leaves, masala, salt,washing and bathing soap. </p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-migrant-workers-and-labourers",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Kolkata",
+							"Name": "Help Souradeep to Provide for His Aunt's Treatment",
+							"Slug": "help-ecmo-mayuri",
+							"Rupees_Goal": 1500000,
+							"Rupees_Reached": 1118899,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>We are looking to raise funds for Mayuri Dutta who is admitted at Apollo Hospital, Kolkata. Her elder sister Kasturi Dasgupta had weak lungs so the entire family spent the last 15 months shielding her, protecting her and rallying around her. They moulded their lives keeping her safety in the centre of everything they did.\nHowever, Corona struck the Dasgupta household and in an unequal fight, took Kasturi away from everything she held dear.\nThe day after her sad demise, Mayuri who is just 34 years old, also had breathing troubles. Though she was immediately admitted to an ICU facility, she spiralled very quickly into critical care and had to be housed in a ventilator. Her infection was uncontrolled, the lungs compromised and doctors had not seen too many success stories, once patients enter this stage.\nThe only ray of hope was offered by a new technology, ECMO, that is giving young patients like Mayuri- one more chance to make it. An ECMO bed has been secured for her and she has now spent 4 days at the hospital fighting for her life. There is a long haul ahead.\nECMO treatment is extremely expensive and our insurance coverage is inadequate. We know that we are clutching at straws here but its our only chance to return a semblance of normalcy to a family facing a bleak cruel future. \nWe are raising funds to help fund Mayuri's treatment.</p>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/my-aunt-is-suffering-from-corona-virus-we-need-your-help-to-provide-for-her-treatment-403443?utm_medium=whatsappShare&utm_content=1a5f4904fa83acf1400c1f8441247f83&shby=1&utm_source=external_Ketto&utm_campaign=my-aunt-is-su",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi",
+							"Name": "Help Support My Father's Treatment",
+							"Slug": "rhythm-batra-fathers-treatment",
+							"Rupees_Goal": 5000000,
+							"Rupees_Reached": 2850707,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>My father, Mr. Kamlesh Kumar Batra as he has been in the hospital due to Lungs Pnemonia since 7th April 2021. From last 1.5 months, my father has been struggling in the ICU for recovery. He is suffering from post-covid complications and now, due to some medical procedures in the ICU, he has also suffered with a significant brain damage. Because of which, he is now in a coma state. Our family has done all it can to collect the total amount required for the treatment but Rs 50 Lakhs more are required to pay for all the medical expenses. Sadly, my elder sister who was supporting the family financially had lost her job in last July due to Covid pandemic. Hence, we are very financially pressed. </p>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/my-father-is-suffering-from-lung-infection-we-need-your-help-to-provide-for-his-treatment-407347?utm_medium=whatsapp_share&utm_content=8e285878eb15b13b9fb55183f2993d38&shby=1&utm_source=internal&utm_campaign=my-father-is-suffering-from-lung-infection-we-need-your-help-to-provide-for-his-treatment-407347",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi",
+							"Name": "Help Riot Hit Familes of North East Delhi",
+							"Slug": "support-covid-meals-delhi",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Neev has been helping riot-hit families of northeast Delhi since February 2020 with legal aid.</li>\n<li>Now, however, they need funds to provide ration to 100 families hit due to covid.</li>\n<li>Each kit will cost Rs 1200 and eat kit will last close to 2 weeks</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bangalore, Karnataka",
+							"Name": "Support domestic workers in Bangalore through the COVID-19 crisis",
+							"Slug": "bangalore-domestic-workers",
+							"Rupees_Goal": 35000,
+							"Rupees_Reached": 17000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief to Women"],
+							"Category_Rank": ["7"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Under covid restrictions, many domestic workers living in informal settlements and neighborhoods with poor infrastructure, many of whom are senior citizens, single women, sole providers of their family, have lost their jobs and are struggling to make ends meet.</li>\n<li>Grassroots social workers &#x26; local community leaders together are trying to support women in Bandepalya, Kundanahalli, Jakkasandra, and Nanjappa Garden with basic rations &#x26; medicines.</li>\n<li>With no relief from the government (&#x26; lack of ration cards + ration provisions drastically cut) they don't have any other means for food in the coming weeks. All funds raised will go directly to pay for their rations.</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": "9606730759"
+						}
+					},
+					{
+						"data": {
+							"Region": "Chattisgarh",
+							"Name": "Mahila Kisan Adhikaar Manch (MAKAAM), Chhattisgarh",
+							"Slug": "makaam-support-women-covid",
+							"Rupees_Goal": 500000,
+							"Rupees_Reached": 91101,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief to Women"],
+							"Category_Rank": ["7"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>The livelihoods of rural women working as daily wage labourers, vegetable sellers, cultivators, domestic workers, etc. are under threat. Specifically, the condition of single, deserted and widowed women is extremely precarious.</li>\n<li>In a forest of Kasdol block, Baloda Bazar district in Chhattisgarh, there are communities(who belong to certain tribes) that make their living by making bamboo utensils, which they are unable to sell due to the pandemic.</li>\n<li>We plan to distribute kits would be containing essential supplies such as **rations, sanitary napkins, pulses/cereals, vegetables along with basic medical supplies such as oximeters (per cluster in each village), paracetamol, thermometers, etc. **</li>\n<li>We are estimating the price to be around Rs. 1200 per person. We are hoping to reach out to 200 women farmers.</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-women-farmers-and-nomadic-communities",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi",
+							"Name": "Help Families Of Child Survivors Of Sexual Abuse Survive COVID Second Wave",
+							"Slug": "child-survivors-covid",
+							"Rupees_Goal": 905850,
+							"Rupees_Reached": 59750,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief to Children"],
+							"Category_Rank": ["11"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Child survivors of sexual abuse in Delhi are facing increased vulnerability due to the second wave of COVID-19. </li>\n<li>Most of the children and their families are socio-economically disadvantaged and hence, face an exponentially increasing risk due to the pandemic and its impact on livelihoods.</li>\n<li>Of the families, we aim to support through this fundraiser</li>\n</ul>\n<ol>\n<li>90% have lost their jobs and are struggling to find odd jobs that help them make their ends meet.</li>\n<li>98% live on rent and are unable to afford it.</li>\n<li>18% of the families have children as the sole earners. </li>\n</ol>\n<ul>\n<li>Your donations to this fundraiser will help 55 families of child survivors of sexual abuse and children in difficult circumstances by helping them stay afloat and pay for the basics of rent, medical care, education needs, and ration.</li>\n</ul>\n<p>More information on donation platform</p>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/help-families-of-child-survivors-of-sexual-abuse-survive-covid-second-wave",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bihar",
+							"Name": "Support Covid Relief in Bihar through Jan Jagran Shakti Sangathan",
+							"Slug": "jan-jagran-shakti-sangathan-covid-relief",
+							"Rupees_Goal": 1000000,
+							"Rupees_Reached": 512838,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Help JJSS run covid relief efforts in Araria, Katihar, Saharsa, and Kishanganj districts of Bihar.</p>\n<p>JJSS' COVID relief work presently includes:</p>\n<p>1. Vaccine Awareness and help desk\n2. Making and distributing masks\n3. Medical support\n4. Food packet distribution\n5. Advocating for NREGA entitlements to ensure local income security\n6. Advocating for NFSA entitlements to ensure food security</p>\n<p>Your donation will support the first four.</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-to-run-covid-relief-efforts?mlp_referrer_id=5073717&utm_medium=created&utm_source=virtual_bank_account",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Balrampur and Lucknow, Uttar Pradesh",
+							"Name": "Tarai Environment Awareness Samiti Supporting Migrants and Homeless",
+							"Slug": "teas-support-covid",
+							"Rupees_Goal": 5000000,
+							"Rupees_Reached": 296882,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Delivering ration Kits to the migrants</li>\n<li>Ration kit to homeless people</li>\n<li>Providing medicare services, Hand Sanitisers, Masks for free of cost to them.</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-animesh-mishra-1",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi",
+							"Name": "Oxygen SOS: Help Raise Funds for 500 BiPAP Ventilators",
+							"Slug": "saba-fund-ventilators",
+							"Rupees_Goal": 1200000,
+							"Rupees_Reached": 387161,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>There is only **1 Ventilator for 900 Covid+ people in New Delhi. **\n<strong>Pledge with us to save lives in Delhi by donating BiPAP ventilators to public hospitals.</strong></p>\n<p>We are currently donating <a href=\"https://www.youtube.com/watch?v=neKrRQsxn5U\">Spice Oxy</a> ventilators to the hospitals through the Care Taking branch, Revenue Department, Delhi Govt through local suppliers at a cost of Rs. 99,500 + 12% GST.</p>\n<p><strong>Delhi has almost 10 lakh or 1 million Covid+ cases, but only 1168 ventilators. Let's save lives, one breath at a time!</strong>\n \nDonate now and help Delhi fight the Oxygen crisis and lowering the daily 400 death toll. We urge you to come together and save a million lives in Delhi. Help Delhi breathe and spread the word in your personal and professional network, and urge all institutions/companies/businesses to donate generously for Delhi Oxygen SOS.</p>\n<p><strong>Help Delhi Breathe &#x26; Survive!</strong>\nUmeed Project Team</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/sabaazad-oxysos",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Surat, Gujarat",
+							"Name": "Help Hansaben fight COVID and pay her outstanding hospital bills",
+							"Slug": "hansaben-fight-covid",
+							"Rupees_Goal": 97879,
+							"Rupees_Reached": 24710,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Hansaben and her husband were both COVID-positive and admitted in a private hospital as they were not able to find a bed in a government hospital. At the time of discharge, husband paid off his bill, but Hansaben's bill is still pending. Knowing their situation, the hospital has given them time to pay the bill. Their only son passed away a year back, and Hansaben and her do stitching work at home with very low income. All savings have been exhausted. She is still on oxygen support at home and needs medicine.</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-hansaben-dudhat?utm_source=whatsapp&utm_medium=thank_you&mlp_referrer_id=5223579",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "New Delhi",
+							"Name": "Help Jyoti's mother recover from COVID-19 with pneumonia",
+							"Slug": "mother-fight-covid-pneumonia",
+							"Rupees_Goal": 600000,
+							"Rupees_Reached": 11947,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Jyoti's mother was COVID-positive and had pneumonia. She was admitted in the ICU at Delhi Heart and Lungs Institute Hospital for 22 days. She has been discharged and her treatment continues at home. She is on oxygen support. Pneumonia, lung infection medicines and other medical expenses are very costly, and Jyoti is unable to cover it.</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-yashoda-62?utm_source=whatsapp&utm_medium=fundraisers-title&mlp_referrer_id=5126022",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Rural Jaipur, Rajasthan",
+							"Name": "Food for unemployed women's families in rural Jaipur",
+							"Slug": "meals-unemployed-women-jaipur",
+							"Rupees_Goal": 500000,
+							"Rupees_Reached": 150000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>**Annapurna NGO, **in collaboration with <strong>Shakti Women Organisation,</strong> have initiated a '<strong>Food For All</strong>’ campaign. They seek to provide 3 months dry ration kit to the families of around 200 <strong>unemployed women, who are otherwise daily wagers, living in villages near Jaipur - Hathi Gaon</strong> <strong>and Harmada</strong>. Each kit will cost Rs. 2500/- and will be directly distributed to the families.</p>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Chennai",
+							"Name": "Trans Community Kitchen",
+							"Slug": "food supplies-chennai-underprivileged",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>They are working towards-\n-homeless people, construction workers, working-class communities dwelling on the pavement, to access cheap or free food.</p>\n<p>-The money helps them oversee the work they do in the comprehensive updates they provide to everyone who sends in any amount of money, and then contributing again in spaced-out intervals and telling friends &#x26; family.</p>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi-NCR",
+							"Name": "BAPSA is fundraising to provide medication for people in rural areas",
+							"Slug": "BAPSA-covid-fundraising-medication-aid-rural",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>BAPSA is an independent, Ambedkarite student organization comprising of students from marginalized backgrounds. They are fundraising to provide aid in the form of medication to people in rural areas whose livelihood has been adversely affected by the pandemic.</p>"
+								}
+							},
+							"URL": "https://www.facebook.com/bapsa.jnu",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bihar",
+							"Name": "Support to set up box hospitals in different parts of Bihar",
+							"Slug": "box-hospitals-bihar",
+							"Rupees_Goal": 1800000,
+							"Rupees_Reached": 244173,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>We are looking to set up Box Hospitals of 50-bed facilities (COVID Recovery Centre for mild and moderate cases) in 10 districts of Bihar. The centre would be equipped with corrugated cardboard beds, medicine boxes, oxygen concentrators and separators. We will help the existing government hospital by increasing the capacity utilisation by providing beds, IV Stands, separators, medicine boxes and oxygen concentrators. The existing hospitals can run and manage the box hospital facility, and this would enable them to provide medical treatment to more number of patients and segregate mild and moderate cases.</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-bihar-4",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Kallukuttai slum of Perugudi, Chennai",
+							"Name": "Support needed for women head affected families in Kallukuttai slum ",
+							"Slug": "kallukuttai-support",
+							"Rupees_Goal": 1440000,
+							"Rupees_Reached": 58000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<blockquote>\n<p>The second lockdown has impacted families of daily wagers headed by women the most. They have no food or dry food materials, and require immunity boosters as well for weeks. To supply each household, INR 2000 or 30USD is necessary, for a total of 721 families in Kallukuttai, Chennai.</p>\n</blockquote>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Kondapur, Hyderabad",
+							"Name": "Help A Community Overcome Covid Crisis",
+							"Slug": "help-sathru-and-his-covid-affected-community-with-medical-supply",
+							"Rupees_Goal": 700000,
+							"Rupees_Reached": 435060,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for Rural"],
+							"Category_Rank": ["1"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Sathru Nayak is raising funds for his community which has been affected by coronavirus. </li>\n<li>The funds will go into procuring medicines (Tablets, Remdesivirs for patients in hospital), Vegetables for 600 people, supporting wage laborers and landless laborers who have suffered a loss of income, and helping the elderly get medicines on time.</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/help-a-community-overcome-covid-crisis?utm_medium=whatsappShare&utm_content=940ff6f44e468f87b6d4f9e48c647e28&shby=1&utm_source=internal&utm_campaign=help-a-community-overcome-covid-crisis",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Madhya Pradesh",
+							"Name": "Help Madhya Pradesh Fight Coronavirus",
+							"Slug": "mp-coronavirus",
+							"Rupees_Goal": 1300000,
+							"Rupees_Reached": 562197,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>raising funds for oxygen concentrators for emergency cases; PPE Kits** <strong>for untested COVID-19 patients especially in village areas; and N-95 masks, sanitizers, and hand gloves</strong> **for frontline workers like ambulance drivers, food distributors, etc.</li>\n<li>refilling of already procured oxygen cylinders** **</li>\n<li>oximeters for patients in government hospitals who are left unattended, patients from poor economic backgrounds, and ASHA workers for frequent check-ups of patients in their areas.</li>\n<li>prepare and distribute **500 food packets per day **for patient attendants in government hospitals. </li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-covid-patients-49",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Kolkata, West Bengal",
+							"Name": "Covid Response 2.0 By Quarantined Student-Youth Network",
+							"Slug": "quarantined-youth-network",
+							"Rupees_Goal": 5314100,
+							"Rupees_Reached": 5426070,
+							"Urgent": false,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": { "childMarkdownRemark": { "html": "" } },
+							"URL": "https://www.ketto.org/fundraiser/qsyncovidreponse2",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi NCR",
+							"Name": "Support for Sewer Workers and Waste Pickers of Delhi NCR",
+							"Slug": "sewer-workers-wastepickers-delhi",
+							"Rupees_Goal": 500000,
+							"Rupees_Reached": 293000,
+							"Urgent": true,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": false,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Dalit Adivasi Shakti Adhikar Manch (DASAM) works with sewer workers and waste pickers, whose income has been severely impacted by COVID-19 and the lockdown. They are collecting funds through Magadh Foundation</li>\n<li>Provide monetary assistance to minimum 200 families of waste pickers and sewage workers, most of whom are daily wagers, for essential supplies and medicine.</li>\n<li>Provide dry ration to 100 such families</li>\n</ul>\n<p>For donations of more than Rs. 5000, Copy of pan card is required. After making a donation, please send an email to <a href=\"mailto:dashaktimanch@gmail.com\">dashaktimanch@gmail.com</a>. They can provide an 80G certificate to anyone who needs one.</p>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": "enazafar96@okaxis"
+						}
+					},
+					{
+						"data": {
+							"Region": "Islampur, West Bengal",
+							"Name": "Free Food Kitchen For Transgenders",
+							"Slug": "free-food-transgender",
+							"Rupees_Goal": 300000,
+							"Rupees_Reached": 111890,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Group of 6 transgender individuals at Dinajpur came together and initiated, ICCHAPURON - Community based kitchen.</li>\n<li>Community to support: Transgender individuals from the age bracket of 18 to 49 years living in and around Dinajpur district in India who are engaged in sex work. The project will also focus on following paraments;</li>\n</ul>\n<p>1.  Rural/Urban: Urban &#x26; Semi Urban\n2.  Socio-economic group: Lower middle class to living below poverty line\n3.  Occupational group: Sex workers\n4.  Identity: Transgender</p>\n<ul>\n<li>Objectives: The overall objectives of the community kitchen are as follows: </li>\n</ul>\n<p>1.  Source of Income for Trans community members, and\n2.  Providing lifesaving food to needy individuals.  </p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-joyita-mondal?utm_source=whatsapp&utm_medium=fundraisers-title&mlp_referrer_id=826126",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bhopal, Madhya Pradhesh",
+							"Name": "Funds to Survive",
+							"Slug": "funds-to-survive",
+							"Rupees_Goal": 350000,
+							"Rupees_Reached": 17624,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Financial Distress (general)"],
+							"Category_Rank": ["10"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>The family has spent all their savings on medical treatment of multiple family members who were hospitalised due to COVID-19.</li>\n<li>They are now finding it difficult to survive</li>\n<li>Funds will pay bills and help his family during this hard time</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-ekas-singh-ahluwalia",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Indore, Madhya Pradesh",
+							"Name": "Funds for COVID-19 Food Relief in Indore",
+							"Slug": "funds-food-relief-indore",
+							"Rupees_Goal": 75000,
+							"Rupees_Reached": 48000,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Preparing food for people, with each food packet consisting of 2 parathas (a type of bread) and 1 sachet of pickle. </li>\n<li>FOR EVERY 20 RUPEES, YOU CAN FEED ONE PERSON.</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.instagram.com/p/CPAKe0XMUuH/",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Ganjam, Odisha",
+							"Name": "Support our sanitation workers",
+							"Slug": "sanitation-workers-odisha",
+							"Rupees_Goal": 250000,
+							"Rupees_Reached": 70572,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Ecolizer is working with <strong>15 Urban Local Bodies</strong> (ULBs), coordinating the day to day activities of collecting, segregating, packaging and disposing for reuse or recycling the material waste that they are able to work with.\nWe intend to provide the following:\n<strong>1) PPE kits(including a full-body suit, gloves and mask)</strong>\n<strong>2) Waterproof gumboots</strong>\n<strong>3) Hand sanitizer</strong>\n**4) Liquid hand soap **\n<strong>5) Vitamin C tablets</strong></p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-sanitation-workers-1",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Mumbai",
+							"Name": "Funds For Those Affected By Garment Industry Shutdown During COVID",
+							"Slug": "garment-industry-covid",
+							"Rupees_Goal": 250000,
+							"Rupees_Reached": 45658,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Financial Distress (general)"],
+							"Category_Rank": ["10"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>requesting financial help for workers in a garment startup who can no longer work due to COVID, and are unable to feed their families</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-mohan-pulpet-1#update-section?utm_medium=approved&utm_source=campaign_update",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Maharashtra",
+							"Name": "Begging Is No More An Option For US...",
+							"Slug": "trans-support-hiv",
+							"Rupees_Goal": 8000000,
+							"Rupees_Reached": 1522520,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Groceries and medicine support for transgender and HIV positive people in Ulhasnagar, Kalyan and Bhiwandi, and Thane districts as they cannot beg for their livelihood due to the pandemic.</p>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/grocery-support-to-transgender-and-people-living-with-hiv",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Davanagere, Karnataka",
+							"Name": "Support trans people's access to rations in Davanagere, Karnataka",
+							"Slug": "trans-persons-davanagere",
+							"Rupees_Goal": 200000,
+							"Rupees_Reached": 166643,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>A collective of around 100 trans persons from Davangere, Karnataka are raising funds to support themselves with daily needs and basic rations. Many are elderly, and some are HIV-positive. A kit for each individual costs around Rs. 2000.</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-transgender-people-3",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi, Gujarat, Maharashtra",
+							"Name": "Anhad Relief Second Appeal: Ration for Families in Distress",
+							"Slug": "distress-relief-anhad",
+							"Rupees_Goal": 750000,
+							"Rupees_Reached": 218400,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>To reach out to families in distress who reside in areas where our volunteers stay.</li>\n<li>To provide a basic ration kit containing rice, lentils and grain to more than 250 vulnerable families in various regions of India.</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.anhadindia.com/donation/",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Jaipur, Rajesthan",
+							"Name": "Help Kalidevi Fight Covid-19",
+							"Slug": "Kalidevi-fight-covid",
+							"Rupees_Goal": 500000,
+							"Rupees_Reached": 174805,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Of the many families that have been disrupted by the pandemic, Kalidevi's has been too.</li>\n<li>She has been admitted at Prithasavi Hospital since 2nd May, 2021 and the hospital bills are beyond what her family can afford.</li>\n<li>Her husband being a low level contractor, doesn't make income where they could save much for future but only as much as they could spend for everyday expenses.</li>\n<li>The funds that will be raised are utilized in medicines, hospital bed, daily medical tests, injections and oxygen cylinders.</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-kalidevi?utm_source=whatsapp&utm_medium=fundraisers-title&mlp_referrer_id=4993004",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Udaipur and Chittorgarh, Rajasthan",
+							"Name": "Mewar society needs donations",
+							"Slug": "mewar-society",
+							"Rupees_Goal": 1500000,
+							"Rupees_Reached": 0,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>An NGO based in Rajasthan distributing food packets to families, children, and seniors who are food insecure.</li>\n<li>focus area is in the rural areas of Udaipur and Chittorgarh Districts.</li>\n<li>current reach is 15 villages within the Bhinder tehsil (Udaipur district) and Bhadesar tehsil (Chittorgarh district). There are over 100 villages and the need for emergency food assistance is much greater.</li>\n</ul>"
+								}
+							},
+							"URL": "http://www.mewarfoods.org/डोनेट-करें/",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Maharashtra",
+							"Name": "Support Trans People In Rural Maharashtra Through The Pandemic",
+							"Slug": "trans-support-maharashtra",
+							"Rupees_Goal": 237044,
+							"Rupees_Reached": 148936,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Raising ration funds for families in Nagar district who have lost their sources of income due to the pandemic.</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-trutiypanthi-samajseva-sanstha-shrirampur",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Aligarh",
+							"Name": "For The Future of Yash! An aspiring law student from Kasganj",
+							"Slug": "yash-law-student-kasganj",
+							"Rupees_Goal": 520000,
+							"Rupees_Reached": 92950,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Financial Distress (general)"],
+							"Category_Rank": ["10"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Help Yash complete his education and become a Judge</p>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/for-the-future-of-yash",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Jamshedpur",
+							"Name": "Join Hands With GreenCaps JSR Foundation To Raise Funds For COVID Relief",
+							"Slug": "jamshedpur-covid-greencaps",
+							"Rupees_Goal": 100000,
+							"Rupees_Reached": 47322,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Green Caps JsR Foundation has been involved in relief work from day one of the lockdown. We help people who are isolated, old or incapable of going out with any and all kind of emergency services right from medicines, grocery, fruits and vegetables, to helping them with transportation fr homes to hospitals and back. </p>\n<p>There are many people in city who cannot afford basic meds, food and other costs that this pandemic has made difficult to bear. Keeping that in mind and with the very little help that we get beause of being a small city , we have initiated a small fundraiser to increase our reach to as many people as possible. Kindly help us in our fundraiser. </p>"
+								}
+							},
+							"URL": "https://www.impactguru.com/fundraiser/help-greencaps-jsr-foundation?utm_source=SMS&utm_medium=fr-creation&utm_content=help-greencaps-jsr-foundation",
+							"UPI_ID": "supportgreencaps@yesbankltd"
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi",
+							"Name": "Help Harish Sarafolu, Delhi Riots 2020 Victim, in re-building his Life",
+							"Slug": "Harish-sarafolu-delhi-riots",
+							"Rupees_Goal": 80000,
+							"Rupees_Reached": 18000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Financial Distress (general)"],
+							"Category_Rank": ["10"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Harish Sarafolu, lost sensation in his leg during an attack in Delhi Pogrom 2020 and to cover his medical expenses Harish borrowed over 50,000/- + interest.</li>\n<li>Harish has been out of job since 2020 and losing sensation in his foot is unable to work at the majority of places.</li>\n<li>Raise 80,000 to cover his loan and some money for daily ration.</li>\n<li>It would be helpful if we can raise money for him to purchase an auto which costs 3.5 lakh, but understanding the current covid situation we are trying to raise 80,000.</li>\n<li>If anyone would like to donate a second hand auto, please come forward</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": "7838548976@ybl"
+						}
+					},
+					{
+						"data": {
+							"Region": "Anand Parbat, New Delhi",
+							"Name": "Help baazigar magician families in Anand Parbat survive lockdown",
+							"Slug": "baazigar-magician-families-anand-parbat-lockdown",
+							"Rupees_Goal": 100000,
+							"Rupees_Reached": 59813,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>There are 30 former baazigar magician families living in a temporary camp in Anand Parbat, New Delhi. Funds are being raised to provide the families with rations, essential medications, and masks, as they are unable to earn wages during the lockdown and are in dire need of assistance.</p>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": "Rehmanmagic4u@oksbi"
+						}
+					},
+					{
+						"data": {
+							"Region": "Gudalur, Tamil Nadu",
+							"Name": "Support Adivasi Community During The COVID-19 Pandemic",
+							"Slug": "adivasi-gudalur-medical",
+							"Rupees_Goal": 1500000,
+							"Rupees_Reached": 1440484,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief to dalit and adivasi communities"],
+							"Category_Rank": ["4"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>The funds raised will go towards reducing the barriers to the provision of healthcare. These contributions will be directed to address to the following urgent requirements:</p>\n<ul>\n<li>Gloves and sanitiser - Rs. 600 per pack</li>\n<li>Medicine - Rs. 1000</li>\n<li>Food supply for a COVID-19-positive patient or suspected positive    patient in isolation - Rs. 1500 for 10 days</li>\n<li>COVID-19 diagnostic tests for the community and hospital staff -      Rs. 2500 per test</li>\n<li>Diagnostic tests for other diseases/conditions to identify co-         infection - Rs. 4000 per patient</li>\n<li>Referral to higher tier hospital - Rs. 8000 per patient</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-adivasi-tribes",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Korba, Chattisgarh",
+							"Name": "Raising money for uncle who is COVID +ve in Korba Chattisgarh",
+							"Slug": "korma-funds-uncle",
+							"Rupees_Goal": 100000,
+							"Rupees_Reached": 0,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>My uncle, Santosh Kumar Agrawal, is a covid patient in severe condition (SPO2 90, fever, not able to eat and high weakness).\nHe is a shopkeeper in a small town (Korba, Chhattisgarh) with very limited basic earnings. He is not in a position to be shifted to hospital. So we are arranging medicines and setting up a medical facility for him. Please donate.</p>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": "ayushagrawal0106@okhdfcbank"
+						}
+					},
+					{
+						"data": {
+							"Region": "Chennai",
+							"Name": "O2 For Madras",
+							"Slug": "oxygen-madras",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 600000,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>O2 For Madras are calling for funds for Oxygen Cylinders and Concentrators as Covid cases skyrocketing in the Chennai, hospitals have been crippled by the lack of equipment. </li>\n<li>They are calling out to anyone willing to sponsor for:\nOxygen concentrator\nRs 80,000.\nOxygen cylinder (D type)-\nRs 25,000</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.instagram.com/o2formadras/",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Sunderbans",
+							"Name": "Help set up Isolation Centres and Boat Ambulance service  in the Sunderbans",
+							"Slug": "boat-ambulance-sunderbans",
+							"Rupees_Goal": 3000000,
+							"Rupees_Reached": 481500,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for Rural"],
+							"Category_Rank": ["1"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Establishing Isolation Centres in Sunderbans area of West Bengal which will provide for isolation for patients with symptoms before hospitalization.</li>\n<li>Starting boat ambulances with Purbo Sripotinagar village</li>\n<li>Launch Covid-19 sensitization drive</li>\n<li>Establish blood donation camps</li>\n<li>Provide updated and verified information regarding hospital beds availability, oxygen availability, plasma availability, medicines availability, etc.</li>\n<li>Organizing medical tests including oximeter checks.</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.instamojo.com/IDIALaw/idias-response-to-covid-19-second-wave/",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bangalore, Karnataka",
+							"Name": "Help feed COVID affected communities in Bangalore",
+							"Slug": "grocery-kit-transgender-bangalore",
+							"Rupees_Goal": 400000,
+							"Rupees_Reached": 190601,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>S Veena Sangama is a transgender activist based in Bengaluru, Karnataka.</li>\n<li>She is organizing a drive across the city to distribute food to transgender communities, daily wage workers, elderly people, and other families and individuals affected by COVID-19.</li>\n<li>They are preparing 50 kilograms of rice every day to prepare around 350 packs of food.</li>\n<li>People are struggling to afford even one meal a day and heavily depend on Veena and her team's efforts.</li>\n<li>Have raised 1,00,000 through direct transfer before moving onto Milaap due to increased need of funds</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-s-veena-sangama#",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Hyderabad",
+							"Name": "Ration For Differently Abled People in Katedan, Hyderabad",
+							"Slug": "ration-differently-abled-people",
+							"Rupees_Goal": 1500000,
+							"Rupees_Reached": 215002,
+							"Urgent": true,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": false,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Provide ration kits to around 100 families in Katedan, Hyderabad</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/ration-for-differently-abled-people?utm_medium=copy&utm_content=e4cffd4ae4708c1a705fd565291ffa33&shby=1&utm_source=internal&utm_campaign=ration-for-differently-abled-people&payment=form",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": " West Bengal",
+							"Name": "Ration Kit Distribution Drive for Covid 19 Lockdown in Sunderbans",
+							"Slug": "ration-kit-sunderbans",
+							"Rupees_Goal": 2500000,
+							"Rupees_Reached": 225000,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Aims to feed families in Sundarbans who are affected due to the COVID -19 lockdown. Swapnopuron Welfare Society is providing Ration Kits, which can feed a family for the next 30 days. The cost of a single Ration Kit is Rs. 500 only. Pack contains 5 Kg - Rice | 400 gms - Dal | 1 Litre - Mustard Oil | 1 Packet - Salt | Soyabean | Pack of surgical masks | Soaps</p>"
+								}
+							},
+							"URL": "https://swapnopuron.myinstamojo.com/ ",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Mumbai",
+							"Name": "Dr. Tushar Shah's COVID-19 relief fund",
+							"Slug": "dr-tushar-shahs-covid-19-relief-fund",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Dr. Shah is collecting funds towards sourcing oxygen concentrators for public hospitals, distributing masks and PPEs, treating COVID-positive patients who cannot afford to go to hospitals, and aiding peripheral hospitals in Mumbai.</p>"
+								}
+							},
+							"URL": "https://www.instagram.com/p/COPhBKNJqp9/?igshid=ukeksdn5s91r",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Jaipur",
+							"Name": "Raising funds for friend who lost source of income",
+							"Slug": "raising-funds-for-friend-who-lost-source-of-income",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 70000,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Financial Distress (general)"],
+							"Category_Rank": ["10"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>The beneficiary, Tofik, is one of the main earners in his low-income, lower caste Muslim community which mainly comprise of daily wage earners living in unofficial housing. He lost his job.</li>\n<li>Funding raised will also be used to provide rations for people in the community.</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi-NCR, Uttar Pradesh, and Jaipur",
+							"Name": "Help feed 1500 underprivileged families for 3 months",
+							"Slug": "feed-1500-families-3-months",
+							"Rupees_Goal": 8000000,
+							"Rupees_Reached": 360000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Hope Begins Foundation &#x26; Team is on a mission to feed at least 1500 families for next 3 months by distributing rations, Ready to eat food packets, and Covid-19 support items to disabled and underprivileged people. They have distributed 2.5 Lakh meals and counting.\nFacebook - <a href=\"https://www.facebook.com/Hopebegins.org\">https://www.facebook.com/Hopebegins.org</a>\nYouTube - <a href=\"https://youtube.com/channel/UCvLwDg6Cehh_QnD-EidHR2w\">https://youtube.com/channel/UCvLwDg6Cehh_QnD-EidHR2w</a>\nWebsite - <a href=\"https://hopebegins.org.in/donate-us/\">https://hopebegins.org.in/donate-us/</a></p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-needy-and-underprivileged",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Kashmir",
+							"Name": "Seeking financial help for Kashmiri woman in need of money for basic survival",
+							"Slug": "seeking-financial-help-for-kashmiri-woman-in-need-of-money-for-basic-survival",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Financial Distress (general)"],
+							"Category_Rank": ["10"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Supports an old Kashmiri woman who lost her husband this year and has no source of income to have money for her medicines and basic needs.</p>"
+								}
+							},
+							"URL": "https://www.instagram.com/tv/COCtv3XJ6FB/?igshid=10ss5fapwhkqs",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Panna, Madhya Pradesh",
+							"Name": "Seeking financial help for Yousuf Beg's family",
+							"Slug": "seeking-financial-help-for-yusuf-begs-family",
+							"Rupees_Goal": 1500000,
+							"Rupees_Reached": 570000,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Financial Distress (general)"],
+							"Category_Rank": ["10"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>We lost our friend and fellow activist, Yousuf Beg, from Panna district, Madhya Pradesh, to COVID. His family is now facing a deep financial crisis. He is survived by his wife, Sameena, who also lost her mother yesterday to COVID, and his two children Afreena and Faizal.</li>\n</ul>"
+								}
+							},
+							"URL": "https://twitter.com/ChitrangadaC/status/1384427961126834177",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bhopal",
+							"Name": "Support vulnerable populations in Bhopal",
+							"Slug": "support-vulnerable-populations-in-bhopal",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 88400,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Organizations that provide medical care and rehabilitation for gas and toxic water poisoned families in Bhopal free of cost are acting rapidly to organise a ‘community shield’ in acutely at-risk parts of the city to educate, monitor and intervene, in order to suppress transmission of the virus.\nAided by hundreds of local volunteers, over the first nine months of the pandemic their efforts were able to limit infections in these communities to just thirty three people, all but two of whom recovered.\nDonations can be made easily and swiftly using the QR code below, or by the bank details provided.</p>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": "85216291@SBI"
+						}
+					},
+					{
+						"data": {
+							"Region": "Srinagar, Kashmir",
+							"Name": "Support to buy more oxygen cylinders in Kashmir",
+							"Slug": "rouf-fundraiser",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Organized by shopkeepers (organized by Rouf) in Nowgam, Srinagar, J&#x26;K to help those who need it</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi",
+							"Name": "Help acid attack victims at this difficult time",
+							"Slug": "help-acid-attack-victims-at-this-difficult-time",
+							"Rupees_Goal": 3000000,
+							"Rupees_Reached": 1911025,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Financial Distress (general)"],
+							"Category_Rank": ["10"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Meeting a range of needs of acid attack survivors in this difficult pandemic - including monetary support, food support, and technology support to children who have to attend online classes</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/mlns",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Mumbai",
+							"Name": "I Need Your Urgent Support For My Kidney (Renal) Failure",
+							"Slug": "i-need-your-support-for-my-kidney-renal-failure",
+							"Rupees_Goal": 650000,
+							"Rupees_Reached": 456345,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Fundraisers for Misc. Healthcare"],
+							"Category_Rank": ["13"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Amit Kumar is raising funds for his renal failure treatment which adds up to ₹ 6,50,000, which they are not able to afford by themselves.</p>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/i-need-your-urgent-support-for-my-kidney-renal-failure-treatment-245660?pgx=campaign%2Fcampaign_details&fmd_id=245660&cur=INR&fmd_status_flag=-",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Madhya Pradesh",
+							"Name": "Hifazat (Fight against Corona)",
+							"Slug": "hifazat-fight-against-corona",
+							"Rupees_Goal": 1266935,
+							"Rupees_Reached": 256422,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for Rural"],
+							"Category_Rank": ["1"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>The organisation is trying to provide primary health care services as well as food security among the tribal rural people.</p>"
+								}
+							},
+							"URL": "https://fundraisers.giveindia.org/fundraisers/hafajata-fight-against-corona?ref=zJyM-a6LUa",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Tezpur, Assam",
+							"Name": "Support for LGBTQIA+ Community, Tea Tribes in Jorhat in Tezpur",
+							"Slug": "tezpur-relief-work",
+							"Rupees_Goal": 250000,
+							"Rupees_Reached": 55000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Purchase of safety kits, surgical, N95 masks, Sanitiser, handwash, face shield, oximeter, thermometer</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Patna, Bihar",
+							"Name": "Funds to help Arun Kumar recover from COVID",
+							"Slug": "arun-kumar-covid",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 200000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Atish’s father, Arun, has COVID, pneumonia and diabetes, and is admitted in Saket Hospital, Patna. The family is in dire need of funds for his treatment.</li>\n<li>Arun is now on a ventilator, so more funds are urgently needed.</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": "8285186093@upi"
+						}
+					},
+					{
+						"data": {
+							"Region": "Shrirampur, West Bengal",
+							"Name": "Help support COVID Treatment in Srirampur Labour Hospital",
+							"Slug": "help-support-covid-treatment-in-srirampur-labour-hospital",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 1026545.8,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for Rural"],
+							"Category_Rank": ["1"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>We're starting #freeambulance service for EWS patients and have raised money to hire a vehicle, pls donate to help us run more free ambulances</p>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "New Delhi",
+							"Name": "Crowdfunding for LGBT*QIA Persons For Meeting COVID-Related Emergencies ",
+							"Slug": "nazariya-campaign",
+							"Rupees_Goal": 1000000,
+							"Rupees_Reached": 360160,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Nazariya is a Delhi-based queer-feminist resource group that provides free counselling for LGBT*QIA people and conducts meet-ups for queer and trans* women.</li>\n<li> Currently they are fundraising to provide COVID-related resources to community members, such as oxygen, hospital expenses, home care expenses, and meals, as needed.</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Cooch Behar, West Bengal",
+							"Name": "The transgender community needs face masks, sanitizer, and medical essentials",
+							"Slug": "sumi-das-relief-work",
+							"Rupees_Goal": 500000,
+							"Rupees_Reached": 215000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Providing the transgender community with:</li>\n<li>face masks, </li>\n<li>Sanitizers</li>\n<li>vitamin C capsules </li>\n<li>And other immunity booster medicines</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Kashmir",
+							"Name": "Kashmir Athrout",
+							"Slug": "athrout-kashmir",
+							"Rupees_Goal": 3000000,
+							"Rupees_Reached": 2043087,
+							"Urgent": false,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": false,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Athrout is a non profit organisation which is on the ground and responding to the pandemic in Kashmir.</li>\n<li>Concentrators, medicines &#x26; oxygen cylinders to the most remote districts of the valley </li>\n<li>Food &#x26; basic supplies to those in need.</li>\n<li>All of the proceeds from this fundraiser will go towards strengthening  Athrout's hands so that it is better resourced to respond to the crisis.</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/help-kashmir-fight-corona",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Yawatmal",
+							"Name": "Funding for treatment of Chetana’s elderly parents, hospitalized with Covid-19",
+							"Slug": "chetana-covid",
+							"Rupees_Goal": 320000,
+							"Rupees_Reached": 180000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Chetana's parents tested positive and were hospitalized in a private hospital in Yavatmal. Their per head charge will be 1.6 lacs expected. They both are senior citizens and Chetana is also unemployed so some of her friends started a fundraising campaign for her</li>\n<li>In case of any queries, Chetana can be reached at +91-81046-59726</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": "dr.schetana@okicici"
+						}
+					},
+					{
+						"data": {
+							"Region": "Bhopal, Madhya Pradesh",
+							"Name": "Support Aaryan Choudhary’s family with their COVID medical bills ",
+							"Slug": "aaryan-choudhary-covid",
+							"Rupees_Goal": 250000,
+							"Rupees_Reached": 130000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Aryan Choudhary, a 4th year student, passed away due to COVID. Both his parents have also tested positive for COVID and are  in a critical condition. </li>\n<li>They have been moved to a private hospital due to lack of beds in government hospitals. </li>\n<li>Their bills add up to  ₹ 80,000 - ₹ 1 Lac per day</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": "8871322353@PAYTM"
+						}
+					},
+					{
+						"data": {
+							"Region": "Hyderabad, Telangana",
+							"Name": "Help for the Treatment of Surya Rao - a Single Father on Ventilator due to COVID",
+							"Slug": "surya-rao-covid",
+							"Rupees_Goal": 1800000,
+							"Rupees_Reached": 600000,
+							"Urgent": true,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Would help Haindavi financially to keep up with Surya Rao’s Treatment that costs ₹ 1.5 lacs per day.</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Varanasi, Uttar Pradesh",
+							"Name": "Save Aditi’s family from COVID Crisis",
+							"Slug": "aditi-covid",
+							"Rupees_Goal": 3000000,
+							"Rupees_Reached": 1545668,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>For medical expenses for COVID and student loans</li>\n<li>Aditi is 17 and raising funds for her family of 6 members including 2 siblings.</li>\n<li>Entire family is COVID positive with no income at the moment.</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-aditi-srivastava?co=truetrue",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bangalore",
+							"Name": "Raising funds for sex workers in Bengaluru",
+							"Slug": "sexworkers-bengaluru",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 200000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Raising funds for: Women in sex work in Bengaluru who need immediate financial support</li>\n<li>They’re using funds to provide food kits, emergency medication for pre-existing conditions, and other immediate needs for sex workers, hoping to support at least 250 of them. </li>\n<li>The org supports around 500 people.</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Pan-India",
+							"Name": "Artisans Support Fund - Dastkar",
+							"Slug": "artisans-support-dastkar",
+							"Rupees_Goal": 5000000,
+							"Rupees_Reached": 2500000,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Everyone is struggling but craftspeople, without the reserves to survive another year of no sales and orders, reeling under the impact of lockdowns, sickness and loss, are at breaking point</li>\n<li>Dastkar is extending support to artisans in every way possible: direct financial support, medical supplies, provisions, raw materials to kickstart production, training for e-commerce, skilling, etc.</li>\n</ul>\n<p>Further details and regular updates at: <a href=\"https://www.facebook.com/dastkarsociety/photos/a.248753073978/10159342236388979\">https://www.facebook.com/dastkarsociety/photos/a.248753073978/10159342236388979</a></p>"
+								}
+							},
+							"URL": "https://www.dastkar.org/donation/",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Siddipet district, Telangana",
+							"Name": "Supplement underprivileged and below poverty line families with basic essentials",
+							"Slug": "supplement-underprivileged-below-poverty-line-families-basic-essentials",
+							"Rupees_Goal": 200000,
+							"Rupees_Reached": 74000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>We are willing to supplement the underprivileged and below poverty line (BPL) families with basic necessities like rice, vegetables, soaps, masks, sanitisers, sanitary pads and other possible needs based on the requirements of each family. We intend to reach as many families as possible.</p>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi",
+							"Name": "Meals With Love For Covid Patients, Migrant Workers & More",
+							"Slug": "meals-with-love-for-covid-patients-migrant-workers-&-more",
+							"Rupees_Goal": 1000000,
+							"Rupees_Reached": 687662,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Red Bricks Café has restarted its “Free Meal Campaign” endeavor. This time they are also delivering food to families who have tested positive, attendants, migrant workers, and more</li>\n<li>Donations will be used to help those who are in isolation and unable to cook, those experiencing hunger including an increased number of wage laborers, stranded migrant workers, homeless, and more</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/free-meals-for-covid-patients-attendants-migrant-workers-and-more",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Davanagere, Karnataka",
+							"Name": "Help Srinivasa pay for his mother's Covid19 treatment",
+							"Slug": "financial-help-lockdown",
+							"Rupees_Goal": 130000,
+							"Rupees_Reached": 6500,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Until last year, Srinivasa was working in the service sector in Bangalore. He lost his job due to lockdown and hasn't been able to find another one since.</p>\n<p>Recently, both Srinivasa and his mother tested positive with Covid19. Unable to afford hospital treatment, they're both quarantining at home in Davanagere. They have been forced to borrow from neighbours for the most basic medication and home needs.</p>\n<p>Srinivasa needs financial help to pay for medical treatment. His mental health and stress levels are also significantly high, making it harder for him to successfully find work.</p>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/offer-a-helping-hand-to-support-nagamaniyammas-treatment",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Sundarban Chandipur Island Block Gosaba",
+							"Name": "Dry ration for the extremely poor sex workers of Kalighat",
+							"Slug": "dry-ration-for-sex-workers-kalighat",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 420000,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>This is a registered trust created to educate and support 35 sex workers children at red light area with a remedial school in Kalighat and also serve homeless children and their families in Kolkata</li>\n<li>They are collecting funds to provide sufficient quantities of rice, Dal, Chana, Potato, Basan, Mustard oil, Sugar, Dates</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.notunjibon.com/ ",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi",
+							"Name": "Covid-19 Delhi Relief Work by PAIGAM",
+							"Slug": "covid-relief-by-paigam",
+							"Rupees_Goal": 1000000,
+							"Rupees_Reached": 175000,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": false,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Direct income support to daily wagers who’ve lost income due to the lockdown, food and ration, transportation support for inter and intra-city needs, including to access medical services and for migrant workers leaving the city</li>\n<li>Medical aid, where required</li>\n</ul>"
+								}
+							},
+							"URL": "https://pages.razorpay.com/pl_EgMHEai5PpaRXP/view",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bangalore, Karnataka",
+							"Name": "In Memory of Pradeep B Who Died Battling Covid",
+							"Slug": "post-covid-financial-assistance",
+							"Rupees_Goal": 1000000,
+							"Rupees_Reached": 650339,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Financial Distress after Death in Family"],
+							"Category_Rank": ["8"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Shashi Detective Services Pvt. Ltd., is a company in Bangalore, which is raising funds for its employee Pradeep B</li>\n<li>He was deployed as a security officer at a particular company in the same state and died battling Covid-19</li>\n<li>The funds are towards supporting his old mother</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-pradeep-b?mlp_referrer_id=5359291&utm_medium=created&utm_source=virtual_bank_account",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Guwahati, Assam",
+							"Name": "Help children and widowed mothers living in extreme poverty survive the lethal second wave of covid-19",
+							"Slug": "financial-assistance-vulnerable-communities",
+							"Rupees_Goal": 440000,
+							"Rupees_Reached": 334758,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief to Children"],
+							"Category_Rank": ["11"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Small Wish International Foundation is an India-based non-profit working on poverty and climate change.\nThe organization is:</p>\n<ul>\n<li>providing Covid-19 Crisis Relief to vulnerable groups of women like widowed mothers who are struggling to meet ends meet, feed their families due to strict lockdown measures.</li>\n<li>helping poor children suffering from hunger, severe malnutrition to receive access to nutritious food | ready-to-use therapeutic foods to recover from malnutrition.</li>\n<li>helping unprivileged children who dropped out of school due to the Covid-19 pandemic to have resources to study again.</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-small-wish-international-foundation-1",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bidar",
+							"Name": "Support And Care With Food, Nutrition, Health And Safety In Bidar",
+							"Slug": "care-safety-bidar",
+							"Rupees_Goal": 1500000,
+							"Rupees_Reached": 121750,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Two grassroots organisations based in Bidar - YUVAA and Reshine - are supporting those directly and indirectly affected by this crisis. Focussing on issues of non-COVID illnesses, hunger caused by lockdowns and loss of income, stress faced by caregivers, and lack of connectivity to essential medicines, healthcare and vaccines due to lockdowns and panic.</li>\n<li>We are providing help in the form of:</li>\n</ul>\n<ol>\n<li><strong>Food distribution/Cooked meals</strong></li>\n<li><strong>Daily essentials &#x26; food grains</strong></li>\n<li><strong>Nutrition for HIV+ children</strong></li>\n<li><strong>Medicine</strong></li>\n<li><strong>Awareness &#x26; Transportation to Vaccinate eligible population</strong></li>\n</ol>\n<h3></h3>"
+								}
+							},
+							"URL": "https://www.impactguru.com/fundraiser/help-reshine-organization-development-society-minority-management?utm_source=dashboard&utm_medium=share_tab&utm_campaign=Koi+Bhooka+Na+Rahe",
+							"UPI_ID": "supportreshine2@yesbankltd"
+						}
+					},
+					{
+						"data": {
+							"Region": "Bangalore",
+							"Name": "Help Quarantine Tiffins Deliver Fresh Meals and Ration Kits to COVID-affected Communities",
+							"Slug": "quarantine-tiffin-bangalore",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 192550,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>‣This initiative is a free food drive organized by Sabudana Things.\n‣We work with three COVID-affected communities in Bangalore.\n‣Through rallying together a team of home chefs and delivery champs, we deliver fresh meals and dry ration.\n‣We are supported by donations from individuals and local businesses</p>\n<p><a href=\"http://Instagram.com/sabudanathings\">http://Instagram.com/sabudanathings</a></p>"
+								}
+							},
+							"URL": "https://www.paypal.com/paypalme/sabudanathings",
+							"UPI_ID": "ganesh.chandni@okaxis"
+						}
+					},
+					{
+						"data": {
+							"Region": "Tamil Nadu, Kerala, Maharashtra",
+							"Name": "Help Fund The Banyan in Providing Homes to Vulnerable Women Amid Covid-19",
+							"Slug": "financial-assistance-women-covid-19",
+							"Rupees_Goal": 1200000,
+							"Rupees_Reached": 1232956,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief to Women"],
+							"Category_Rank": ["7"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>“Home Again” is a program, by the Banyan, which enables people who have experienced mental illness, homelessness, disabilities and social marginalisation to live together as formed families, in rented homes.</li>\n<li>At present, they need monetary support as some residents have tested positive for COVID-19 and their medical and psychological care needs have escalated.</li>\n<li>They are seeking funds so that they can continue providing uninterrupted safety, food, medication, provisions, and access to trained support staff to their residents.</li>\n</ul>"
+								}
+							},
+							"URL": "https://fundraisers.giveindia.org/fundraisers/help-fund-housing-food-medication-and-treatment-for-women-who-have-experienced-covid-19-homelessness-and-mental-illness",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Ahmedabad",
+							"Name": "[COVID-19] Help for Education and survival",
+							"Slug": "help-education-survival",
+							"Rupees_Goal": 400000,
+							"Rupees_Reached": 99841,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Financial Distress after Death in Family"],
+							"Category_Rank": ["8"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Jitendra Kulkarni, a daily wager as security guard, died due to Coronavirus in India. He was sole earner in the family, making Rs 6,000 a month (about $90 USD monthly). Jitendra is survived by his 10 years old son, leaving no money his education or food. His son Sarthak is very talented, your donations will help Sarthak continue his education.</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-sarthak-kulkarni",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Pan India",
+							"Name": "Stranded Workers Action Network",
+							"Slug": "financial-assistance-stranded-migrant-workers",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>SWAN is raising funds to support Migrant Workers facing a major crisis.</li>\n<li>With loss of wages, insecurity of food, lack of funds to travel back home, several migrants are in critical situations and require immediate relief.</li>\n<li>When you fill the form you will only be pledging an amount (no transfer)</li>\n<li>As and when the team gets distress calls and requests, they will get in touch with you to make individual transfers directly to the migrant worker.</li>\n</ul>"
+								}
+							},
+							"URL": "https://docs.google.com/forms/d/e/1FAIpQLSeEPZroJPFq0WzXeqJuvM0hURSjK-DptwQxoNTLzb20dQTnAw/viewform",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi",
+							"Name": "Urgent Support Required for Transgender Persons in India",
+							"Slug": "transgender-persons-delhi",
+							"Rupees_Goal": 1000000,
+							"Rupees_Reached": 403222,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>How will your funds be used :</p>\n<ol>\n<li>\n<p>Rent/Shelter support per person: 2500/- per month</p>\n</li>\n<li>\n<p>Ration &#x26; medicine/hygiene kit support per person: 2500/- per month</p>\n</li>\n<li>\n<p>Emergency/crisis support </p>\n</li>\n</ol>\n<p>We have been providing ration kits and some financial help to more than 1000 trans persons across the country</p>\n<p>We are a collective of transgender persons who through this campaign are trying to facilitate the basic needs of our community members. We request everyone to come forward and support the community in whichever way possible.</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-tweet-foundation",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Faridabad, Haryana",
+							"Name": "Help Set Up a COVID Medical Facility for the Villages of Faridabad",
+							"Slug": "help-medical-faridabad",
+							"Rupees_Goal": 1000000,
+							"Rupees_Reached": 105912,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>We plan to set up a 25-bed facility on the campus of DAV Public School, Sector 14, Faridabad. There would be 10 oxygen care beds and 15 HDU (High Dependency Unit) beds. The facility will have a dedicated staff of doctors and nurses, and will provide medical care, medicines and food for the patients free of cost, and the prescribed tests at a subsidized rate.</p>\n<p>We will have a team go to villages in collaboration with BK Hospital, Faridabad, and provide rapid antigen tests for people suspected to have COVID. We will initiate contact tracing for those who turn up positive, as well as makes sure that the patients have enough resources to stay in isolation. We will admit the patients who require hospitalization to the facility, and provide them with medical care for as long as required. </p>\n<p>DAV Public School, Sector 14 will provide us space for setting up the facility, as well as rooms for the medical staff free of cost. We would need funds for the following:</p>\n<ol>\n<li>10 oxygen beds</li>\n<li>15 HDU beds </li>\n<li>Medicines</li>\n<li>Doctors and nursing staff</li>\n</ol>\n<p>We have collaborated with a medical tech company to modify normal beds to ICU beds at a fraction of the cost of regularly produced ICU beds. We have also procured the necessary licenses and permissions for setting up the facility, as well as PPE kits for medical staff. The certification of the doctors to be involved, letter from DAV Public School to the CMO, BK Hospital, Faridabad for setting up the facility, as well as the waste management and water licenses have been attached for the perusal of the donors. All funds received will be transferred to DAV Sector 14 Faridabad's trust account, and updates would be provided on their expenditure.</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-covid-positive-patients-3",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Agartala, Tripua",
+							"Name": "Support Kanchan Pal Recover From a Brain Stroke and Paralytic Attack",
+							"Slug": "medical-expense-brain-stroke-paralysis",
+							"Rupees_Goal": 600000,
+							"Rupees_Reached": 22976,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Fundraisers for Misc. Healthcare"],
+							"Category_Rank": ["13"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Kirti is raising funds for her friend's father Kanchan Pal. He is 67 years old.</li>\n<li>He is suffering from Brain Stroke, Paralytic Attack from the past few weeks.</li>\n<li>He is currently admitted and receiving ICU Care in Tripura Medical College &#x26; Dr. B.R. Ambedkar Memorial, Agartala, Tripura.</li>\n<li>Until now, they've spent about Rs. 1,00,000 and in the next 30 days, they need Rs.6,00,000 more for further treatment.</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-kanchan-pal",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Hyderabad, Telangana",
+							"Name": "Help Galanki Aierani Kumari Fight Covid19 & Mucormycosis",
+							"Slug": "help-galanki-covid-Mucormycosis",
+							"Rupees_Goal": 2500000,
+							"Rupees_Reached": 778334,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>I am Galanki Arun Kamalakar raising funds for my mother Galanki Aierani Kumari's Covid19 &#x26; Mucormycosis (a Deadly Black Fungus) Treatment. </li>\n<li>My mother's eye has is affected by black fungus infection.</li>\n<li>Doctor told us that she require to undergo surgery and the estimated amount would be INR 25 Lakhs approximately, depending on recovery.</li>\n<li>We have exhausted all savings in Covid Treatment and are unable to admit her due to lack of funds.</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.impactguru.com/fundraiser/help-mrs-galanki-aierani-kumari",
+							"UPI_ID": "supportgalanki@yesbankltd"
+						}
+					},
+					{
+						"data": {
+							"Region": "Chattisgarh",
+							"Name": "Help Rural Chattisgarh Battle Covid",
+							"Slug": "rural-healthcare-covid",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Support for Rural"],
+							"Category_Rank": ["1"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Yumetta along with its partners are helping the rural regions of Chattisgarh in the following manner-</p>\n<ul>\n<li>They are working towards creating a Village Based Oxygen Saturation Monitoring System</li>\n<li>They are working towards creating a dedicated Covid Call centre with a toll-free number that will run from morning 7 am to night 11 pm to help the citizens with any covid related enquiries</li>\n<li>They are also helping underprivileged people with Grocery, other essential items, Medicine, etc during the lockdown. </li>\n</ul>"
+								}
+							},
+							"URL": "https://www.sochara.org/support",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Kolkata",
+							"Name": "Support Kolkata Anandam To Fight Back Second Wave",
+							"Slug": "support-anandam-fight-back",
+							"Rupees_Goal": 697000,
+							"Rupees_Reached": 272412,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li> Koti-hijra-transgender persons are again losing their only livelihood options – namely, sex work, dancing at weddings and other ceremonies and stage shows and begging at traffic signals and trains.</li>\n<li>Many of our community members are over 45 and have various comorbidities.</li>\n<li>Due to acute shortage of vaccines and rampant privatization, we do not know how we can safeguard the elderly in our communities without purchasing vaccines for them from private hospitals.</li>\n<li>The breakup of costs on donation platform.</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-kolkata-anandam-for-equality-and-justice",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bangalore, Karnataka",
+							"Name": "Support families in Urban Slums with children with Special Needs",
+							"Slug": "covid-underprivileged-children-special-needs",
+							"Rupees_Goal": 750000,
+							"Rupees_Reached": 425620,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief to Children"],
+							"Category_Rank": ["11"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Pandemic has hit everyone, but in a much more negative way to People with Disabilities and their families members.</li>\n<li>The GiftAbled  team has identified 424 such families and many more requests are still coming in.</li>\n<li>𝗥𝘀 𝟭,𝟱𝟬𝟬 𝗽𝗲𝗿 𝗸𝗶𝘁 𝗶𝘀 𝗮𝗹𝗹 𝗶𝘁 𝘁𝗮𝗸𝗲𝘀 𝘁𝗼 𝘀𝘂𝗽𝗽𝗼𝗿𝘁 𝗮 𝗳𝗮𝗺𝗶𝗹𝘆'𝘀 𝗺𝗼𝗻𝘁𝗵 𝗿𝗮𝘁𝗶𝗼𝗻 𝗽𝗹𝘂𝘀 𝗶𝗳 𝘄𝗲 𝗿𝗮𝗶𝘀𝗲 𝗺𝗼𝗿𝗲 - 𝗳𝗲𝘄 𝗺𝗮𝘀𝗸𝘀 𝗮𝗻𝗱 𝘀𝗼𝗮𝗽𝘀 𝗳𝗼𝗿 𝘁𝗵𝗲𝗶𝗿 𝘀𝗮𝗳𝗲𝘁𝘆</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-families-having-children-with-special-needs-belonging-to-below-poverty-line",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Madhya Pradesh",
+							"Name": "Seeking Funds for the Korku Community Ravaged by COVID-19 ",
+							"Slug": "fund-korku-community",
+							"Rupees_Goal": 1266935,
+							"Rupees_Reached": 256422,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief to dalit and adivasi communities"],
+							"Category_Rank": ["4"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li><strong>Stage 1: COVID Awareness program and informational campaign ₹2,05,600 = $2800</strong></li>\n<li><strong>Stage 2: COVID Helpline and Video Consultations ₹1,65,135 = $2,255</strong></li>\n<li><strong>Stage 3: Local COVID Care Center for Isolation ₹5,14,200 = $7,020</strong></li>\n<li>**Stage 4: Supporting larger government-run facility with oxygen and medical supplies ₹3,82,000 = $5,220 **</li>\n</ul>"
+								}
+							},
+							"URL": "https://fundraisers.giveindia.org/fundraisers/reach-neglected-and-adversely-affected-indigenous-tribal-groups-ravaged-by-covid-19?order_id=LC609aa4f012fe2",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Lucknow, UP",
+							"Name": "Support Sushila Ghosh's Family",
+							"Slug": "support-sushila-gosh",
+							"Rupees_Goal": 500000,
+							"Rupees_Reached": 68904,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Financial Distress after Death in Family"],
+							"Category_Rank": ["8"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>My aunt Onimisha (age 52), lost her mother, Sushila Ghosh on 1st May due to Covid.</li>\n<li>She has a 22-year-old autistic son with 65% permanent mental impairment due to which he is completely dependent on her.</li>\n<li>My aunt is his only caretaker as she lost her husband in 2006 to blood cancer. Until now, she was taking care of her son along with her mother and managed all the finances using her mother's pension.</li>\n<li>After her mother's death, she has no source of income left. She can't work as her son requires full-time attention.</li>\n<li>She is in dire need of funds to sustain herself.</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-sushila-ghoshs-family?deeplink_type=paytm",
+							"UPI_ID": "7007245134@paytm"
+						}
+					},
+					{
+						"data": {
+							"Region": "Adivasi areas in Madhya Pradesh, Jharkhand and Gujarat",
+							"Name": "Community Resilience Outreach for adivasi communities",
+							"Slug": "dhaatri-covid-relief",
+							"Rupees_Goal": 500000,
+							"Rupees_Reached": 545498,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief to dalit and adivasi communities"],
+							"Category_Rank": ["4"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Set up a Community Resilience Outreach in this Covid Emergency</li>\n<li>Supporting Adivasi communities to set up their own Community Covid Support Centres where village level isolation and quarantine facilities, primary medical care, community precautionary measures and public awareness on Covid protocols and Vaccination are led by the local village councils and youth.</li>\n</ul>\n<p><a href=\"https://www.dhaatri.org\">https://www.dhaatri.org</a></p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-adivasi-communities",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Haryana",
+							"Name": "Emergency Need COVID -19 Relief for 2200 Widows, Dalit and Single Women",
+							"Slug": "mahadalit-support",
+							"Rupees_Goal": 980000,
+							"Rupees_Reached": 77745,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief to Women"],
+							"Category_Rank": ["7"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Provides support to dalit and mahadalit women in terms of health checkup, rent, mental health and ration.</p>\n<p><a href=\"https://www.facebook.com/MashaalAndolan/\">https://www.facebook.com/MashaalAndolan/</a></p>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Pune",
+							"Name": "Help us transform autos into oxygen ambulances ",
+							"Slug": "riksha-ambulance-service",
+							"Rupees_Goal": 1000000,
+							"Rupees_Reached": 8400,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>We need some financial help to convert around 100 autos to oxygen ambulances. We did some budgeting and have come to realize that we need approximately Rs. 12,000/- to convert an autorickshaw into an oxygen-equipped ambulance.\nWe will be providing rickshaw drivers with PPE kits, masks, and sanitizers too. Any help is appreciated. If you cannot help monetarily, please help us reach your rich friends with a big heart. Share this campaign with as many people as you can.</p>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/in-rs10000-we-can-produce-1-ambulance-which-can-save-hundreds-of-lives?utm_medium=copy&utm_content=42a2d4a716e0cad0a01fe4373dd956ba&shby=1&utm_source=internal&utm_campaign=in-rs10000-we-can-produce-1-ambulance-which-can-save-hundreds-of-lives&payment=form",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "North East, Delhi",
+							"Name": "Project Rebuilding Livelihoods raising funds for daily-wage families affected by Delhi Riots 2020",
+							"Slug": "dailywage-support",
+							"Rupees_Goal": 700000,
+							"Rupees_Reached": 122200,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>25 daily wage workers' families that require immediate financial help</li>\n<li>aims to help these families survive through the lockdown and rebuild their livelihoods since most of them were affected by the riots.</li>\n<li>provide for their rent and ration requirements.</li>\n<li>require help and support for medicines and medical tests.</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Kashmir/UK",
+							"Name": "Athwas Kashmir Covid-19 Fundraiser",
+							"Slug": "athwas-kashmir-covid",
+							"Rupees_Goal": 2027040,
+							"Rupees_Reached": 1448320,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>With this second, deadlier wave of COVID spreading far more quickly, we are starting this new fundraiser with an initial target of £20,000/INR 20 Lakh. We will use the funds to procure essential equipment such as oxygen concentrators, CPAP machines, pulse oximeters, and medication, which will be handed over for deployment to a selection of trusted charities: <a href=\"https://www.athrout.org/\">Athrout</a>, <a href=\"http://hpvtrust.org/\">Help Poor Voluntary Trust</a>, <a href=\"https://www.facebook.com/groups/SOCIALREFORMORGANIZATION\">Social Reform Organisation</a> and <a href=\"https://voluntarymedicaltrust.org/\">Voluntary Medical Trust</a>.</p>"
+								}
+							},
+							"URL": "https://chuffed.org/project/athwas-kashmir-covid-19-fundraiser",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Vellore, Tamil Nadu",
+							"Name": "Vellore CMC COVID-19 Emergency Response Initiative",
+							"Slug": "vellore-CMC-emergency",
+							"Rupees_Goal": 2500000,
+							"Rupees_Reached": 712710,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>To help CMC build up its COVID treatment capacity within the next 30 days to support subsidized care for patients with COVID.</li>\n</ul>"
+								}
+							},
+							"URL": "https://fundraisers.giveindia.org/fundraisers/helptobreathe-cmc-vellore-india-covid-19-crisis",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Kolkata, West Bengal",
+							"Name": "Breathe - Help us in Saving lives by providing Oxygen to the needy",
+							"Slug": "breathe-oxygen-to-needy",
+							"Rupees_Goal": 5000000,
+							"Rupees_Reached": 1266890,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Procure a large number of Oxygen Concentrators, which will extract Oxygen from the air and supply directly 5/10 ltr per min.</li>\n<li>One Oxygen concentrator will serve around 10 patients over the next two months at least.</li>\n<li>Mukti is urgently looking for funding support. Each Oxygen Concentrator costs us around 50,000 INR</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-covid-19-patients-5/",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bangalore",
+							"Name": "COVID19 Relief for Bangalore (INDIA)",
+							"Slug": "free-oxygen-meals-bangalore",
+							"Rupees_Goal": 734364,
+							"Rupees_Reached": 275974,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>UNITED SIKHS teams are working tirelessly on the ground to serve urgent life-saving needs.</p>\n<p>The organisation has converted the Koramangala Indoor Stadium into a COVID care facility where the group will provide free medicines and free oxygen supply to patients</p>"
+								}
+							},
+							"URL": "https://www.gofundme.com/f/covid19-relief-for-banglore-india?utm_campaign=p_cp_url&utm_medium=os&utm_source=customer",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Mumbai",
+							"Name": "Seeking financial help for Taibun Nisha",
+							"Slug": "financial-help-Taibun",
+							"Rupees_Goal": 60000,
+							"Rupees_Reached": 23500,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Financial Distress (general)"],
+							"Category_Rank": ["10"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Taibun Nisha Mohammed Salim has a family of three children. She is originally from Jharkhand but has been living in Mumbai since her childhood.</li>\n<li>She is a domestic worker in Mumbai, and her husband, who is an auto rickshaw driver, had to go back to his village to tend to his sick father. </li>\n<li>Both of them are not earning anything anymore. Taibun along with her children, has gotten evicted twice, and they don’t have any means to pay their rent or buy groceries. This is a monthly bankroll of ₹10-12k to help them sustain till this ordeal passes over.</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": "gulalsalil93@oksbi"
+						}
+					},
+					{
+						"data": {
+							"Region": "Bangalore, Karnataka",
+							"Name": "COVID-19 Relief: Give Directly to Informal Waste Collectors",
+							"Slug": "covid-relief-plastics-for-change-foundation",
+							"Rupees_Goal": 1500000,
+							"Rupees_Reached": 289932,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>The amounts raised would go directly to waste collectors to help make up for the daily wages that they no longer receive.</li>\n<li>Their daily wage usually comes up to Rs. 450 and they are looking for donors to help them tide over this period.</li>\n</ul>"
+								}
+							},
+							"URL": "https://donorbox.org/covid-19-give-directly-to-informal-waste-collectors",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Mumbai, Kashmir, West Bengal, UP",
+							"Name": "Food Kit for All - Ummatunnisa Care Foundation",
+							"Slug": "food-kit-ummatunnisa",
+							"Rupees_Goal": 1000000,
+							"Rupees_Reached": 858770,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Per ration kit cost is Rs.750 and is of good quality which contains the following items- 5 KG Rice, 5 KG Flour, 2 KG Sugar, 1 KG Dal, 1 Packet Oil, 1 Packet Salt.</li>\n<li>Provide Ramadan Kits, Senior Citizen Kits, Pregnant Mother Kits including nutritious items so they don't feel left out, this we do as per requirement arises.</li>\n<li>Complete work can be found on Twitter handle @UmmatunnisaCare, which soon will be registered as an NGO \"Ummatunnisa Care Foundation\"</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.ketto.org/fundraiser/food-kit-for-all?utm_medium=twShare&utm_content=3987481&shby=1&utm_source=internal&utm_campaign=food-kit-for-all",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Gudalur, Nilgiris District, Tamil Nadu",
+							"Name": "Support Adivasi families of Gudalur tide over the CoVid-19 pandemic",
+							"Slug": "adivasi-gudalur",
+							"Rupees_Goal": 2000000,
+							"Rupees_Reached": 1574772,
+							"Urgent": true,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": true,
+							"Category": ["Relief to dalit and adivasi communities"],
+							"Category_Rank": ["4"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>With support from 4 community-led organizations in Gudalur -- Adivasi Munnetra Sangam (AMS), ACCORD, ASHWINI and Vidyodaya, two volunteers in every Adivasi village has been identified - one to monitor the health status and the other the socio-economic status.\nThe funds will be used for:</p>\n<ol>\n<li>**Addressing socio-economic needs **of 5000 families immediately that support their sustenance (for example, food, groceries, dry ration, personal hygiene necessities, transport costs etc). We also recognize the need to plan and prepare ourselves to support livelihood opportunities for the communities in their resilience &#x26; recovery post the pandemic. This would be at INR 1500 per family. </li>\n<li><strong>Addressing the healthcare needs</strong> of these Adivasi communities through ASHWINI -- a community-run hospital making healthcare accessible and comprehensive for ~5000 Adivasi families -- by providing and strengthening preventive and curative care during this pandemic. (for example: procuring 1000 Personal Protective Equipments for healthcare professionals, medical supplies for the communities as well hospital needs, awareness campaigns and Mobile clinics etc) . Each PPE kit costs INR 800.</li>\n</ol>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/adivasi-munnetra-sangam",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Hyderabad",
+							"Name": "My brother is in critical condition and needs your support",
+							"Slug": "brother-support-covid-hyd",
+							"Rupees_Goal": 400000,
+							"Rupees_Reached": 301063,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Name :  Narendar nayak, 26 years \nDisease : Covid (critical situation) , TX Hospital, Hyderabad \nOccupation : Farmer\nNeed Money to buy Medical supplies, to support the patient on Ventilator for at least 3 days, Buy Remdesiver, Pay for Room rent and doctor consultation fees. </p>"
+								}
+							},
+							"URL": "https://www.impactguru.com/fundraiser/helpnarendar",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bansa, Hardoi UP",
+							"Name": "Funds needed for N-95 masks and dry rations for Bansa village",
+							"Slug": "n95-masks-and-rations-for-bansa-residents",
+							"Rupees_Goal": 475000,
+							"Rupees_Reached": 97364,
+							"Urgent": true,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": true,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Due to several recent deaths in Bansa and neighboring villages, Bansa Community Library is raising funds to buy N-95 masks and dry rations for its people.</li>\n<li>They urgently require Rs. 89,000 to provide dry ration for 110 people.</li>\n<li>They are working together with ASHA, ANM, and Anganwadi Workers to conduct door-to-door awareness campaigns and health checkups.</li>\n<li>They are supporting a population of 23,000 people from nearby villages and running a free ambulance service as well.</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-23000-population-of-bansa-and-its-19-neighbouring-villages",
+							"UPI_ID": "7080501028@upi"
+						}
+					},
+					{
+						"data": {
+							"Region": "Bhopal",
+							"Name": "Help Indian hospitals get equipment",
+							"Slug": "help-indian-hospitals-get-equipment",
+							"Rupees_Goal": 2000000,
+							"Rupees_Reached": 372634,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>They are fundraising to resource small hospitals in second-tier cities, starting with Bhopal, to provide medical equipment - oxygen concentrators, ventilator, and others. </li>\n<li>Utilization of funds:\n<ul>\n<li>10 LOxygen Concentrator (10-15 nos): ₹ 12,50,000</li>\n<li>Ventilator (1): ₹ 7,00,000</li>\n</ul>\n</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-hospitals-1",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bengaluru",
+							"Name": "Pledge your support to RAZA's COVID - 19 relief in Bengaluru ",
+							"Slug": "raza-bengaluru",
+							"Rupees_Goal": 250000,
+							"Rupees_Reached": 43000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Distribution of ration and personal hygiene kits to approximately 800 Below Poverty Line BPL) and daily-wage workers’ families that will last them at least 30 days, amounting to ₹15,00,000</li>\n<li>Purchase of 10 units of oxygen concentrators</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-raza-educational-and-social-welfare-society",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Kolkata",
+							"Name": "Calcutta Foundation COVID relief",
+							"Slug": "calcutta-foundation-covid-relief",
+							"Rupees_Goal": 3000000,
+							"Rupees_Reached": 1426506,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Fundraising to provide rations, medical equipment, isolation centers for vulnerable communities in West Bengal</p>"
+								}
+							},
+							"URL": "https://www.impactguru.com/fundraiser/help-calcutta-foundation-3",
+							"UPI_ID": "supportcalcutta6@yesbankltd"
+						}
+					},
+					{
+						"data": {
+							"Region": "Kolkata",
+							"Name": "Help HOPE hospital set up more COVID-19 wards and other supplies",
+							"Slug": "help-hope-hospital-set-up-more-covid19-wards",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 0,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>The government hospitals in Kolkata cannot cope with the new surge of cases and HOPE Hospital has now reopened it’s 10 bed COVID ward and converted 2 other wards to COVID wards. Right now we have 40 beds for COVID patients – all those beds are full</li>\n<li>The HOPE foundation is now raising funds to build new wards and continue to provide subsidised support to the poorest populations in this second wave</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.hopeshop.ie/covid-19-emergency-response/ ",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Mumbai",
+							"Name": "Together we can overcome - a call for oxygen concentrator donations",
+							"Slug": "together-we-can-overcome",
+							"Rupees_Goal": 2500000,
+							"Rupees_Reached": 1140000,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Buy and then Provide Oxygen Concentrators free of cost to patients with prescription for Oxygen Therapy on a fixed deposit. 100% of the fixed deposit will be refunded on return of the machine.</p>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": "rochak.jain38@okhdfcbank"
+						}
+					},
+					{
+						"data": {
+							"Region": "Dehradun",
+							"Name": "Raising funds for Hardik Soin's family affected by COVID-19",
+							"Slug": "raising-funds-for-hardik-soins-family",
+							"Rupees_Goal": 80000,
+							"Rupees_Reached": 40526,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Financial Distress (general)"],
+							"Category_Rank": ["10"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Hardik, a student of Class 12, is raising funds for his family to be able to pay</p>\n<ul>\n<li>Rent</li>\n<li>Food</li>\n<li>Afford basic amenities</li>\n<li>School fees</li>\n</ul>\n<p>His parents have lost their income due to the pandemic. His mother is recovering from COVID-19 and has exhausted all her savings. The family urgently needs money.</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-hardik-soin#",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "North-East Delhi",
+							"Name": "Help Baby Anaya's healthy transition into life",
+							"Slug": "help-baby-anayas-healthy-transition-into-life",
+							"Rupees_Goal": 306122,
+							"Rupees_Reached": 235264,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Financial Distress (general)"],
+							"Category_Rank": ["10"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Asif’s daughter was born in the aftermath of the Delhi pogrom, during the COVID-19 lockdown, in 202. He had already been out of work since the pogrom, and did not have a stable source of income to support his child.\nRecently, his daughter was diagnosed with double aortic arch, which required urgent surgery. As he did not have the funds for this, and could not raise them in time, he had to borrow Rs 2.5 - 3 Lakhs from local lenders, which he has to return.\nHis daughter continues to need medical assistance, and he has been reduced to borrowing money repeatedly. He is almost on the verge of handing over his property papers to save his daughter’s life. The fundraiser hopes to raise money for him so that he can at least clear off the acquired debt and sustain his family.</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-asif-42",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "",
+							"Name": "Help rural India access medical oxygen cylinders",
+							"Slug": "help-rural-india-access-medical-oxygen-cylinders",
+							"Rupees_Goal": 2024140,
+							"Rupees_Reached": 1597047,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Support for Rural"],
+							"Category_Rank": ["1"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Since rural India cannot afford a heavy security amount that goes from £100 (Around Rs 10,000) to £250 (Rs 25000) to secure one O2 cylinder, the campaign wants to bridge this inequality in access to healthcare. </li>\n<li>Buying as many O2 cylinders and kits as possible from various sellers to send to India. This will benefit largely the Bahujans, including the NT-DNT communities.</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.gofundme.com/f/help-rural-india-access-medical-oxygen-cylinders?utm_campaign=p_cp_url&utm_medium=os&utm_source=customer",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi",
+							"Name": "Donate now to save lives in Delhi NCR",
+							"Slug": "donate-now-to-save-lives-in-delhi-ncr",
+							"Rupees_Goal": 2500000,
+							"Rupees_Reached": 1231724,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Medical Care and Support"],
+							"Category_Rank": ["6"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>This Delhi-based foundation has teams of on-ground volunteers working to supply oxygen cylinders, establish a COVID relief helpline, distribute PPE kits, end-to-end plasma donor support and other medical needs to marginalized people in the area.</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-covid-relief-work",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Raigad",
+							"Name": "Help Poor Tribals (BPL) Terribly Hit by Pandemic: Food & Medical Aid ",
+							"Slug": "help-poor-tribals-bpl-terribly-hit-by-pandemic",
+							"Rupees_Goal": 3000000,
+							"Rupees_Reached": 1766152,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Support for Rural"],
+							"Category_Rank": ["1"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>There is urgent need to Supply Food and medical aid to at least 1500 Tribal &#x26; Rural Families of Raigad (Maharashtra)</li>\n<li>The Tribes of Raigad villages (Maharashtra) are mostly Daily-Wage Manual Laborers, from more than a month their daily income is gone, due to Coronavirus pandemic and they are left in extreme poverty and deprivation.</li>\n<li>We are also providing relief in light of the Cyclone Tauktae in Gujarat, as well as providing COVID relief in Gujarat</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support_tribals",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Juhapura, Ahmedabad",
+							"Name": "Mahila Patchwork Cooperative",
+							"Slug": "mahila-patchwork-cooperative",
+							"Rupees_Goal": 1500000,
+							"Rupees_Reached": 120437,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Support for Rural"],
+							"Category_Rank": ["1"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>It's primarily a low-income, Muslim majority municipality in Ahmedabad, with most people being daily wage earners. They do not have any money to buy any oxygen or medicine supplies. They are raising funds to provide the following to at least 2000 families: \n<ul>\n<li>ration: grains, pulses, oil, sugar, tea (costs Rs 1800/per family).  </li>\n<li>PPE kits gloves, masks, soaps, sanitizers (Costs Rs. 800/per family) , and </li>\n<li>oxygen cylinders.</li>\n</ul>\n</li>\n</ul>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "",
+							"Name": "Support economically weak and critical COVID affected families",
+							"Slug": "support-economically-weak-and-critical-COVID-affected-families",
+							"Rupees_Goal": 2000000,
+							"Rupees_Reached": 1285950,
+							"Urgent": false,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": true,
+							"Category": ["Support for Rural"],
+							"Category_Rank": ["1"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<pre><code>JSF is springing back to help the underprivileged families suffering from #COVID to get through this crisis. We're starting[ #freeambulance](https://twitter.com/hashtag/freeambulance?src=hashtag_click) service for EWS patients and have raised money to hire a vehicle, pls donate to help us run more free ambulances\n</code></pre>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-jeevan-stambh-foundation",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Mumbai",
+							"Name": "Help Alizeh access gender-affirming procedures",
+							"Slug": "help-alizeh-access-gender-affirming-procedures",
+							"Rupees_Goal": 350000,
+							"Rupees_Reached": 263547,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Fundraisers for Misc. Healthcare"],
+							"Category_Rank": ["13"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Alizeh needs funds to access gender affirming procedures like laser treatment and hormone therapy</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-alizeh-khan?deeplink_type=paytm",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Jamshedpur, Jharkhand",
+							"Name": "Covid aid for Kinnar community, trans community and sex workers in Jharkhand ",
+							"Slug": "people-for-change",
+							"Rupees_Goal": 6000000,
+							"Rupees_Reached": 5758689,
+							"Urgent": false,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": true,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>The fundraiser will go towards providing a ration kit costing Rs. 600, consisting of rice, dal, soybean, cooking oil, sugar, tea leaves, masala, salt, washing, and bathing soap</li>\n<li>The livelihood of the transgender community and sex worker community in Jamshedpur is largely dependent on social interaction, such as dancing, sex work and begging, which have been impacted majorly by the pandemic</li>\n<li>The transgender community is also battling discrimination, phobia, and stigma in healthcare along with a lack of adequate documentation or identity proof to avail benefits. With lack of food supplies, medicines, and money is the concern of the hour for the transgender community.</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-people-for-change",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Rural North West Bengal",
+							"Name": "Help us build our shelter for the trans community in West Bengal",
+							"Slug": "moitrisanjog-society-relief",
+							"Rupees_Goal": 400000,
+							"Rupees_Reached": 319576,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Moitrisanjog Society supports the transgender community in rural north Bengal. They have been trying to build a long-term shelter for older, homeless trans people so that they can live a safe and dignified life in a society that puts them through violence and discrimination.</li>\n<li>The pandemic stalled the construction of the shelter, and at this last mile, they need your support to help finish building the shelter.</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-transgender-people-1",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Imphal, Manipur",
+							"Name": "Support Trans Men In Manipur Through Lockdown",
+							"Slug": "atma-relief-work",
+							"Rupees_Goal": 600000,
+							"Rupees_Reached": 158000,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Trans men in Manipur are struggling to access basic needs and medication. ATMA has been self-sustaining for trans folks in their community, but many have lost their livelihoods due to the pandemic. They are fundraising now to support themselves and their families. </li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-all-trans-man-association-1",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Rural Gujarat",
+							"Name": "Battling the second wave: SEWA Fundraiser (addressing emergency health needs; protecting livelihoods) ",
+							"Slug": "sewa-covid19",
+							"Rupees_Goal": 3600000,
+							"Rupees_Reached": 0,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief to Women"],
+							"Category_Rank": ["7"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Providing health kits (Rs.800) and food kits (Rs.1000) for about 2000 rural households at the moment.</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.sewafederation.org/contribute-donate/",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bangalore, Karnataka",
+							"Name": "Help Sex workers and transgender persons fight Covid-19",
+							"Slug": "sangama-relief-work",
+							"Rupees_Goal": 2000000,
+							"Rupees_Reached": 1074029,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief for Queer Persons"],
+							"Category_Rank": ["9"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Support sex workers, sexual minorities and transgender persons across 10 districts of Karnataka with nutritional supplements in order to build their immunity given the impact of Covid-19. We plan to support at least 1000 every month.</li>\n<li>Each nutritional supplement kit costs INR 250. For 1000 people for the next 10 months, this would cost INR 25 lakhs.</li>\n<li>Website: <a href=\"http://sangama.org/\">http://sangama.org/</a></li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-sangama",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Haryana",
+							"Name": "Support for Manual Scavenging Maha Dalit women, Dalit community People.",
+							"Slug": "dalitwomen-support",
+							"Rupees_Goal": 1200000,
+							"Rupees_Reached": 951676,
+							"Urgent": true,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Relief to Women"],
+							"Category_Rank": ["7"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p><strong>Your contributions will strengthen efforts to support 7800 dalit women:</strong></p>\n<ul>\n<li>Distribute dry ration in slums for the urban poor.</li>\n<li>Facilitate return journeys of stranded migrant workers.</li>\n<li>Deliver essential healthcare supplies for Dalit women.</li>\n</ul>\n<p><a href=\"https://www.facebook.com/swabhimansociety/\">https://www.facebook.com/swabhimansociety/</a></p>"
+								}
+							},
+							"URL": null,
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Chennai, Tamil Nadu",
+							"Name": "Help My Father Rajan Vinoth Raise Funds Fight Covid With Pneumonia",
+							"Slug": "rajan-vinoth-covid",
+							"Rupees_Goal": 1500000,
+							"Rupees_Reached": 1316223,
+							"Urgent": true,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": true,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Raising funds for Rajan Vinoth who is  suffering from Severe Covid Pneumonia and he is on Ventilator since 25 days and he is undergoing treatment at Sri Ramachandra Hospital, Chennai.</li>\n</ul>"
+								}
+							},
+							"URL": "https://www.impactguru.com/fundraiser/help-maruthur-rajan-vk?utm_source=MutualAidIndia",
+							"UPI_ID": "supportmaruthur1@yesbankltd"
+						}
+					},
+					{
+						"data": {
+							"Region": "Madhya Pradesh",
+							"Name": "Food and Medicinal Resources for the Pardhi Community",
+							"Slug": "food-and-medicinal-resources-for-the-pardhi-community",
+							"Rupees_Goal": 500000,
+							"Rupees_Reached": 360220,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Amidst the pandemic, several people from the Pardhi community (a denotified tribe) in Bhopal and other districts of Madhya Pradesh have lost their lives due to lack of medicinal resources, insufficient food and income unavailability</li>\n<li>Through Majal, the youth of the community are trying to crowdfund for food and medicinal resources</li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-availing-food-and-medicinal-resources-to-denotified-communities-amidst-the-pandemic",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Mumbai, Maharashtra",
+							"Name": "Karishma - 18 years of being sick and I'm currently fighting for my life with Covid ",
+							"Slug": "karishma-covid",
+							"Rupees_Goal": 15000000,
+							"Rupees_Reached": 5636559,
+							"Urgent": true,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": true,
+							"Category": ["Individual Funds for COVID Healthcare"],
+							"Category_Rank": ["5"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Funds needed for medical expenses</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-karishma",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bihar",
+							"Name": "Dear Friends Please Donate For Poor People Ration kits",
+							"Slug": "dear-friends-please-donate-for-poor-people-ration-kits",
+							"Rupees_Goal": 2500000,
+							"Rupees_Reached": 645313,
+							"Urgent": false,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": true,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Ration kits for needy families</p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-yahya-rahmani?mlp_referrer_id=3683376&utm_medium=created&utm_source=virtual_bank_account",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Delhi",
+							"Name": "Help lock-down affected Needy Families",
+							"Slug": "lockdown-affected-needy-families",
+							"Rupees_Goal": 2500000,
+							"Rupees_Reached": 2119144,
+							"Urgent": true,
+							"Status": "Met Goal and Increased",
+							"Foreign_Funds": true,
+							"Category": ["Support for daily wagers"],
+							"Category_Rank": ["2"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Monthly ration Kits, medicine and other essential items to 700 DAILY WAGER FAMILIES  in Delhi NCR.</li>\n<li>MORE INFO AND UPDATES AT: <a href=\"https://twitter.com/Khushbookhan_\">https://twitter.com/Khushbookhan_</a></li>\n</ul>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-scholars-education-and-welfare-academy-1",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Bihar",
+							"Name": "Help Covid-19 Affected People, Donate for Medicine, Food for the Needy",
+							"Slug": "help-covid19-affected-people-donate-for-medicine-food-for-the-needy",
+							"Rupees_Goal": 5000000,
+							"Rupees_Reached": 1026105,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<p>Feeds the needy and runs a weekend kitchen to give free food to the poor in Saharsa district of Bihar. </p>"
+								}
+							},
+							"URL": "https://milaap.org/fundraisers/support-babita-kumari-2",
+							"UPI_ID": null
+						}
+					},
+					{
+						"data": {
+							"Region": "Pune",
+							"Name": "BAPU Trust raising money for immediate food and support",
+							"Slug": "BAPU-trust-raising-money-food-support",
+							"Rupees_Goal": 0,
+							"Rupees_Reached": 600000,
+							"Urgent": false,
+							"Status": "Published",
+							"Foreign_Funds": true,
+							"Category": ["Food Support"],
+							"Category_Rank": ["3"],
+							"Description": {
+								"childMarkdownRemark": {
+									"html": "<ul>\n<li>Raising money for 80-100 low income households for food, safety or health care at approximately ₹2000 per household. Target: ₹2,00,000</li>\n<li>Providing intensive care for 3 women who have no family or support, of which two have lost their jobs due to lockdown. Target: ₹2,50,000</li>\n</ul>"
+								}
+							},
+							"URL": "https://baputrust.com/",
+							"UPI_ID": null
+						}
+					}
+				]
+			}
+		},
+		"pageContext": { "tableName": "Campaigns" }
+	},
+	"staticQueryHashes": ["4073690134", "4133770467"]
+}
