@@ -1,0 +1,4717 @@
+;(self.webpackChunkmutual_aid_listing =
+	self.webpackChunkmutual_aid_listing || []).push([
+	[351],
+	{
+		1442: function (e, t, r) {
+			'use strict'
+			r.d(t, {
+				zIq: function () {
+					return a
+				},
+				h0n: function () {
+					return o
+				},
+				tvw: function () {
+					return i
+				},
+				Oqj: function () {
+					return l
+				},
+				b0D: function () {
+					return c
+				},
+			})
+			var n = r(7294)
+			var a = function (e) {
+				return n.createElement(
+					'svg',
+					Object.assign(
+						{
+							xmlns: 'http://www.w3.org/2000/svg',
+							fill: 'none',
+							viewBox: '0 0 24 24',
+							stroke: 'currentColor',
+						},
+						e
+					),
+					n.createElement('path', {
+						strokeLinecap: 'round',
+						strokeLinejoin: 'round',
+						strokeWidth: 2,
+						d: 'M9 8h6m-5 0a3 3 0 110 6H9l3 3m-3-6h6m6 1a9 9 0 11-18 0 9 9 0 0118 0z',
+					})
+				)
+			}
+			var o = function (e) {
+				return n.createElement(
+					'svg',
+					Object.assign(
+						{
+							xmlns: 'http://www.w3.org/2000/svg',
+							fill: 'none',
+							viewBox: '0 0 24 24',
+							stroke: 'currentColor',
+						},
+						e
+					),
+					n.createElement('path', {
+						strokeLinecap: 'round',
+						strokeLinejoin: 'round',
+						strokeWidth: 2,
+						d: 'M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14',
+					})
+				)
+			}
+			var i = function (e) {
+				return n.createElement(
+					'svg',
+					Object.assign(
+						{
+							xmlns: 'http://www.w3.org/2000/svg',
+							fill: 'none',
+							viewBox: '0 0 24 24',
+							stroke: 'currentColor',
+						},
+						e
+					),
+					n.createElement('path', {
+						strokeLinecap: 'round',
+						strokeLinejoin: 'round',
+						strokeWidth: 2,
+						d: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6',
+					})
+				)
+			}
+			var l = function (e) {
+				return n.createElement(
+					'svg',
+					Object.assign(
+						{
+							xmlns: 'http://www.w3.org/2000/svg',
+							fill: 'none',
+							viewBox: '0 0 24 24',
+							stroke: 'currentColor',
+						},
+						e
+					),
+					n.createElement('path', {
+						strokeLinecap: 'round',
+						strokeLinejoin: 'round',
+						strokeWidth: 2,
+						d: 'M4 6h16M4 12h16M4 18h16',
+					})
+				)
+			}
+			var c = function (e) {
+				return n.createElement(
+					'svg',
+					Object.assign(
+						{
+							xmlns: 'http://www.w3.org/2000/svg',
+							fill: 'none',
+							viewBox: '0 0 24 24',
+							stroke: 'currentColor',
+						},
+						e
+					),
+					n.createElement('path', {
+						strokeLinecap: 'round',
+						strokeLinejoin: 'round',
+						strokeWidth: 2,
+						d: 'M6 18L18 6M6 6l12 12',
+					})
+				)
+			}
+		},
+		2993: function (e) {
+			var t = 'undefined' != typeof Element,
+				r = 'function' == typeof Map,
+				n = 'function' == typeof Set,
+				a = 'function' == typeof ArrayBuffer && !!ArrayBuffer.isView
+			function o(e, i) {
+				if (e === i) return !0
+				if (e && i && 'object' == typeof e && 'object' == typeof i) {
+					if (e.constructor !== i.constructor) return !1
+					var l, c, s, u
+					if (Array.isArray(e)) {
+						if ((l = e.length) != i.length) return !1
+						for (c = l; 0 != c--; ) if (!o(e[c], i[c])) return !1
+						return !0
+					}
+					if (r && e instanceof Map && i instanceof Map) {
+						if (e.size !== i.size) return !1
+						for (u = e.entries(); !(c = u.next()).done; )
+							if (!i.has(c.value[0])) return !1
+						for (u = e.entries(); !(c = u.next()).done; )
+							if (!o(c.value[1], i.get(c.value[0]))) return !1
+						return !0
+					}
+					if (n && e instanceof Set && i instanceof Set) {
+						if (e.size !== i.size) return !1
+						for (u = e.entries(); !(c = u.next()).done; )
+							if (!i.has(c.value[0])) return !1
+						return !0
+					}
+					if (a && ArrayBuffer.isView(e) && ArrayBuffer.isView(i)) {
+						if ((l = e.length) != i.length) return !1
+						for (c = l; 0 != c--; ) if (e[c] !== i[c]) return !1
+						return !0
+					}
+					if (e.constructor === RegExp)
+						return e.source === i.source && e.flags === i.flags
+					if (e.valueOf !== Object.prototype.valueOf)
+						return e.valueOf() === i.valueOf()
+					if (e.toString !== Object.prototype.toString)
+						return e.toString() === i.toString()
+					if ((l = (s = Object.keys(e)).length) !== Object.keys(i).length)
+						return !1
+					for (c = l; 0 != c--; )
+						if (!Object.prototype.hasOwnProperty.call(i, s[c])) return !1
+					if (t && e instanceof Element) return !1
+					for (c = l; 0 != c--; )
+						if (
+							(('_owner' !== s[c] && '__v' !== s[c] && '__o' !== s[c]) ||
+								!e.$$typeof) &&
+							!o(e[s[c]], i[s[c]])
+						)
+							return !1
+					return !0
+				}
+				return e != e && i != i
+			}
+			e.exports = function (e, t) {
+				try {
+					return o(e, t)
+				} catch (r) {
+					if ((r.message || '').match(/stack|recursion/i))
+						return (
+							console.warn('react-fast-compare cannot handle circular refs'),
+							!1
+						)
+					throw r
+				}
+			}
+		},
+		1046: function (e, t, r) {
+			'use strict'
+			r.d(t, {
+				w_: function () {
+					return s
+				},
+			})
+			var n = r(7294),
+				a = {
+					color: void 0,
+					size: void 0,
+					className: void 0,
+					style: void 0,
+					attr: void 0,
+				},
+				o = n.createContext && n.createContext(a),
+				i = function () {
+					return (i =
+						Object.assign ||
+						function (e) {
+							for (var t, r = 1, n = arguments.length; r < n; r++)
+								for (var a in (t = arguments[r]))
+									Object.prototype.hasOwnProperty.call(t, a) && (e[a] = t[a])
+							return e
+						}).apply(this, arguments)
+				},
+				l = function (e, t) {
+					var r = {}
+					for (var n in e)
+						Object.prototype.hasOwnProperty.call(e, n) &&
+							t.indexOf(n) < 0 &&
+							(r[n] = e[n])
+					if (null != e && 'function' == typeof Object.getOwnPropertySymbols) {
+						var a = 0
+						for (n = Object.getOwnPropertySymbols(e); a < n.length; a++)
+							t.indexOf(n[a]) < 0 &&
+								Object.prototype.propertyIsEnumerable.call(e, n[a]) &&
+								(r[n[a]] = e[n[a]])
+					}
+					return r
+				}
+			function c(e) {
+				return (
+					e &&
+					e.map(function (e, t) {
+						return n.createElement(e.tag, i({ key: t }, e.attr), c(e.child))
+					})
+				)
+			}
+			function s(e) {
+				return function (t) {
+					return n.createElement(u, i({ attr: i({}, e.attr) }, t), c(e.child))
+				}
+			}
+			function u(e) {
+				var t = function (t) {
+					var r,
+						a = e.attr,
+						o = e.size,
+						c = e.title,
+						s = l(e, ['attr', 'size', 'title']),
+						u = o || t.size || '1em'
+					return (
+						t.className && (r = t.className),
+						e.className && (r = (r ? r + ' ' : '') + e.className),
+						n.createElement(
+							'svg',
+							i(
+								{
+									stroke: 'currentColor',
+									fill: 'currentColor',
+									strokeWidth: '0',
+								},
+								t.attr,
+								a,
+								s,
+								{
+									className: r,
+									style: i(i({ color: e.color || t.color }, t.style), e.style),
+									height: u,
+									width: u,
+									xmlns: 'http://www.w3.org/2000/svg',
+								}
+							),
+							c && n.createElement('title', null, c),
+							e.children
+						)
+					)
+				}
+				return void 0 !== o ?
+						n.createElement(o.Consumer, null, function (e) {
+							return t(e)
+						})
+					:	t(a)
+			}
+		},
+		4839: function (e, t, r) {
+			'use strict'
+			var n,
+				a = r(7294),
+				o = (n = a) && 'object' == typeof n && 'default' in n ? n.default : n
+			function i(e, t, r) {
+				return (
+					t in e ?
+						Object.defineProperty(e, t, {
+							value: r,
+							enumerable: !0,
+							configurable: !0,
+							writable: !0,
+						})
+					:	(e[t] = r),
+					e
+				)
+			}
+			var l = !(
+				'undefined' == typeof window ||
+				!window.document ||
+				!window.document.createElement
+			)
+			e.exports = function (e, t, r) {
+				if ('function' != typeof e)
+					throw new Error('Expected reducePropsToState to be a function.')
+				if ('function' != typeof t)
+					throw new Error(
+						'Expected handleStateChangeOnClient to be a function.'
+					)
+				if (void 0 !== r && 'function' != typeof r)
+					throw new Error(
+						'Expected mapStateOnServer to either be undefined or a function.'
+					)
+				return function (n) {
+					if ('function' != typeof n)
+						throw new Error(
+							'Expected WrappedComponent to be a React component.'
+						)
+					var c,
+						s = []
+					function u() {
+						;((c = e(
+							s.map(function (e) {
+								return e.props
+							})
+						)),
+							d.canUseDOM ? t(c) : r && (c = r(c)))
+					}
+					var d = (function (e) {
+						var t, r
+						function a() {
+							return e.apply(this, arguments) || this
+						}
+						;((r = e),
+							((t = a).prototype = Object.create(r.prototype)),
+							(t.prototype.constructor = t),
+							(t.__proto__ = r),
+							(a.peek = function () {
+								return c
+							}),
+							(a.rewind = function () {
+								if (a.canUseDOM)
+									throw new Error(
+										'You may only call rewind() on the server. Call peek() to read the current state.'
+									)
+								var e = c
+								return ((c = void 0), (s = []), e)
+							}))
+						var i = a.prototype
+						return (
+							(i.UNSAFE_componentWillMount = function () {
+								;(s.push(this), u())
+							}),
+							(i.componentDidUpdate = function () {
+								u()
+							}),
+							(i.componentWillUnmount = function () {
+								var e = s.indexOf(this)
+								;(s.splice(e, 1), u())
+							}),
+							(i.render = function () {
+								return o.createElement(n, this.props)
+							}),
+							a
+						)
+					})(a.PureComponent)
+					return (
+						i(
+							d,
+							'displayName',
+							'SideEffect(' +
+								(function (e) {
+									return e.displayName || e.name || 'Component'
+								})(n) +
+								')'
+						),
+						i(d, 'canUseDOM', l),
+						d
+					)
+				}
+			}
+		},
+		1496: function (e, t, r) {
+			'use strict'
+			var n = r(5318)
+			t.Z = void 0
+			var a,
+				o = n(r(1506)),
+				i = n(r(5354)),
+				l = n(r(7316)),
+				c = n(r(7154)),
+				s = n(r(7294)),
+				u = n(r(5697)),
+				d = function (e) {
+					var t = (0, c.default)({}, e),
+						r = t.resolutions,
+						n = t.sizes,
+						a = t.critical
+					return (
+						r && ((t.fixed = r), delete t.resolutions),
+						n && ((t.fluid = n), delete t.sizes),
+						a && (t.loading = 'eager'),
+						t.fluid && (t.fluid = E([].concat(t.fluid))),
+						t.fixed && (t.fixed = E([].concat(t.fixed))),
+						t
+					)
+				},
+				f = function (e) {
+					var t = e.media
+					return !!t && b && !!window.matchMedia(t).matches
+				},
+				m = function (e) {
+					var t = e.fluid,
+						r = e.fixed,
+						n = p(t || r || [])
+					return n && n.src
+				},
+				p = function (e) {
+					if (
+						b &&
+						(function (e) {
+							return (
+								!!e &&
+								Array.isArray(e) &&
+								e.some(function (e) {
+									return void 0 !== e.media
+								})
+							)
+						})(e)
+					) {
+						var t = e.findIndex(f)
+						if (-1 !== t) return e[t]
+						var r = e.findIndex(function (e) {
+							return void 0 === e.media
+						})
+						if (-1 !== r) return e[r]
+					}
+					return e[0]
+				},
+				h = Object.create({}),
+				v = function (e) {
+					var t = d(e),
+						r = m(t)
+					return h[r] || !1
+				},
+				g =
+					'undefined' != typeof HTMLImageElement &&
+					'loading' in HTMLImageElement.prototype,
+				b = 'undefined' != typeof window,
+				y = b && window.IntersectionObserver,
+				x = new WeakMap()
+			function w(e) {
+				return e.map(function (e) {
+					var t = e.src,
+						r = e.srcSet,
+						n = e.srcSetWebp,
+						a = e.media,
+						o = e.sizes
+					return s.default.createElement(
+						s.default.Fragment,
+						{ key: t },
+						n &&
+							s.default.createElement('source', {
+								type: 'image/webp',
+								media: a,
+								srcSet: n,
+								sizes: o,
+							}),
+						r &&
+							s.default.createElement('source', {
+								media: a,
+								srcSet: r,
+								sizes: o,
+							})
+					)
+				})
+			}
+			function E(e) {
+				var t = [],
+					r = []
+				return (
+					e.forEach(function (e) {
+						return (e.media ? t : r).push(e)
+					}),
+					[].concat(t, r)
+				)
+			}
+			function k(e) {
+				return e.map(function (e) {
+					var t = e.src,
+						r = e.media,
+						n = e.tracedSVG
+					return s.default.createElement('source', {
+						key: t,
+						media: r,
+						srcSet: n,
+					})
+				})
+			}
+			function S(e) {
+				return e.map(function (e) {
+					var t = e.src,
+						r = e.media,
+						n = e.base64
+					return s.default.createElement('source', {
+						key: t,
+						media: r,
+						srcSet: n,
+					})
+				})
+			}
+			function I(e, t) {
+				var r = e.srcSet,
+					n = e.srcSetWebp,
+					a = e.media,
+					o = e.sizes
+				return (
+					'<source ' +
+					(t ? "type='image/webp' " : '') +
+					(a ? 'media="' + a + '" ' : '') +
+					'srcset="' +
+					(t ? n : r) +
+					'" ' +
+					(o ? 'sizes="' + o + '" ' : '') +
+					'/>'
+				)
+			}
+			var C = function (e, t) {
+					var r =
+						(void 0 === a &&
+							'undefined' != typeof window &&
+							window.IntersectionObserver &&
+							(a = new window.IntersectionObserver(
+								function (e) {
+									e.forEach(function (e) {
+										if (x.has(e.target)) {
+											var t = x.get(e.target)
+											;(e.isIntersecting || e.intersectionRatio > 0) &&
+												(a.unobserve(e.target), x.delete(e.target), t())
+										}
+									})
+								},
+								{ rootMargin: '200px' }
+							)),
+						a)
+					return (
+						r && (r.observe(e), x.set(e, t)),
+						function () {
+							;(r.unobserve(e), x.delete(e))
+						}
+					)
+				},
+				O = function (e) {
+					var t = e.src ? 'src="' + e.src + '" ' : 'src="" ',
+						r = e.sizes ? 'sizes="' + e.sizes + '" ' : '',
+						n = e.srcSet ? 'srcset="' + e.srcSet + '" ' : '',
+						a = e.title ? 'title="' + e.title + '" ' : '',
+						o = e.alt ? 'alt="' + e.alt + '" ' : 'alt="" ',
+						i = e.width ? 'width="' + e.width + '" ' : '',
+						l = e.height ? 'height="' + e.height + '" ' : '',
+						c = e.crossOrigin ? 'crossorigin="' + e.crossOrigin + '" ' : '',
+						s = e.loading ? 'loading="' + e.loading + '" ' : '',
+						u = e.draggable ? 'draggable="' + e.draggable + '" ' : ''
+					return (
+						'<picture>' +
+						e.imageVariants
+							.map(function (e) {
+								return (e.srcSetWebp ? I(e, !0) : '') + I(e)
+							})
+							.join('') +
+						'<img ' +
+						s +
+						i +
+						l +
+						r +
+						n +
+						t +
+						o +
+						a +
+						c +
+						u +
+						'style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture>'
+					)
+				},
+				T = s.default.forwardRef(function (e, t) {
+					var r = e.src,
+						n = e.imageVariants,
+						a = e.generateSources,
+						o = e.spreadProps,
+						i = e.ariaHidden,
+						l = s.default.createElement(
+							N,
+							(0, c.default)({ ref: t, src: r }, o, { ariaHidden: i })
+						)
+					return n.length > 1 ?
+							s.default.createElement('picture', null, a(n), l)
+						:	l
+				}),
+				N = s.default.forwardRef(function (e, t) {
+					var r = e.sizes,
+						n = e.srcSet,
+						a = e.src,
+						o = e.style,
+						i = e.onLoad,
+						u = e.onError,
+						d = e.loading,
+						f = e.draggable,
+						m = e.ariaHidden,
+						p = (0, l.default)(e, [
+							'sizes',
+							'srcSet',
+							'src',
+							'style',
+							'onLoad',
+							'onError',
+							'loading',
+							'draggable',
+							'ariaHidden',
+						])
+					return s.default.createElement(
+						'img',
+						(0, c.default)(
+							{ 'aria-hidden': m, sizes: r, srcSet: n, src: a },
+							p,
+							{
+								onLoad: i,
+								onError: u,
+								ref: t,
+								loading: d,
+								draggable: f,
+								style: (0, c.default)(
+									{
+										position: 'absolute',
+										top: 0,
+										left: 0,
+										width: '100%',
+										height: '100%',
+										objectFit: 'cover',
+										objectPosition: 'center',
+									},
+									o
+								),
+							}
+						)
+					)
+				})
+			N.propTypes = {
+				style: u.default.object,
+				onError: u.default.func,
+				onLoad: u.default.func,
+			}
+			var R = (function (e) {
+				function t(t) {
+					var r
+					;(((r = e.call(this, t) || this).seenBefore = b && v(t)),
+						(r.isCritical = 'eager' === t.loading || t.critical),
+						(r.addNoScript = !(r.isCritical && !t.fadeIn)),
+						(r.useIOSupport = !g && y && !r.isCritical && !r.seenBefore))
+					var n = r.isCritical || (b && (g || !r.useIOSupport))
+					return (
+						(r.state = {
+							isVisible: n,
+							imgLoaded: !1,
+							imgCached: !1,
+							fadeIn: !r.seenBefore && t.fadeIn,
+							isHydrated: !1,
+						}),
+						(r.imageRef = s.default.createRef()),
+						(r.placeholderRef = t.placeholderRef || s.default.createRef()),
+						(r.handleImageLoaded = r.handleImageLoaded.bind((0, o.default)(r))),
+						(r.handleRef = r.handleRef.bind((0, o.default)(r))),
+						r
+					)
+				}
+				;(0, i.default)(t, e)
+				var r = t.prototype
+				return (
+					(r.componentDidMount = function () {
+						if (
+							(this.setState({ isHydrated: b }),
+							this.state.isVisible &&
+								'function' == typeof this.props.onStartLoad &&
+								this.props.onStartLoad({ wasCached: v(this.props) }),
+							this.isCritical)
+						) {
+							var e = this.imageRef.current
+							e && e.complete && this.handleImageLoaded()
+						}
+					}),
+					(r.componentWillUnmount = function () {
+						this.cleanUpListeners && this.cleanUpListeners()
+					}),
+					(r.handleRef = function (e) {
+						var t = this
+						this.useIOSupport &&
+							e &&
+							(this.cleanUpListeners = C(e, function () {
+								var e = v(t.props)
+								;(t.state.isVisible ||
+									'function' != typeof t.props.onStartLoad ||
+									t.props.onStartLoad({ wasCached: e }),
+									t.setState({ isVisible: !0 }, function () {
+										t.setState({
+											imgLoaded: e,
+											imgCached: !(
+												!t.imageRef.current || !t.imageRef.current.currentSrc
+											),
+										})
+									}))
+							}))
+					}),
+					(r.handleImageLoaded = function () {
+						var e, t, r
+						;((e = this.props),
+							(t = d(e)),
+							(r = m(t)) && (h[r] = !0),
+							this.setState({ imgLoaded: !0 }),
+							this.props.onLoad && this.props.onLoad())
+					}),
+					(r.render = function () {
+						var e = d(this.props),
+							t = e.title,
+							r = e.alt,
+							n = e.className,
+							a = e.style,
+							o = void 0 === a ? {} : a,
+							i = e.imgStyle,
+							l = void 0 === i ? {} : i,
+							u = e.placeholderStyle,
+							f = void 0 === u ? {} : u,
+							m = e.placeholderClassName,
+							h = e.fluid,
+							v = e.fixed,
+							g = e.backgroundColor,
+							b = e.durationFadeIn,
+							y = e.Tag,
+							x = e.itemProp,
+							E = e.loading,
+							I = e.draggable,
+							C = h || v
+						if (!C) return null
+						var R = !1 === this.state.fadeIn || this.state.imgLoaded,
+							A = !0 === this.state.fadeIn && !this.state.imgCached,
+							M = (0, c.default)(
+								{
+									opacity: R ? 1 : 0,
+									transition: A ? 'opacity ' + b + 'ms' : 'none',
+								},
+								l
+							),
+							L = 'boolean' == typeof g ? 'lightgray' : g,
+							j = { transitionDelay: b + 'ms' },
+							P = (0, c.default)(
+								{ opacity: this.state.imgLoaded ? 0 : 1 },
+								A && j,
+								l,
+								f
+							),
+							D = {
+								title: t,
+								alt: this.state.isVisible ? '' : r,
+								style: P,
+								className: m,
+								itemProp: x,
+							},
+							F = this.state.isHydrated ? p(C) : C[0]
+						if (h)
+							return s.default.createElement(
+								y,
+								{
+									className: (n || '') + ' gatsby-image-wrapper',
+									style: (0, c.default)(
+										{
+											position: 'relative',
+											overflow: 'hidden',
+											maxWidth: F.maxWidth ? F.maxWidth + 'px' : null,
+											maxHeight: F.maxHeight ? F.maxHeight + 'px' : null,
+										},
+										o
+									),
+									ref: this.handleRef,
+									key: 'fluid-' + JSON.stringify(F.srcSet),
+								},
+								s.default.createElement(y, {
+									'aria-hidden': !0,
+									style: {
+										width: '100%',
+										paddingBottom: 100 / F.aspectRatio + '%',
+									},
+								}),
+								L &&
+									s.default.createElement(y, {
+										'aria-hidden': !0,
+										title: t,
+										style: (0, c.default)(
+											{
+												backgroundColor: L,
+												position: 'absolute',
+												top: 0,
+												bottom: 0,
+												opacity: this.state.imgLoaded ? 0 : 1,
+												right: 0,
+												left: 0,
+											},
+											A && j
+										),
+									}),
+								F.base64 &&
+									s.default.createElement(T, {
+										ariaHidden: !0,
+										ref: this.placeholderRef,
+										src: F.base64,
+										spreadProps: D,
+										imageVariants: C,
+										generateSources: S,
+									}),
+								F.tracedSVG &&
+									s.default.createElement(T, {
+										ariaHidden: !0,
+										ref: this.placeholderRef,
+										src: F.tracedSVG,
+										spreadProps: D,
+										imageVariants: C,
+										generateSources: k,
+									}),
+								this.state.isVisible &&
+									s.default.createElement(
+										'picture',
+										null,
+										w(C),
+										s.default.createElement(N, {
+											alt: r,
+											title: t,
+											sizes: F.sizes,
+											src: F.src,
+											crossOrigin: this.props.crossOrigin,
+											srcSet: F.srcSet,
+											style: M,
+											ref: this.imageRef,
+											onLoad: this.handleImageLoaded,
+											onError: this.props.onError,
+											itemProp: x,
+											loading: E,
+											draggable: I,
+										})
+									),
+								this.addNoScript &&
+									s.default.createElement('noscript', {
+										dangerouslySetInnerHTML: {
+											__html: O(
+												(0, c.default)({ alt: r, title: t, loading: E }, F, {
+													imageVariants: C,
+												})
+											),
+										},
+									})
+							)
+						if (v) {
+							var _ = (0, c.default)(
+								{
+									position: 'relative',
+									overflow: 'hidden',
+									display: 'inline-block',
+									width: F.width,
+									height: F.height,
+								},
+								o
+							)
+							return (
+								'inherit' === o.display && delete _.display,
+								s.default.createElement(
+									y,
+									{
+										className: (n || '') + ' gatsby-image-wrapper',
+										style: _,
+										ref: this.handleRef,
+										key: 'fixed-' + JSON.stringify(F.srcSet),
+									},
+									L &&
+										s.default.createElement(y, {
+											'aria-hidden': !0,
+											title: t,
+											style: (0, c.default)(
+												{
+													backgroundColor: L,
+													width: F.width,
+													opacity: this.state.imgLoaded ? 0 : 1,
+													height: F.height,
+												},
+												A && j
+											),
+										}),
+									F.base64 &&
+										s.default.createElement(T, {
+											ariaHidden: !0,
+											ref: this.placeholderRef,
+											src: F.base64,
+											spreadProps: D,
+											imageVariants: C,
+											generateSources: S,
+										}),
+									F.tracedSVG &&
+										s.default.createElement(T, {
+											ariaHidden: !0,
+											ref: this.placeholderRef,
+											src: F.tracedSVG,
+											spreadProps: D,
+											imageVariants: C,
+											generateSources: k,
+										}),
+									this.state.isVisible &&
+										s.default.createElement(
+											'picture',
+											null,
+											w(C),
+											s.default.createElement(N, {
+												alt: r,
+												title: t,
+												width: F.width,
+												height: F.height,
+												sizes: F.sizes,
+												src: F.src,
+												crossOrigin: this.props.crossOrigin,
+												srcSet: F.srcSet,
+												style: M,
+												ref: this.imageRef,
+												onLoad: this.handleImageLoaded,
+												onError: this.props.onError,
+												itemProp: x,
+												loading: E,
+												draggable: I,
+											})
+										),
+									this.addNoScript &&
+										s.default.createElement('noscript', {
+											dangerouslySetInnerHTML: {
+												__html: O(
+													(0, c.default)({ alt: r, title: t, loading: E }, F, {
+														imageVariants: C,
+													})
+												),
+											},
+										})
+								)
+							)
+						}
+						return null
+					}),
+					t
+				)
+			})(s.default.Component)
+			R.defaultProps = {
+				fadeIn: !0,
+				durationFadeIn: 500,
+				alt: '',
+				Tag: 'div',
+				loading: 'lazy',
+			}
+			var A = u.default.shape({
+					width: u.default.number.isRequired,
+					height: u.default.number.isRequired,
+					src: u.default.string.isRequired,
+					srcSet: u.default.string.isRequired,
+					base64: u.default.string,
+					tracedSVG: u.default.string,
+					srcWebp: u.default.string,
+					srcSetWebp: u.default.string,
+					media: u.default.string,
+				}),
+				M = u.default.shape({
+					aspectRatio: u.default.number.isRequired,
+					src: u.default.string.isRequired,
+					srcSet: u.default.string.isRequired,
+					sizes: u.default.string.isRequired,
+					base64: u.default.string,
+					tracedSVG: u.default.string,
+					srcWebp: u.default.string,
+					srcSetWebp: u.default.string,
+					media: u.default.string,
+					maxWidth: u.default.number,
+					maxHeight: u.default.number,
+				})
+			function L(e) {
+				return function (t, r, n) {
+					var a
+					if (!t.fixed && !t.fluid)
+						throw new Error(
+							'The prop `fluid` or `fixed` is marked as required in `' +
+								n +
+								'`, but their values are both `undefined`.'
+						)
+					u.default.checkPropTypes((((a = {})[r] = e), a), t, 'prop', n)
+				}
+			}
+			R.propTypes = {
+				resolutions: A,
+				sizes: M,
+				fixed: L(u.default.oneOfType([A, u.default.arrayOf(A)])),
+				fluid: L(u.default.oneOfType([M, u.default.arrayOf(M)])),
+				fadeIn: u.default.bool,
+				durationFadeIn: u.default.number,
+				title: u.default.string,
+				alt: u.default.string,
+				className: u.default.oneOfType([u.default.string, u.default.object]),
+				critical: u.default.bool,
+				crossOrigin: u.default.oneOfType([u.default.string, u.default.bool]),
+				style: u.default.object,
+				imgStyle: u.default.object,
+				placeholderStyle: u.default.object,
+				placeholderClassName: u.default.string,
+				backgroundColor: u.default.oneOfType([
+					u.default.string,
+					u.default.bool,
+				]),
+				onLoad: u.default.func,
+				onError: u.default.func,
+				onStartLoad: u.default.func,
+				Tag: u.default.string,
+				itemProp: u.default.string,
+				loading: u.default.oneOf(['auto', 'lazy', 'eager']),
+				draggable: u.default.bool,
+			}
+			var j = R
+			t.Z = j
+		},
+		3403: function (e, t, r) {
+			'use strict'
+			var n = r(5318)
+			t.M = void 0
+			var a = n(r(7154)),
+				o = n(r(7316)),
+				i = n(r(7294)),
+				l = n(r(5697)),
+				c = i.default.forwardRef(function (e, t) {
+					var r = e.children,
+						n = (0, o.default)(e, ['children'])
+					return i.default.createElement(
+						'a',
+						(0, a.default)({ ref: t }, n, {
+							onClick: function (e) {
+								'function' == typeof n.onClick && n.onClick(e)
+								var t = !0
+								return (
+									(0 !== e.button ||
+										e.altKey ||
+										e.ctrlKey ||
+										e.metaKey ||
+										e.shiftKey ||
+										e.defaultPrevented) &&
+										(t = !1),
+									n.target && '_self' !== n.target.toLowerCase() && (t = !1),
+									window.gtag ?
+										window.gtag('event', 'click', {
+											event_category: 'outbound',
+											event_label: n.href,
+											transport_type: t ? 'beacon' : '',
+											event_callback: function () {
+												t && (document.location = n.href)
+											},
+										})
+									:	t && (document.location = n.href),
+									!1
+								)
+							},
+						}),
+						r
+					)
+				})
+			;((t.M = c),
+				(c.propTypes = {
+					href: l.default.string,
+					target: l.default.string,
+					onClick: l.default.func,
+				}))
+		},
+		4727: function (e, t, r) {
+			'use strict'
+			var n = r(5318)
+			;((t.__esModule = !0), (t.default = void 0))
+			var a = n(r(7154)),
+				o = n(r(7316)),
+				i = n(r(7294)),
+				l = r(5444),
+				c = n(r(4711)),
+				s = function (e) {
+					var t = e.to,
+						r = e.asModal,
+						n = e.state,
+						s = (0, o.default)(e, ['to', 'asModal', 'state'])
+					return i.default.createElement(
+						c.default.Consumer,
+						null,
+						function (e) {
+							e.modal
+							var o = e.closeTo
+							return i.default.createElement(
+								l.Link,
+								(0, a.default)(
+									{
+										to: t,
+										state: (0, a.default)({}, n, {
+											modal: r,
+											noScroll: t === o,
+										}),
+									},
+									s
+								)
+							)
+						}
+					)
+				}
+			t.default = s
+		},
+		9754: function (e, t, r) {
+			'use strict'
+			var n = r(5318)
+			var a = n(r(4711))
+			t.QQ = a.default
+			var o = n(r(4727))
+			t.rU = o.default
+		},
+		2200: function (e, t, r) {
+			'use strict'
+			r.d(t, {
+				_H: function () {
+					return Gt
+				},
+				gC: function () {
+					return Mt
+				},
+				ty: function () {
+					return u
+				},
+				kS: function () {
+					return l
+				},
+				nq: function () {
+					return s
+				},
+				L0: function () {
+					return d
+				},
+				$_: function () {
+					return pe
+				},
+				VM: function () {
+					return ge
+				},
+				JL: function () {
+					return de
+				},
+				Ex: function () {
+					return jt
+				},
+				jk: function () {
+					return Dt
+				},
+				Oj: function () {
+					return _t
+				},
+				C4: function () {
+					return Ht
+				},
+				Cd: function () {
+					return Ee
+				},
+				$t: function () {
+					return At
+				},
+				Vp: function () {
+					return f
+				},
+			})
+			var n = r(9754),
+				a = r(7294),
+				o = r(311),
+				i = r(1442),
+				l = function (e) {
+					var t = e.Region,
+						r = e.Name,
+						l = e.navigation,
+						c = e.Slug,
+						s = e.Status,
+						u = e.Rupees_Goal,
+						m = e.Rupees_Reached,
+						p = e.Urgent,
+						h = e.Foreign_Funds,
+						v = e.isForeignDonor,
+						g = void 0 !== v && v,
+						b = e.Description,
+						y = e.current,
+						x = e.URL,
+						w = e.UPI_ID,
+						E = (0, a.useState)(!1),
+						k = E[0],
+						S = E[1]
+					return a.createElement(
+						'div',
+						{ className: 'overflow-x-hidden' },
+						a.createElement(
+							n.rU,
+							{
+								className:
+									'text-3xl hover:underline text-primary-600 font-bold leading-snug mb-2',
+								to: '/' + c,
+								state: { navigation: l },
+								asModal: !0,
+							},
+							a.createElement('h2', null, y + 1, '. ', r)
+						),
+						a.createElement(jt, { reached: m, goal: u, isForeignDonor: g }),
+						p && a.createElement(f, { color: 'urgent', text: 'Urgent' }),
+						h && a.createElement(f, { color: 'secondary', text: '£ $ €' }),
+						'Met Goal and Increased' === s &&
+							a.createElement(f, { color: 'yellow', text: s }),
+						'Met Goal' === s &&
+							a.createElement(f, { color: 'gray', text: 'Goal reached!' }),
+						('Deceased' === s || 'Completed' === s) &&
+							a.createElement(f, { color: 'gray', text: 'Campaign closed' }),
+						t && a.createElement(d, { label: 'Location', value: t }),
+						a.createElement(
+							'h4',
+							{
+								className:
+									'text-primary-800 uppercase text-xxs tracking-wide font-medium pb-px my-2',
+							},
+							'Description'
+						),
+						a.createElement('div', {
+							className:
+								'airtable-markdown text-sm lg:text-base leading-normal text-primary-900',
+							dangerouslySetInnerHTML: { __html: b.childMarkdownRemark.html },
+						}),
+						a.createElement(
+							'div',
+							{ className: 'my-4 flex flex-wrap' },
+							w &&
+								a.createElement(
+									'div',
+									{ className: 'flex flex-col mr-3 mb-2 sm:hidden' },
+									a.createElement(
+										'button',
+										{
+											className:
+												'cursor-pointer border border-secondary-600 text-center hover:shadow-lg shadow-md rounded-md text-secondary-600 text-lg px-5 py-2 hover:bg-secondary-600 hover:text-white',
+											onClick: function () {
+												;((0, o.C)(w), S(!0))
+											},
+										},
+										'Donate via UPI ',
+										a.createElement(i.zIq, { className: 'inline h-4 w-4' })
+									),
+									k &&
+										a.createElement(
+											'span',
+											{ className: 'text-sm italic' },
+											'This option only works on certain devices'
+										)
+								),
+							x && a.createElement(Mt, { href: x }),
+							a.createElement(
+								n.rU,
+								{
+									className:
+										'inline-block border border-primary-600 text-center hover:shadow-lg shadow-md rounded-md text-primary-600 text-lg px-5 py-2 hover:bg-primary-600 hover:text-white mb-2',
+									to: '/' + c,
+									state: { navigation: l },
+									asModal: !0,
+								},
+								'View Details'
+							)
+						)
+					)
+				}
+			l.defaultProps = { navigation: {} }
+			var c = r(3403),
+				s = function (e) {
+					var t = e.Region,
+						r = e.Name,
+						n = e.Category,
+						o = e.Status,
+						i = e.Rupees_Goal,
+						l = e.Rupees_Reached,
+						s = e.Urgent,
+						u = e.Foreign_Funds,
+						m = e.isForeignDonor,
+						p = void 0 === m || m,
+						h = e.Description,
+						v = e.Bank_Details,
+						g = e.donate_text,
+						b = e.donate_link,
+						y = e.show_bank_details,
+						x = void 0 !== y && y
+					return a.createElement(
+						'div',
+						{ className: 'mb-10 bg-white shadow-md rounded-md' },
+						a.createElement(
+							'div',
+							{
+								className: 'pt-8 pb-6 md:pt-10 lg:pt-12 px-6 md:px-8 lg:px-10',
+							},
+							a.createElement(
+								'h4',
+								{
+									className:
+										'text-primary-800 uppercase text-sm tracking-wide font-medium pb-px',
+								},
+								n
+							),
+							a.createElement(
+								'div',
+								{ className: 'overflow-x-hidden' },
+								a.createElement(
+									'h2',
+									{
+										className:
+											'text-3xl text-primary-600 font-bold leading-snug mb-2',
+									},
+									r
+								),
+								a.createElement(jt, { reached: l, goal: i, isForeignDonor: p }),
+								s && a.createElement(f, { color: 'urgent', text: 'Urgent' }),
+								u && a.createElement(f, { color: 'secondary', text: '£ $ €' }),
+								'Met Goal and Increased' === o &&
+									a.createElement(f, { color: 'yellow', text: o }),
+								'Met Goal' === o &&
+									a.createElement(f, { color: 'gray', text: 'Goal reached!' }),
+								('Deceased' === o || 'Completed' === o) &&
+									a.createElement(f, {
+										color: 'gray',
+										text: 'Campaign closed',
+									}),
+								t && a.createElement(d, { label: 'Location', value: t }),
+								a.createElement(
+									'h4',
+									{
+										className:
+											'text-primary-800 uppercase text-xxs tracking-wide font-medium pb-px my-2',
+									},
+									'Description'
+								),
+								a.createElement('div', {
+									className:
+										'airtable-markdown text-sm lg:text-base leading-normal text-primary-900',
+									dangerouslySetInnerHTML: {
+										__html: h.childMarkdownRemark.html,
+									},
+								}),
+								a.createElement(
+									'div',
+									{ className: 'my-4 flex flex-wrap' },
+									a.createElement(
+										c.M,
+										{
+											className:
+												'bg-urgent-600 my-4 block w-full md:w-max text-center shadow-sm rounded-md text-white text-xl px-8 py-2 mb-2 md:mb-0 hover:bg-urgent-400',
+											href: b,
+											target: '_blank',
+										},
+										g
+									)
+								),
+								x &&
+									v &&
+									a.createElement(
+										a.Fragment,
+										null,
+										a.createElement(
+											'h4',
+											{
+												className:
+													'text-primary-800 text-xl tracking-wide font-medium my-2',
+											},
+											'Or use these bank details to make a direct transfer:'
+										),
+										a.createElement(
+											'p',
+											{
+												className:
+													'whitespace-pre-line text-sm lg:text-base leading-normal text-primary-900',
+											},
+											v
+										)
+									)
+							)
+						)
+					)
+				},
+				u = function (e) {
+					var t = e.nodes,
+						r = e.isForeignDonor
+					return a.createElement(
+						'div',
+						{ className: 'flex flex-wrap -mx-3 lg:-mx-4 xl:-mx-6' },
+						t.map(function (e, n) {
+							return a.createElement(
+								'div',
+								{
+									className: 'w-full px-3 xl:px-6 lg:px-4 py-6',
+									key: 'card_' + e.data.Slug,
+								},
+								a.createElement(
+									l,
+									Object.assign({}, e.data, {
+										navigation: {
+											current: n,
+											items: t.map(function (e) {
+												return '/' + e.data.Slug
+											}),
+										},
+										isForeignDonor: r,
+										current: n,
+									})
+								),
+								a.createElement('hr', null)
+							)
+						})
+					)
+				},
+				d = function (e) {
+					var t = e.label,
+						r = e.value
+					return (
+						'string' == typeof r ?
+							(r =
+								r.startsWith('http') || r.startsWith('mailto') ?
+									a.createElement(
+										'div',
+										{ className: 'truncate' },
+										a.createElement(
+											c.M,
+											{
+												href: r,
+												target: '_blank',
+												rel: 'noopener noreferrer',
+												className:
+													'text-primary-500 hover:text-primary-700 transition-colors duration-200',
+											},
+											r
+										)
+									)
+								:	a.createElement('div', { className: 'truncate' }, r))
+						:	Array.isArray(r) &&
+							(r = r.map(function (e, r) {
+								return a.createElement(
+									'span',
+									{
+										key: t + '_' + r,
+										className: 'inline-block mr-4 break-normal',
+									},
+									e
+								)
+							})),
+						a.createElement(
+							a.Fragment,
+							null,
+							a.createElement(
+								'h4',
+								{
+									className:
+										'text-primary-800 uppercase text-xxs tracking-wide font-medium pb-px mt-2',
+								},
+								t
+							),
+							a.createElement(
+								'div',
+								{
+									className:
+										'font-medium text-primary-800 text-base leading-tight mb-4',
+								},
+								r
+							)
+						)
+					)
+				},
+				f = function (e) {
+					var t = e.color,
+						r = e.text
+					return a.createElement(
+						'span',
+						{
+							className:
+								'inline-block bg-gradient-to-r from-' +
+								t +
+								'-700 to-' +
+								t +
+								'-500 shadow-sm rounded-full text-white text-sm px-3 py-1 mr-2 mb-2',
+						},
+						r
+					)
+				}
+			function m() {
+				return (m =
+					Object.assign ||
+					function (e) {
+						for (var t = 1; t < arguments.length; t++) {
+							var r = arguments[t]
+							for (var n in r)
+								Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
+						}
+						return e
+					}).apply(this, arguments)
+			}
+			function p(e, t) {
+				if (null == e) return {}
+				var r,
+					n,
+					a = {},
+					o = Object.keys(e)
+				for (n = 0; n < o.length; n++)
+					((r = o[n]), t.indexOf(r) >= 0 || (a[r] = e[r]))
+				return a
+			}
+			function h(e, t) {
+				;(null == t || t > e.length) && (t = e.length)
+				for (var r = 0, n = new Array(t); r < t; r++) n[r] = e[r]
+				return n
+			}
+			function v(e, t) {
+				var r
+				if ('undefined' == typeof Symbol || null == e[Symbol.iterator]) {
+					if (
+						Array.isArray(e) ||
+						(r = (function (e, t) {
+							if (e) {
+								if ('string' == typeof e) return h(e, t)
+								var r = Object.prototype.toString.call(e).slice(8, -1)
+								return (
+									'Object' === r && e.constructor && (r = e.constructor.name),
+									'Map' === r || 'Set' === r ? Array.from(e)
+									: (
+										'Arguments' === r ||
+										/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(r)
+									) ?
+										h(e, t)
+									:	void 0
+								)
+							}
+						})(e)) ||
+						(t && e && 'number' == typeof e.length)
+					) {
+						r && (e = r)
+						var n = 0
+						return function () {
+							return n >= e.length ? { done: !0 } : { done: !1, value: e[n++] }
+						}
+					}
+					throw new TypeError(
+						'Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.'
+					)
+				}
+				return (r = e[Symbol.iterator]()).next.bind(r)
+			}
+			var g,
+				b = 'undefined' != typeof window ? a.useLayoutEffect : a.useEffect,
+				y = { serverHandoffComplete: !1 },
+				x = 0
+			function w() {
+				return ++x
+			}
+			function E() {
+				var e = (0, a.useState)(y.serverHandoffComplete ? w : null),
+					t = e[0],
+					r = e[1]
+				return (
+					b(function () {
+						null === t && r(w())
+					}, []),
+					(0, a.useEffect)(function () {
+						!1 === y.serverHandoffComplete && (y.serverHandoffComplete = !0)
+					}, []),
+					null != t ? '' + t : void 0
+				)
+			}
+			function k(e, t) {
+				if (e in t) {
+					for (
+						var r = t[e],
+							n = arguments.length,
+							a = new Array(n > 2 ? n - 2 : 0),
+							o = 2;
+						o < n;
+						o++
+					)
+						a[o - 2] = arguments[o]
+					return 'function' == typeof r ? r.apply(void 0, a) : r
+				}
+				var i = new Error(
+					'Tried to handle "' +
+						e +
+						'" but there is no handler defined. Only defined handlers are: ' +
+						Object.keys(t)
+							.map(function (e) {
+								return '"' + e + '"'
+							})
+							.join(', ') +
+						'.'
+				)
+				throw (Error.captureStackTrace && Error.captureStackTrace(i, k), i)
+			}
+			function S() {
+				var e = [],
+					t = {
+						requestAnimationFrame: (function (e) {
+							function t() {
+								return e.apply(this, arguments)
+							}
+							return (
+								(t.toString = function () {
+									return e.toString()
+								}),
+								t
+							)
+						})(function () {
+							var e = requestAnimationFrame.apply(void 0, arguments)
+							t.add(function () {
+								return cancelAnimationFrame(e)
+							})
+						}),
+						nextFrame: function () {
+							for (
+								var e = arguments.length, r = new Array(e), n = 0;
+								n < e;
+								n++
+							)
+								r[n] = arguments[n]
+							t.requestAnimationFrame(function () {
+								t.requestAnimationFrame.apply(t, r)
+							})
+						},
+						setTimeout: (function (e) {
+							function t() {
+								return e.apply(this, arguments)
+							}
+							return (
+								(t.toString = function () {
+									return e.toString()
+								}),
+								t
+							)
+						})(function () {
+							var e = setTimeout.apply(void 0, arguments)
+							t.add(function () {
+								return clearTimeout(e)
+							})
+						}),
+						add: function (t) {
+							e.push(t)
+						},
+						dispose: function () {
+							e.splice(0).forEach(function (e) {
+								return e()
+							})
+						},
+					}
+				return t
+			}
+			!(function (e) {
+				;((e.Finished = 'finished'), (e.Cancelled = 'cancelled'))
+			})(g || (g = {}))
+			var I
+			!(function (e) {
+				;((e.Visible = 'visible'), (e.Hidden = 'hidden'))
+			})(I || (I = {}))
+			var C, O, T, N, R
+			function A(e, t, r) {
+				var n = e.as,
+					o = void 0 === n ? r : n,
+					i = e.children,
+					l = p(e, ['as', 'children']),
+					c = 'function' == typeof i ? i(t) : i
+				if (o === a.Fragment && Object.keys(l).length > 0) {
+					if (Array.isArray(c) && c.length > 1) {
+						var s = new Error('You should only render 1 child')
+						throw (Error.captureStackTrace && Error.captureStackTrace(s, A), s)
+					}
+					if (!(0, a.isValidElement)(c)) {
+						var u = new Error(
+							'You should render an element as a child. Did you forget the as="..." prop?'
+						)
+						throw (Error.captureStackTrace && Error.captureStackTrace(u, A), u)
+					}
+					return (0, a.cloneElement)(
+						c,
+						(function (e, t, r) {
+							for (
+								var n,
+									a = Object.assign({}, e),
+									o = function () {
+										var r,
+											o = n.value
+										void 0 !== e[o] &&
+											void 0 !== t[o] &&
+											Object.assign(
+												a,
+												(((r = {})[o] = function (r) {
+													;(r.defaultPrevented || e[o](r),
+														r.defaultPrevented || t[o](r))
+												}),
+												r)
+											)
+									},
+									i = v(r);
+								!(n = i()).done;
+							)
+								o()
+							return a
+						})(
+							(function (e) {
+								var t = Object.assign({}, e)
+								for (var r in t) void 0 === t[r] && delete t[r]
+								return t
+							})(l),
+							c.props,
+							['onClick']
+						)
+					)
+				}
+				return (0, a.createElement)(o, l, c)
+			}
+			function M(e) {
+				return (0, a.forwardRef)(e)
+			}
+			function L() {
+				var e = (0, a.useState)(S)[0]
+				return (
+					(0, a.useEffect)(
+						function () {
+							return function () {
+								return e.dispose()
+							}
+						},
+						[e]
+					),
+					e
+				)
+			}
+			function j() {
+				for (var e = arguments.length, t = new Array(e), r = 0; r < e; r++)
+					t[r] = arguments[r]
+				return (0, a.useCallback)(
+					function (e) {
+						t.forEach(function (t) {
+							if (null !== t)
+								return 'function' == typeof t ? t(e) : void (t.current = e)
+						})
+					},
+					[t]
+				)
+			}
+			;(!(function (e) {
+				;((e.Space = ' '),
+					(e.Enter = 'Enter'),
+					(e.Escape = 'Escape'),
+					(e.Backspace = 'Backspace'),
+					(e.ArrowUp = 'ArrowUp'),
+					(e.ArrowDown = 'ArrowDown'),
+					(e.Home = 'Home'),
+					(e.End = 'End'),
+					(e.PageUp = 'PageUp'),
+					(e.PageDown = 'PageDown'),
+					(e.Tab = 'Tab'))
+			})(C || (C = {})),
+				(function (e) {
+					;((e[(e.Open = 0)] = 'Open'), (e[(e.Closed = 1)] = 'Closed'))
+				})(T || (T = {})),
+				(function (e) {
+					;((e[(e.OpenMenu = 0)] = 'OpenMenu'),
+						(e[(e.CloseMenu = 1)] = 'CloseMenu'),
+						(e[(e.GoToItem = 2)] = 'GoToItem'),
+						(e[(e.Search = 3)] = 'Search'),
+						(e[(e.ClearSearch = 4)] = 'ClearSearch'),
+						(e[(e.RegisterItem = 5)] = 'RegisterItem'),
+						(e[(e.UnregisterItem = 6)] = 'UnregisterItem'))
+				})(N || (N = {})),
+				(function (e) {
+					;((e[(e.FirstItem = 0)] = 'FirstItem'),
+						(e[(e.PreviousItem = 1)] = 'PreviousItem'),
+						(e[(e.NextItem = 2)] = 'NextItem'),
+						(e[(e.LastItem = 3)] = 'LastItem'),
+						(e[(e.SpecificItem = 4)] = 'SpecificItem'),
+						(e[(e.Nothing = 5)] = 'Nothing'))
+				})(R || (R = {})))
+			var P =
+					(((O = {})[N.CloseMenu] = function (e) {
+						return m({}, e, { menuState: T.Closed })
+					}),
+					(O[N.OpenMenu] = function (e) {
+						return m({}, e, { menuState: T.Open })
+					}),
+					(O[N.GoToItem] = function (e, t) {
+						var r = (function (e, t, r) {
+							var n, a
+							if (e.items.length <= 0) return null
+							var o = e.items,
+								i = null !== (n = e.activeItemIndex) && void 0 !== n ? n : -1,
+								l = k(
+									t,
+									(((a = {})[R.FirstItem] = function () {
+										return o.findIndex(function (e) {
+											return !e.dataRef.current.disabled
+										})
+									}),
+									(a[R.PreviousItem] = function () {
+										var e = o
+											.slice()
+											.reverse()
+											.findIndex(function (e, t, r) {
+												return !(
+													(-1 !== i && r.length - t - 1 >= i) ||
+													e.dataRef.current.disabled
+												)
+											})
+										return -1 === e ? e : o.length - 1 - e
+									}),
+									(a[R.NextItem] = function () {
+										return o.findIndex(function (e, t) {
+											return !(t <= i || e.dataRef.current.disabled)
+										})
+									}),
+									(a[R.LastItem] = function () {
+										var e = o
+											.slice()
+											.reverse()
+											.findIndex(function (e) {
+												return !e.dataRef.current.disabled
+											})
+										return -1 === e ? e : o.length - 1 - e
+									}),
+									(a[R.SpecificItem] = function () {
+										return o.findIndex(function (e) {
+											return e.id === r
+										})
+									}),
+									(a[R.Nothing] = function () {
+										return null
+									}),
+									a)
+								)
+							return -1 === l ? e.activeItemIndex : l
+						})(e, t.focus, t.id)
+						return '' === e.searchQuery && e.activeItemIndex === r ?
+								e
+							:	m({}, e, { searchQuery: '', activeItemIndex: r })
+					}),
+					(O[N.Search] = function (e, t) {
+						var r = e.searchQuery + t.value,
+							n = e.items.findIndex(function (e) {
+								var t
+								return (
+									(null === (t = e.dataRef.current.textValue) || void 0 === t ?
+										void 0
+									:	t.startsWith(r)) && !e.dataRef.current.disabled
+								)
+							})
+						return -1 === n || n === e.activeItemIndex ?
+								m({}, e, { searchQuery: r })
+							:	m({}, e, { searchQuery: r, activeItemIndex: n })
+					}),
+					(O[N.ClearSearch] = function (e) {
+						return m({}, e, { searchQuery: '' })
+					}),
+					(O[N.RegisterItem] = function (e, t) {
+						return m({}, e, {
+							items: [].concat(e.items, [{ id: t.id, dataRef: t.dataRef }]),
+						})
+					}),
+					(O[N.UnregisterItem] = function (e, t) {
+						var r = e.items.slice(),
+							n = null !== e.activeItemIndex ? r[e.activeItemIndex] : null,
+							a = r.findIndex(function (e) {
+								return e.id === t.id
+							})
+						return (
+							-1 !== a && r.splice(a, 1),
+							m({}, e, {
+								items: r,
+								activeItemIndex:
+									a === e.activeItemIndex || null === n ? null : r.indexOf(n),
+							})
+						)
+					}),
+					O),
+				D = (0, a.createContext)(null)
+			function F(e) {
+				var t = (0, a.useContext)(D)
+				if (null === t) {
+					var r = new Error(
+						'<' + e + ' /> is missing a parent <' + H.name + ' /> component.'
+					)
+					throw (Error.captureStackTrace && Error.captureStackTrace(r, F), r)
+				}
+				return t
+			}
+			function _(e, t) {
+				return k(t.type, P, e, t)
+			}
+			var U = a.Fragment
+			function H(e) {
+				var t = L(),
+					r = (0, a.useReducer)(_, {
+						menuState: T.Closed,
+						buttonRef: (0, a.createRef)(),
+						itemsRef: (0, a.createRef)(),
+						items: [],
+						searchQuery: '',
+						activeItemIndex: null,
+					}),
+					n = r[0],
+					o = n.menuState,
+					i = n.itemsRef,
+					l = n.buttonRef,
+					c = r[1]
+				;(0, a.useEffect)(
+					function () {
+						function e(e) {
+							var r, n
+							o === T.Open &&
+								((null === (r = l.current) || void 0 === r ?
+									void 0
+								:	r.contains(e.target)) ||
+									((null === (n = i.current) || void 0 === n ?
+										void 0
+									:	n.contains(e.target)) || c({ type: N.CloseMenu }),
+									e.defaultPrevented ||
+										t.nextFrame(function () {
+											var e
+											return null === (e = l.current) || void 0 === e ?
+													void 0
+												:	e.focus()
+										})))
+						}
+						return (
+							window.addEventListener('click', e),
+							function () {
+								return window.removeEventListener('click', e)
+							}
+						)
+					},
+					[o, i, l, t, c]
+				)
+				var s = (0, a.useMemo)(
+					function () {
+						return { open: o === T.Open }
+					},
+					[o]
+				)
+				return (0, a.createElement)(D.Provider, { value: r }, A(e, s, U))
+			}
+			var G,
+				B,
+				z,
+				q,
+				V = M(function e(t, r) {
+					var n,
+						o = F([H.name, e.name].join('.')),
+						i = o[0],
+						l = o[1],
+						c = j(i.buttonRef, r),
+						s = (0, a.useState)(!1),
+						u = s[0],
+						d = s[1],
+						f = 'headlessui-menu-button-' + E(),
+						p = L(),
+						h = (0, a.useCallback)(
+							function (e) {
+								switch (e.key) {
+									case C.Space:
+									case C.Enter:
+									case C.ArrowDown:
+										;(e.preventDefault(),
+											l({ type: N.OpenMenu }),
+											p.nextFrame(function () {
+												var e
+												;(null === (e = i.itemsRef.current) ||
+													void 0 === e ||
+													e.focus(),
+													l({ type: N.GoToItem, focus: R.FirstItem }))
+											}))
+										break
+									case C.ArrowUp:
+										;(e.preventDefault(),
+											l({ type: N.OpenMenu }),
+											p.nextFrame(function () {
+												var e
+												;(null === (e = i.itemsRef.current) ||
+													void 0 === e ||
+													e.focus(),
+													l({ type: N.GoToItem, focus: R.LastItem }))
+											}))
+								}
+							},
+							[l, i, p]
+						),
+						v = (0, a.useCallback)(
+							function (e) {
+								i.menuState === T.Open ?
+									(l({ type: N.CloseMenu }),
+									p.nextFrame(function () {
+										var e
+										return null === (e = i.buttonRef.current) || void 0 === e ?
+												void 0
+											:	e.focus()
+									}))
+								:	(e.preventDefault(),
+									l({ type: N.OpenMenu }),
+									p.nextFrame(function () {
+										var e
+										return null === (e = i.itemsRef.current) || void 0 === e ?
+												void 0
+											:	e.focus()
+									}))
+							},
+							[l, p, i]
+						),
+						g = (0, a.useCallback)(
+							function () {
+								var e
+								;(i.menuState === T.Open &&
+									(null === (e = i.itemsRef.current) ||
+										void 0 === e ||
+										e.focus()),
+									d(!0))
+							},
+							[i, d]
+						),
+						b = (0, a.useCallback)(
+							function () {
+								return d(!1)
+							},
+							[d]
+						),
+						y = (0, a.useMemo)(
+							function () {
+								return { open: i.menuState === T.Open, focused: u }
+							},
+							[i, u]
+						)
+					return A(
+						m({}, t, {
+							ref: c,
+							id: f,
+							type: 'button',
+							'aria-haspopup': !0,
+							'aria-controls':
+								null === (n = i.itemsRef.current) || void 0 === n ?
+									void 0
+								:	n.id,
+							'aria-expanded': i.menuState === T.Open || void 0,
+							onKeyDown: h,
+							onFocus: g,
+							onBlur: b,
+							onPointerUp: v,
+						}),
+						y,
+						'button'
+					)
+				}),
+				W = M(function e(t, r) {
+					var n,
+						o,
+						i = t.static,
+						l = void 0 !== i && i,
+						c = p(t, ['static']),
+						s = F([H.name, e.name].join('.')),
+						u = s[0],
+						d = s[1],
+						f = j(u.itemsRef, r),
+						h = 'headlessui-menu-items-' + E(),
+						v = L(),
+						g = (0, a.useCallback)(
+							function (e) {
+								switch ((v.dispose(), e.key)) {
+									case C.Space:
+										if ('' !== u.searchQuery)
+											return (
+												e.preventDefault(),
+												d({ type: N.Search, value: e.key })
+											)
+									case C.Enter:
+										if (
+											(e.preventDefault(),
+											d({ type: N.CloseMenu }),
+											null !== u.activeItemIndex)
+										) {
+											var t,
+												r = u.items[u.activeItemIndex].id
+											null === (t = document.getElementById(r)) ||
+												void 0 === t ||
+												t.click()
+										}
+										S().nextFrame(function () {
+											var e
+											return (
+													null === (e = u.buttonRef.current) || void 0 === e
+												) ?
+													void 0
+												:	e.focus()
+										})
+										break
+									case C.ArrowDown:
+										return (
+											e.preventDefault(),
+											d({ type: N.GoToItem, focus: R.NextItem })
+										)
+									case C.ArrowUp:
+										return (
+											e.preventDefault(),
+											d({ type: N.GoToItem, focus: R.PreviousItem })
+										)
+									case C.Home:
+									case C.PageUp:
+										return (
+											e.preventDefault(),
+											d({ type: N.GoToItem, focus: R.FirstItem })
+										)
+									case C.End:
+									case C.PageDown:
+										return (
+											e.preventDefault(),
+											d({ type: N.GoToItem, focus: R.LastItem })
+										)
+									case C.Escape:
+										;(e.preventDefault(),
+											d({ type: N.CloseMenu }),
+											S().nextFrame(function () {
+												var e
+												return (
+														null === (e = u.buttonRef.current) || void 0 === e
+													) ?
+														void 0
+													:	e.focus()
+											}))
+										break
+									case C.Tab:
+										return e.preventDefault()
+									default:
+										1 === e.key.length &&
+											(d({ type: N.Search, value: e.key }),
+											v.setTimeout(function () {
+												return d({ type: N.ClearSearch })
+											}, 350))
+								}
+							},
+							[d, v, u]
+						),
+						b = (0, a.useMemo)(
+							function () {
+								return { open: u.menuState === T.Open }
+							},
+							[u]
+						),
+						y = {
+							'aria-activedescendant':
+								(
+									null === u.activeItemIndex ||
+									null === (n = u.items[u.activeItemIndex]) ||
+									void 0 === n
+								) ?
+									void 0
+								:	n.id,
+							'aria-labelledby':
+								null === (o = u.buttonRef.current) || void 0 === o ?
+									void 0
+								:	o.id,
+							id: h,
+							onKeyDown: g,
+							role: 'menu',
+							tabIndex: 0,
+						}
+					return l || u.menuState !== T.Closed ?
+							A(m({}, c, y, { ref: f }), b, 'div')
+						:	null
+				}),
+				Q = a.Fragment
+			function K(e, t) {
+				if (void 0 !== e) return 'function' == typeof e ? e(t) : e
+			}
+			function Y(e, t) {
+				var r = (0, a.useState)(e),
+					n = r[0],
+					o = r[1],
+					i = (0, a.useRef)(e)
+				return (
+					b(
+						function () {
+							i.current = e
+						},
+						[e]
+					),
+					b(function () {
+						return o(i.current)
+					}, [i, o].concat(t)),
+					n
+				)
+			}
+			;((H.Button = V),
+				(H.Items = W),
+				(H.Item = function e(t) {
+					var r = t.disabled,
+						n = void 0 !== r && r,
+						o = t.className,
+						i = t.onClick,
+						l = p(t, ['disabled', 'className', 'onClick']),
+						c = F([H.name, e.name].join('.')),
+						s = c[0],
+						u = c[1],
+						d = L(),
+						f = 'headlessui-menu-item-' + E(),
+						h =
+							null !== s.activeItemIndex && s.items[s.activeItemIndex].id === f,
+						v = (0, a.useRef)({ disabled: n })
+					;(b(
+						function () {
+							v.current.disabled = n
+						},
+						[v, n]
+					),
+						b(
+							function () {
+								var e, t
+								v.current.textValue =
+									(
+										null === (e = document.getElementById(f)) ||
+										void 0 === e ||
+										null === (t = e.textContent) ||
+										void 0 === t
+									) ?
+										void 0
+									:	t.toLowerCase()
+							},
+							[v, f]
+						),
+						b(
+							function () {
+								return (
+									u({ type: N.RegisterItem, id: f, dataRef: v }),
+									function () {
+										return u({ type: N.UnregisterItem, id: f })
+									}
+								)
+							},
+							[v, f]
+						))
+					var g = (0, a.useCallback)(
+							function (e) {
+								return n ?
+										e.preventDefault()
+									:	(u({ type: N.CloseMenu }),
+										d.nextFrame(function () {
+											var e
+											return (
+													null === (e = s.buttonRef.current) || void 0 === e
+												) ?
+													void 0
+												:	e.focus()
+										}),
+										i ? i(e) : void 0)
+							},
+							[d, u, s.buttonRef, n, i]
+						),
+						y = (0, a.useCallback)(
+							function () {
+								if (n) return u({ type: N.GoToItem, focus: R.Nothing })
+								u({ type: N.GoToItem, focus: R.SpecificItem, id: f })
+							},
+							[n, f, u]
+						),
+						x = (0, a.useCallback)(
+							function () {
+								n || h || u({ type: N.GoToItem, focus: R.SpecificItem, id: f })
+							},
+							[n, h, f, u]
+						),
+						w = (0, a.useCallback)(
+							function () {
+								n || (h && u({ type: N.GoToItem, focus: R.Nothing }))
+							},
+							[n, h, u]
+						),
+						k = (0, a.useMemo)(
+							function () {
+								return { active: h, disabled: n }
+							},
+							[h, n]
+						)
+					return A(
+						m({}, l, {
+							id: f,
+							role: 'menuitem',
+							tabIndex: -1,
+							className: K(o, k),
+							'aria-disabled': !0 === n || void 0,
+							onClick: g,
+							onFocus: y,
+							onPointerMove: x,
+							onPointerLeave: w,
+						}),
+						k,
+						Q
+					)
+				}),
+				(function (e) {
+					;((e[(e.Open = 0)] = 'Open'), (e[(e.Closed = 1)] = 'Closed'))
+				})(B || (B = {})),
+				(function (e) {
+					;((e[(e.OpenListbox = 0)] = 'OpenListbox'),
+						(e[(e.CloseListbox = 1)] = 'CloseListbox'),
+						(e[(e.GoToOption = 2)] = 'GoToOption'),
+						(e[(e.Search = 3)] = 'Search'),
+						(e[(e.ClearSearch = 4)] = 'ClearSearch'),
+						(e[(e.RegisterOption = 5)] = 'RegisterOption'),
+						(e[(e.UnregisterOption = 6)] = 'UnregisterOption'))
+				})(z || (z = {})),
+				(function (e) {
+					;((e[(e.First = 0)] = 'First'),
+						(e[(e.Previous = 1)] = 'Previous'),
+						(e[(e.Next = 2)] = 'Next'),
+						(e[(e.Last = 3)] = 'Last'),
+						(e[(e.Specific = 4)] = 'Specific'),
+						(e[(e.Nothing = 5)] = 'Nothing'))
+				})(q || (q = {})))
+			var $ =
+					(((G = {})[z.CloseListbox] = function (e) {
+						return m({}, e, { listboxState: B.Closed })
+					}),
+					(G[z.OpenListbox] = function (e) {
+						return m({}, e, { listboxState: B.Open })
+					}),
+					(G[z.GoToOption] = function (e, t) {
+						var r = (function (e, t, r) {
+							var n, a
+							if (e.options.length <= 0) return null
+							var o = e.options,
+								i = null !== (n = e.activeOptionIndex) && void 0 !== n ? n : -1,
+								l = k(
+									t,
+									(((a = {})[q.First] = function () {
+										return o.findIndex(function (e) {
+											return !e.dataRef.current.disabled
+										})
+									}),
+									(a[q.Previous] = function () {
+										var e = o
+											.slice()
+											.reverse()
+											.findIndex(function (e, t, r) {
+												return !(
+													(-1 !== i && r.length - t - 1 >= i) ||
+													e.dataRef.current.disabled
+												)
+											})
+										return -1 === e ? e : o.length - 1 - e
+									}),
+									(a[q.Next] = function () {
+										return o.findIndex(function (e, t) {
+											return !(t <= i || e.dataRef.current.disabled)
+										})
+									}),
+									(a[q.Last] = function () {
+										var e = o
+											.slice()
+											.reverse()
+											.findIndex(function (e) {
+												return !e.dataRef.current.disabled
+											})
+										return -1 === e ? e : o.length - 1 - e
+									}),
+									(a[q.Specific] = function () {
+										return o.findIndex(function (e) {
+											return e.id === r
+										})
+									}),
+									(a[q.Nothing] = function () {
+										return null
+									}),
+									a)
+								)
+							return -1 === l ? e.activeOptionIndex : l
+						})(e, t.focus, t.id)
+						return '' === e.searchQuery && e.activeOptionIndex === r ?
+								e
+							:	m({}, e, { searchQuery: '', activeOptionIndex: r })
+					}),
+					(G[z.Search] = function (e, t) {
+						var r = e.searchQuery + t.value,
+							n = e.options.findIndex(function (e) {
+								var t
+								return (
+									!e.dataRef.current.disabled &&
+									(null === (t = e.dataRef.current.textValue) || void 0 === t ?
+										void 0
+									:	t.startsWith(r))
+								)
+							})
+						return -1 === n || n === e.activeOptionIndex ?
+								m({}, e, { searchQuery: r })
+							:	m({}, e, { searchQuery: r, activeOptionIndex: n })
+					}),
+					(G[z.ClearSearch] = function (e) {
+						return m({}, e, { searchQuery: '' })
+					}),
+					(G[z.RegisterOption] = function (e, t) {
+						return m({}, e, {
+							options: [].concat(e.options, [{ id: t.id, dataRef: t.dataRef }]),
+						})
+					}),
+					(G[z.UnregisterOption] = function (e, t) {
+						var r = e.options.slice(),
+							n = null !== e.activeOptionIndex ? r[e.activeOptionIndex] : null,
+							a = r.findIndex(function (e) {
+								return e.id === t.id
+							})
+						return (
+							-1 !== a && r.splice(a, 1),
+							m({}, e, {
+								options: r,
+								activeOptionIndex:
+									a === e.activeOptionIndex || null === n ? null : r.indexOf(n),
+							})
+						)
+					}),
+					G),
+				Z = (0, a.createContext)(null)
+			function J(e, t) {
+				return k(t.type, $, e, t)
+			}
+			function X(e) {
+				var t = (0, a.useContext)(Z)
+				if (null === t) {
+					var r = new Error(
+						'<' + e + ' /> is missing a parent <' + te.name + ' /> component.'
+					)
+					throw (Error.captureStackTrace && Error.captureStackTrace(r, X), r)
+				}
+				return t
+			}
+			var ee = a.Fragment
+			function te(e) {
+				var t = e.value,
+					r = e.onChange,
+					n = p(e, ['value', 'onChange']),
+					o = L(),
+					i = (0, a.useReducer)(J, {
+						listboxState: B.Closed,
+						propsRef: { current: { value: t, onChange: r } },
+						labelRef: (0, a.createRef)(),
+						buttonRef: (0, a.createRef)(),
+						optionsRef: (0, a.createRef)(),
+						options: [],
+						searchQuery: '',
+						activeOptionIndex: null,
+					}),
+					l = i[0],
+					c = l.listboxState,
+					s = l.propsRef,
+					u = l.optionsRef,
+					d = l.buttonRef,
+					f = i[1]
+				;(b(
+					function () {
+						s.current.value = t
+					},
+					[t, s]
+				),
+					b(
+						function () {
+							s.current.onChange = r
+						},
+						[r, s]
+					),
+					(0, a.useEffect)(
+						function () {
+							function e(e) {
+								var t, r
+								c === B.Open &&
+									((null === (t = d.current) || void 0 === t ?
+										void 0
+									:	t.contains(e.target)) ||
+										((null === (r = u.current) || void 0 === r ?
+											void 0
+										:	r.contains(e.target)) || f({ type: z.CloseListbox }),
+										e.defaultPrevented ||
+											o.nextFrame(function () {
+												var e
+												return null === (e = d.current) || void 0 === e ?
+														void 0
+													:	e.focus()
+											})))
+							}
+							return (
+								window.addEventListener('click', e),
+								function () {
+									return window.removeEventListener('click', e)
+								}
+							)
+						},
+						[c, u, d, o, f]
+					))
+				var m = (0, a.useMemo)(
+					function () {
+						return { open: c === B.Open }
+					},
+					[c]
+				)
+				return (0, a.createElement)(Z.Provider, { value: i }, A(n, m, ee))
+			}
+			var re = M(function e(t, r) {
+				var n,
+					o = X([te.name, e.name].join('.')),
+					i = o[0],
+					l = o[1],
+					c = j(i.buttonRef, r),
+					s = (0, a.useState)(!1),
+					u = s[0],
+					d = s[1],
+					f = 'headlessui-listbox-button-' + E(),
+					p = L(),
+					h = (0, a.useCallback)(
+						function (e) {
+							switch (e.key) {
+								case C.Space:
+								case C.Enter:
+								case C.ArrowDown:
+									;(e.preventDefault(),
+										l({ type: z.OpenListbox }),
+										p.nextFrame(function () {
+											var e
+											;(null === (e = i.optionsRef.current) ||
+												void 0 === e ||
+												e.focus(),
+												i.propsRef.current.value ||
+													l({ type: z.GoToOption, focus: q.First }))
+										}))
+									break
+								case C.ArrowUp:
+									;(e.preventDefault(),
+										l({ type: z.OpenListbox }),
+										p.nextFrame(function () {
+											var e
+											;(null === (e = i.optionsRef.current) ||
+												void 0 === e ||
+												e.focus(),
+												i.propsRef.current.value ||
+													l({ type: z.GoToOption, focus: q.Last }))
+										}))
+							}
+						},
+						[l, i, p]
+					),
+					v = (0, a.useCallback)(
+						function (e) {
+							i.listboxState === B.Open ?
+								(l({ type: z.CloseListbox }),
+								p.nextFrame(function () {
+									var e
+									return null === (e = i.buttonRef.current) || void 0 === e ?
+											void 0
+										:	e.focus()
+								}))
+							:	(e.preventDefault(),
+								l({ type: z.OpenListbox }),
+								p.nextFrame(function () {
+									var e
+									return null === (e = i.optionsRef.current) || void 0 === e ?
+											void 0
+										:	e.focus()
+								}))
+						},
+						[l, p, i]
+					),
+					g = (0, a.useCallback)(
+						function () {
+							var e
+							if (i.listboxState === B.Open)
+								return null === (e = i.optionsRef.current) || void 0 === e ?
+										void 0
+									:	e.focus()
+							d(!0)
+						},
+						[i, d]
+					),
+					b = (0, a.useCallback)(
+						function () {
+							return d(!1)
+						},
+						[d]
+					),
+					y = Y(
+						function () {
+							if (i.labelRef.current)
+								return [i.labelRef.current.id, f].join(' ')
+						},
+						[i.labelRef.current, f]
+					),
+					x = (0, a.useMemo)(
+						function () {
+							return { open: i.listboxState === B.Open, focused: u }
+						},
+						[i, u]
+					)
+				return A(
+					m({}, t, {
+						ref: c,
+						id: f,
+						type: 'button',
+						'aria-haspopup': !0,
+						'aria-controls':
+							null === (n = i.optionsRef.current) || void 0 === n ?
+								void 0
+							:	n.id,
+						'aria-expanded': i.listboxState === B.Open || void 0,
+						'aria-labelledby': y,
+						onKeyDown: h,
+						onFocus: g,
+						onBlur: b,
+						onPointerUp: v,
+					}),
+					x,
+					'button'
+				)
+			})
+			var ne = M(function e(t, r) {
+				var n,
+					o = t.static,
+					i = void 0 !== o && o,
+					l = p(t, [
+						'enter',
+						'enterFrom',
+						'enterTo',
+						'leave',
+						'leaveFrom',
+						'leaveTo',
+						'static',
+					]),
+					c = X([te.name, e.name].join('.')),
+					s = c[0],
+					u = c[1],
+					d = j(s.optionsRef, r),
+					f = 'headlessui-listbox-options-' + E(),
+					h = L(),
+					v = L(),
+					g = (0, a.useCallback)(
+						function (e) {
+							switch ((v.dispose(), e.key)) {
+								case C.Space:
+									if ('' !== s.searchQuery)
+										return (
+											e.preventDefault(),
+											u({ type: z.Search, value: e.key })
+										)
+								case C.Enter:
+									if (
+										(e.preventDefault(),
+										u({ type: z.CloseListbox }),
+										null !== s.activeOptionIndex)
+									) {
+										var t = s.options[s.activeOptionIndex].dataRef
+										s.propsRef.current.onChange(t.current.value)
+									}
+									S().nextFrame(function () {
+										var e
+										return null === (e = s.buttonRef.current) || void 0 === e ?
+												void 0
+											:	e.focus()
+									})
+									break
+								case C.ArrowDown:
+									return (
+										e.preventDefault(),
+										u({ type: z.GoToOption, focus: q.Next })
+									)
+								case C.ArrowUp:
+									return (
+										e.preventDefault(),
+										u({ type: z.GoToOption, focus: q.Previous })
+									)
+								case C.Home:
+								case C.PageUp:
+									return (
+										e.preventDefault(),
+										u({ type: z.GoToOption, focus: q.First })
+									)
+								case C.End:
+								case C.PageDown:
+									return (
+										e.preventDefault(),
+										u({ type: z.GoToOption, focus: q.Last })
+									)
+								case C.Escape:
+									return (
+										e.preventDefault(),
+										u({ type: z.CloseListbox }),
+										h.nextFrame(function () {
+											var e
+											return (
+													null === (e = s.buttonRef.current) || void 0 === e
+												) ?
+													void 0
+												:	e.focus()
+										})
+									)
+								case C.Tab:
+									return e.preventDefault()
+								default:
+									1 === e.key.length &&
+										(u({ type: z.Search, value: e.key }),
+										v.setTimeout(function () {
+											return u({ type: z.ClearSearch })
+										}, 350))
+							}
+						},
+						[h, u, v, s]
+					),
+					b = Y(
+						function () {
+							var e, t, r
+							return (
+								(
+									null !==
+										(e =
+											null === (t = s.labelRef.current) || void 0 === t ?
+												void 0
+											:	t.id) && void 0 !== e
+								) ?
+									e
+								: null === (r = s.buttonRef.current) || void 0 === r ? void 0
+								: r.id
+							)
+						},
+						[s.labelRef.current, s.buttonRef.current]
+					),
+					y = (0, a.useMemo)(
+						function () {
+							return { open: s.listboxState === B.Open }
+						},
+						[s]
+					),
+					x = {
+						'aria-activedescendant':
+							(
+								null === s.activeOptionIndex ||
+								null === (n = s.options[s.activeOptionIndex]) ||
+								void 0 === n
+							) ?
+								void 0
+							:	n.id,
+						'aria-labelledby': b,
+						id: f,
+						onKeyDown: g,
+						role: 'listbox',
+						tabIndex: 0,
+					}
+				return i || s.listboxState !== B.Closed ?
+						A(m({}, l, x, { ref: d }), y, 'ul')
+					:	null
+			})
+			function ae(e, t) {
+				if (void 0 !== e) return 'function' == typeof e ? e(t) : e
+			}
+			;((te.Button = re),
+				(te.Label = function e(t) {
+					var r = X([te.name, e.name].join('.'))[0],
+						n = 'headlessui-listbox-label-' + E(),
+						o = (0, a.useCallback)(
+							function () {
+								var e
+								return null === (e = r.buttonRef.current) || void 0 === e ?
+										void 0
+									:	e.focus()
+							},
+							[r.buttonRef]
+						),
+						i = (0, a.useMemo)(
+							function () {
+								return { open: r.listboxState === B.Open }
+							},
+							[r]
+						)
+					return A(
+						m({}, t, { ref: r.labelRef, id: n, onPointerUp: o }),
+						i,
+						'label'
+					)
+				}),
+				(te.Options = ne),
+				(te.Option = function e(t) {
+					var r = t.disabled,
+						n = void 0 !== r && r,
+						o = t.value,
+						i = t.className,
+						l = p(t, ['disabled', 'value', 'className']),
+						c = X([te.name, e.name].join('.')),
+						s = c[0],
+						u = c[1],
+						d = 'headlessui-listbox-option-' + E(),
+						f =
+							null !== s.activeOptionIndex &&
+							s.options[s.activeOptionIndex].id === d,
+						h = s.propsRef.current.value === o,
+						v = (0, a.useRef)({ disabled: n, value: o })
+					;(b(
+						function () {
+							v.current.disabled = n
+						},
+						[v, n]
+					),
+						b(
+							function () {
+								v.current.value = o
+							},
+							[v, o]
+						),
+						b(
+							function () {
+								var e, t
+								v.current.textValue =
+									(
+										null === (e = document.getElementById(d)) ||
+										void 0 === e ||
+										null === (t = e.textContent) ||
+										void 0 === t
+									) ?
+										void 0
+									:	t.toLowerCase()
+							},
+							[v, d]
+						))
+					var g = (0, a.useCallback)(
+						function () {
+							return s.propsRef.current.onChange(o)
+						},
+						[s.propsRef, o]
+					)
+					;(b(
+						function () {
+							return (
+								u({ type: z.RegisterOption, id: d, dataRef: v }),
+								function () {
+									return u({ type: z.UnregisterOption, id: d })
+								}
+							)
+						},
+						[v, d]
+					),
+						b(function () {
+							var e, t
+							h &&
+								(u({ type: z.GoToOption, focus: q.Specific, id: d }),
+								null === (e = document.getElementById(d)) ||
+									void 0 === e ||
+									null === (t = e.focus) ||
+									void 0 === t ||
+									t.call(e))
+						}, []),
+						b(
+							function () {
+								if (f) {
+									var e = S()
+									return (
+										e.nextFrame(function () {
+											var e, t
+											return (
+													null === (e = document.getElementById(d)) ||
+														void 0 === e ||
+														null === (t = e.scrollIntoView) ||
+														void 0 === t
+												) ?
+													void 0
+												:	t.call(e, { block: 'nearest' })
+										}),
+										e.dispose
+									)
+								}
+							},
+							[f]
+						))
+					var y = (0, a.useCallback)(
+							function (e) {
+								if (n) return e.preventDefault()
+								;(g(),
+									u({ type: z.CloseListbox }),
+									S().nextFrame(function () {
+										var e
+										return null === (e = s.buttonRef.current) || void 0 === e ?
+												void 0
+											:	e.focus()
+									}))
+							},
+							[u, s.buttonRef, n, g]
+						),
+						x = (0, a.useCallback)(
+							function () {
+								if (n) return u({ type: z.GoToOption, focus: q.Nothing })
+								u({ type: z.GoToOption, focus: q.Specific, id: d })
+							},
+							[n, d, u]
+						),
+						w = (0, a.useCallback)(
+							function () {
+								n || f || u({ type: z.GoToOption, focus: q.Specific, id: d })
+							},
+							[n, f, d, u]
+						),
+						k = (0, a.useCallback)(
+							function () {
+								n || (f && u({ type: z.GoToOption, focus: q.Nothing }))
+							},
+							[n, f, u]
+						),
+						I = (0, a.useMemo)(
+							function () {
+								return { active: f, selected: h, disabled: n }
+							},
+							[f, h, n]
+						)
+					return A(
+						m({}, l, {
+							id: d,
+							role: 'option',
+							tabIndex: -1,
+							className: ae(i, I),
+							'aria-disabled': !0 === n || void 0,
+							'aria-selected': !0 === h || void 0,
+							onClick: y,
+							onFocus: x,
+							onPointerMove: w,
+							onPointerLeave: k,
+						}),
+						I,
+						'li'
+					)
+				}))
+			var oe = (0, a.createContext)(null)
+			function ie(e) {
+				var t = (0, a.useContext)(oe)
+				if (null === t) {
+					var r = new Error(
+						'<' + e + ' /> is missing a parent <Switch.Group /> component.'
+					)
+					throw (Error.captureStackTrace && Error.captureStackTrace(r, ie), r)
+				}
+				return t
+			}
+			var le = a.Fragment
+			function ce(e) {
+				var t,
+					r = e.checked,
+					n = e.onChange,
+					o = e.className,
+					i = p(e, ['checked', 'onChange', 'className']),
+					l = 'headlessui-switch-' + E(),
+					c = (0, a.useContext)(oe),
+					s = (0, a.useCallback)(
+						function () {
+							return n(!r)
+						},
+						[n, r]
+					),
+					u = (0, a.useCallback)(
+						function (e) {
+							;(e.preventDefault(), s())
+						},
+						[s]
+					),
+					d = (0, a.useCallback)(
+						function (e) {
+							e.key === C.Space && (e.preventDefault(), s())
+						},
+						[s]
+					),
+					f = (0, a.useMemo)(
+						function () {
+							return { checked: r }
+						},
+						[r]
+					)
+				return A(
+					m({}, i, {
+						id: l,
+						ref: null === c ? void 0 : c.setSwitch,
+						role: 'switch',
+						tabIndex: 0,
+						className: se(o, f),
+						'aria-checked': r,
+						'aria-labelledby':
+							null == c || null === (t = c.label) || void 0 === t ?
+								void 0
+							:	t.id,
+						onClick: u,
+						onKeyUp: d,
+					}),
+					f,
+					'button'
+				)
+			}
+			function se(e, t) {
+				if (void 0 !== e) return 'function' == typeof e ? e(t) : e
+			}
+			function ue(e, t) {
+				var r = e.url,
+					o = e.text
+				return 0 === r.indexOf('https://') ?
+						a.createElement(
+							'li',
+							null,
+							a.createElement(
+								c.M,
+								{
+									href: r,
+									target: '_blank',
+									rel: 'noopener noreferrer',
+									className:
+										'block text-primary-700 px-3 py-3 hover:bg-primary-200 rounded-md',
+								},
+								o
+							)
+						)
+					:	a.createElement(
+							'li',
+							null,
+							a.createElement(
+								n.rU,
+								{
+									to: r,
+									className:
+										'block text-primary-700 px-3 py-3 hover:bg-primary-200 rounded-md',
+									onClick: t,
+								},
+								o
+							)
+						)
+			}
+			;((ce.Group = function (e) {
+				var t = (0, a.useState)(null),
+					r = t[0],
+					n = t[1],
+					o = (0, a.useState)(null),
+					i = o[0],
+					l = o[1],
+					c = (0, a.useMemo)(
+						function () {
+							return { switch: r, label: i, setSwitch: n, setLabel: l }
+						},
+						[r, n, i, l]
+					)
+				return (0, a.createElement)(oe.Provider, { value: c }, A(e, {}, le))
+			}),
+				(ce.Label = function e(t) {
+					var r = ie([ce.name, e.name].join('.')),
+						n = 'headlessui-switch-label-' + E(),
+						o = (0, a.useCallback)(
+							function () {
+								r.switch && (r.switch.click(), r.switch.focus())
+							},
+							[r.switch]
+						)
+					return A(
+						m({}, t, { ref: r.setLabel, id: n, onPointerUp: o }),
+						{},
+						'label'
+					)
+				}))
+			var de = function (e) {
+					var t = e.categories,
+						r = e.isToggled,
+						n = e.setToggled,
+						o =
+							t ?
+								Object.keys(t).map(function (e) {
+									return { url: '#category_' + e, text: t[e] }
+								})
+							:	[],
+						l = !('undefined' == typeof isToggledd && void 0 === n),
+						c = (0, a.useState)(!1),
+						s = c[0],
+						u = c[1]
+					return a.createElement(
+						'nav',
+						{
+							className:
+								'lg:ml-auto lg:max-w-sm\n        z-50 fixed lg:sticky top-0 w-full\n        lg:h-screen ' +
+								(s ? 'h-screen' : 'h-auto') +
+								' overflow-y-hidden\n        shadow-md lg:shadow-none bg-white lg:bg-transparent',
+						},
+						a.createElement(
+							'div',
+							{
+								id: 'scrolling-navbar',
+								className:
+									'w-full h-full overflow-y-auto py-5 px-3 lg:pl-5 lg:pr-0',
+							},
+							a.createElement(
+								'div',
+								{ className: 'flex flex-row justify-between lg:justify-start' },
+								a.createElement(
+									'button',
+									{
+										onClick: function () {
+											return u(!s)
+										},
+										className:
+											'lg:hidden focus:outline-none focus:ring focus:border-primary-300 rounded-sm',
+									},
+									a.createElement(i.Oqj, {
+										className: 'block h-6 w-6 ' + (s ? 'hidden' : 'block'),
+										'aria-hidden': !!s,
+									}),
+									a.createElement(i.b0D, {
+										className: 'block h-6 w-6  ' + (s ? 'block' : 'hidden'),
+										'aria-hidden': !s,
+									})
+								),
+								l &&
+									a.createElement(
+										'span',
+										null,
+										a.createElement(
+											'span',
+											{
+												className:
+													'inline-flex flex-shrink-0 relative mr-2 align-text-bottom text-primary-900',
+											},
+											'Donate from overseas'
+										),
+										a.createElement(
+											ce,
+											{
+												checked: r,
+												onChange: function () {
+													;(n(!r), u(!1))
+												},
+												className:
+													'relative inline-flex items-center flex-shrink-0 ' +
+													(r ? 'bg-primary-700' : 'bg-gray-600') +
+													' w-11 h-6 rounded-full cursor-pointer focus:outline-none focus:shadow-outline transition-colors duration-200 ease-in-out',
+											},
+											a.createElement('span', {
+												className:
+													(r ? 'translate-x-6' : 'translate-x-1') +
+													' inline-block w-4 h-4 transition duration-200 ease-in-out transform bg-white rounded-full',
+											})
+										)
+									)
+							),
+							a.createElement(
+								'div',
+								{ className: 'lg:block ' + (s ? 'block' : 'hidden') + ' ' },
+								l && a.createElement('hr', { className: 'mt-3' }),
+								t &&
+									a.createElement(
+										a.Fragment,
+										null,
+										a.createElement(
+											'span',
+											{
+												className:
+													'inline-flex flex-shrink-0 relative mt-3 mr-2 align-text-bottom text-primary-900',
+											},
+											'Categories'
+										),
+										a.createElement(
+											'ul',
+											null,
+											o.map(function (e) {
+												return ue(e, function () {
+													u(!1)
+												})
+											})
+										),
+										a.createElement('hr', { className: 'my-3' })
+									),
+								a.createElement(
+									'ul',
+									null,
+									[
+										{ url: '/', text: 'Home' },
+										{ url: '/about', text: 'About' },
+										{ url: '/completed', text: 'Completed Fundraisers' },
+									].map(function (e) {
+										return ue(e)
+									})
+								)
+							)
+						)
+					)
+				},
+				fe = r(5444),
+				me = r(3201),
+				pe = function () {
+					var e = (0, fe.useStaticQuery)('4133770467').site.meta.links
+					return a.createElement(
+						'footer',
+						{ className: 'bg-white' },
+						a.createElement(
+							'div',
+							{
+								className:
+									'container py-8 lg:py-12 flex flex-wrap text-center lg:flex-row-reverse lg:justify-between lg:items-center',
+							},
+							a.createElement(
+								'ul',
+								{ className: 'w-full' },
+								a.createElement(he, {
+									href: e.instagram,
+									icon: me.Zf_,
+									label: 'Instagram',
+								}),
+								a.createElement(he, {
+									href: e.facebook,
+									icon: me.tBk,
+									label: 'Facebook',
+								}),
+								a.createElement(he, {
+									href: e.twitter,
+									icon: me.fWC,
+									label: 'Twitter',
+								}),
+								a.createElement(he, {
+									href: e.email,
+									icon: me.SRX,
+									label: 'E-mail',
+								})
+							),
+							a.createElement(
+								'div',
+								{ className: 'w-full lg:w-auto pt-6 text-primary-800 text-sm' },
+								'© Copyright: there is no copyright on any of the information on this website. Please feel free to share, swipe, copy, paste at will. But be advised, we have about 30 volunteers curating this info, so be aware it may become out of date quickly. If you want to help us curate and add new entries, or promote with your art or social media, please get in touch at covidmutualaidindia@protonmail.com.'
+							)
+						)
+					)
+				},
+				he = function (e) {
+					var t = e.href,
+						r = e.label,
+						n = e.icon,
+						o = { href: t }
+					return (
+						(t.startsWith('http') || t.startsWith('mailto')) &&
+							((o.target = '_blank'), (o.rel = 'noreferrer noopener')),
+						a.createElement(
+							'li',
+							{ className: 'inline-block px-2' },
+							a.createElement(
+								c.M,
+								Object.assign({}, o, {
+									className:
+										'inline-flex h-8 w-8 border border-primary-800 text-primary-800 rounded-full items-center justify-center transition-colors duration-200 hover:text-white hover:bg-primary-400 hover:border-primary-400',
+								}),
+								a.createElement('span', { className: 'sr-only' }, r),
+								a.createElement(n, { className: 'w-3 h-3 fill-current' })
+							)
+						)
+					)
+				},
+				ve = r(1496),
+				ge = function (e) {
+					var t = e.description,
+						r = e.image,
+						n = e.tag,
+						o = e.title,
+						i = !t && !o
+					return a.createElement(
+						'div',
+						{ className: 'lg:container px-2 sm:px-4 md:px-7 py-6' },
+						a.createElement(
+							'div',
+							{
+								className:
+									'flex relative rounded-md overflow-hidden bg-primary-400',
+							},
+							a.createElement(ve.Z, {
+								alt: o,
+								className: '',
+								fadeIn: !1,
+								fixed: [
+									Object.assign({}, r.childImageSharp.desktop, {
+										media: '(min-width: 768px)',
+									}),
+									Object.assign({}, r.childImageSharp.mobile, {
+										media: '(max-width: 767px)',
+									}),
+								],
+							}),
+							!i &&
+								a.createElement('div', {
+									className: 'absolute inset-0',
+									style: {
+										backgroundImage:
+											'linear-gradient(to bottom, rgba(16, 185, 129, 0.5) 40%, rgba(6, 95, 70, .9) 100%)',
+									},
+								}),
+							n &&
+								a.createElement(
+									'span',
+									{
+										className:
+											'absolute top-0 right-0 text-sm text-white font-medium my-3 mr-1 tracking-wide',
+									},
+									a.createElement(f, { color: 'primary', text: n })
+								),
+							!i &&
+								a.createElement(
+									'div',
+									{
+										className:
+											'absolute bottom-0 inset-x-0 p-5 lg:p-6 text-white',
+									},
+									a.createElement(
+										'h1',
+										{
+											className: 'text-2xl lg:text-4xl font-bold leading-tight',
+										},
+										o
+									),
+									t &&
+										a.createElement(
+											'h3',
+											{ className: 'text-lg font-medium md:w-2/3' },
+											t
+										)
+								)
+						)
+					)
+				}
+			ge.defaultProps = { description: null, title: null }
+			var be,
+				ye,
+				xe,
+				we,
+				Ee = function () {
+					return a.createElement(
+						a.Fragment,
+						null,
+						a.createElement(
+							'div',
+							{
+								className: 'flex flex-wrap md:justify-between md:items-center',
+							},
+							a.createElement(
+								'div',
+								null,
+								a.createElement(
+									'h3',
+									{
+										className:
+											'text-2xl lg:text-4xl font-bold text-primary-500 tracking-tight',
+									},
+									'Do you have a fundraiser to add to the cause?'
+								),
+								a.createElement(
+									'p',
+									{
+										className:
+											'text-primary-800 font-medium text-base md:text-lg pb-4 md:pb-2 pt-1',
+									},
+									'Let us know, or get in touch to volunteer.'
+								)
+							),
+							a.createElement(
+								'div',
+								{
+									className:
+										'flex w-full flex-col md:flex-row md:w-1/2 lg:w-auto',
+								},
+								a.createElement(
+									c.M,
+									{
+										href: 'mailto:covidmutualaidindia@protonmail.com?subject=Please%20add%20this%20fundraiser',
+										className:
+											'bg-primary-600 text-center shadow-sm rounded-md text-white text-xl px-4 py-2 mb-2 md:mb-0 hover:bg-primary-400',
+										target: '_blank',
+										rel: 'noopener noreferrer',
+									},
+									'Submit a Fundraiser'
+								),
+								a.createElement(
+									c.M,
+									{
+										href: 'mailto:covidmutualaidindia@protonmail.com?subject=Volunteering',
+										className:
+											'bg-primary-600 text-center shadow-sm rounded-md text-white text-xl px-4 py-2 mt-2 md:mt-0 hover:bg-primary-400 md:ml-3',
+										target: '_blank',
+										rel: 'noopener noreferrer',
+									},
+									'Volunteer'
+								)
+							)
+						)
+					)
+				},
+				ke = r(5697),
+				Se = r.n(ke),
+				Ie = r(4839),
+				Ce = r.n(Ie),
+				Oe = r(2993),
+				Te = r.n(Oe),
+				Ne = r(6494),
+				Re = r.n(Ne),
+				Ae = 'bodyAttributes',
+				Me = 'htmlAttributes',
+				Le = 'titleAttributes',
+				je = {
+					BASE: 'base',
+					BODY: 'body',
+					HEAD: 'head',
+					HTML: 'html',
+					LINK: 'link',
+					META: 'meta',
+					NOSCRIPT: 'noscript',
+					SCRIPT: 'script',
+					STYLE: 'style',
+					TITLE: 'title',
+				},
+				Pe =
+					(Object.keys(je).map(function (e) {
+						return je[e]
+					}),
+					'charset'),
+				De = 'cssText',
+				Fe = 'href',
+				_e = 'http-equiv',
+				Ue = 'innerHTML',
+				He = 'itemprop',
+				Ge = 'name',
+				Be = 'property',
+				ze = 'rel',
+				qe = 'src',
+				Ve = 'target',
+				We = {
+					accesskey: 'accessKey',
+					charset: 'charSet',
+					class: 'className',
+					contenteditable: 'contentEditable',
+					contextmenu: 'contextMenu',
+					'http-equiv': 'httpEquiv',
+					itemprop: 'itemProp',
+					tabindex: 'tabIndex',
+				},
+				Qe = 'defaultTitle',
+				Ke = 'defer',
+				Ye = 'encodeSpecialCharacters',
+				$e = 'onChangeClientState',
+				Ze = 'titleTemplate',
+				Je = Object.keys(We).reduce(function (e, t) {
+					return ((e[We[t]] = t), e)
+				}, {}),
+				Xe = [je.NOSCRIPT, je.SCRIPT, je.STYLE],
+				et = 'data-react-helmet',
+				tt =
+					'function' == typeof Symbol && 'symbol' == typeof Symbol.iterator ?
+						function (e) {
+							return typeof e
+						}
+					:	function (e) {
+							return (
+									e &&
+										'function' == typeof Symbol &&
+										e.constructor === Symbol &&
+										e !== Symbol.prototype
+								) ?
+									'symbol'
+								:	typeof e
+						},
+				rt = function (e, t) {
+					if (!(e instanceof t))
+						throw new TypeError('Cannot call a class as a function')
+				},
+				nt = (function () {
+					function e(e, t) {
+						for (var r = 0; r < t.length; r++) {
+							var n = t[r]
+							;((n.enumerable = n.enumerable || !1),
+								(n.configurable = !0),
+								'value' in n && (n.writable = !0),
+								Object.defineProperty(e, n.key, n))
+						}
+					}
+					return function (t, r, n) {
+						return (r && e(t.prototype, r), n && e(t, n), t)
+					}
+				})(),
+				at =
+					Object.assign ||
+					function (e) {
+						for (var t = 1; t < arguments.length; t++) {
+							var r = arguments[t]
+							for (var n in r)
+								Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
+						}
+						return e
+					},
+				ot = function (e, t) {
+					var r = {}
+					for (var n in e)
+						t.indexOf(n) >= 0 ||
+							(Object.prototype.hasOwnProperty.call(e, n) && (r[n] = e[n]))
+					return r
+				},
+				it = function (e, t) {
+					if (!e)
+						throw new ReferenceError(
+							"this hasn't been initialised - super() hasn't been called"
+						)
+					return !t || ('object' != typeof t && 'function' != typeof t) ? e : t
+				},
+				lt = function (e) {
+					var t =
+						!(arguments.length > 1 && void 0 !== arguments[1]) || arguments[1]
+					return !1 === t ?
+							String(e)
+						:	String(e)
+								.replace(/&/g, '&amp;')
+								.replace(/</g, '&lt;')
+								.replace(/>/g, '&gt;')
+								.replace(/"/g, '&quot;')
+								.replace(/'/g, '&#x27;')
+				},
+				ct = function (e) {
+					var t = mt(e, je.TITLE),
+						r = mt(e, Ze)
+					if (r && t)
+						return r.replace(/%s/g, function () {
+							return Array.isArray(t) ? t.join('') : t
+						})
+					var n = mt(e, Qe)
+					return t || n || void 0
+				},
+				st = function (e) {
+					return mt(e, $e) || function () {}
+				},
+				ut = function (e, t) {
+					return t
+						.filter(function (t) {
+							return void 0 !== t[e]
+						})
+						.map(function (t) {
+							return t[e]
+						})
+						.reduce(function (e, t) {
+							return at({}, e, t)
+						}, {})
+				},
+				dt = function (e, t) {
+					return t
+						.filter(function (e) {
+							return void 0 !== e[je.BASE]
+						})
+						.map(function (e) {
+							return e[je.BASE]
+						})
+						.reverse()
+						.reduce(function (t, r) {
+							if (!t.length)
+								for (var n = Object.keys(r), a = 0; a < n.length; a++) {
+									var o = n[a].toLowerCase()
+									if (-1 !== e.indexOf(o) && r[o]) return t.concat(r)
+								}
+							return t
+						}, [])
+				},
+				ft = function (e, t, r) {
+					var n = {}
+					return r
+						.filter(function (t) {
+							return (
+								!!Array.isArray(t[e]) ||
+								(void 0 !== t[e] &&
+									bt(
+										'Helmet: ' +
+											e +
+											' should be of type "Array". Instead found type "' +
+											tt(t[e]) +
+											'"'
+									),
+								!1)
+							)
+						})
+						.map(function (t) {
+							return t[e]
+						})
+						.reverse()
+						.reduce(function (e, r) {
+							var a = {}
+							r.filter(function (e) {
+								for (
+									var r = void 0, o = Object.keys(e), i = 0;
+									i < o.length;
+									i++
+								) {
+									var l = o[i],
+										c = l.toLowerCase()
+									;(-1 === t.indexOf(c) ||
+										(r === ze && 'canonical' === e[r].toLowerCase()) ||
+										(c === ze && 'stylesheet' === e[c].toLowerCase()) ||
+										(r = c),
+										-1 === t.indexOf(l) ||
+											(l !== Ue && l !== De && l !== He) ||
+											(r = l))
+								}
+								if (!r || !e[r]) return !1
+								var s = e[r].toLowerCase()
+								return (
+									n[r] || (n[r] = {}),
+									a[r] || (a[r] = {}),
+									!n[r][s] && ((a[r][s] = !0), !0)
+								)
+							})
+								.reverse()
+								.forEach(function (t) {
+									return e.push(t)
+								})
+							for (var o = Object.keys(a), i = 0; i < o.length; i++) {
+								var l = o[i],
+									c = Re()({}, n[l], a[l])
+								n[l] = c
+							}
+							return e
+						}, [])
+						.reverse()
+				},
+				mt = function (e, t) {
+					for (var r = e.length - 1; r >= 0; r--) {
+						var n = e[r]
+						if (n.hasOwnProperty(t)) return n[t]
+					}
+					return null
+				},
+				pt =
+					((be = Date.now()),
+					function (e) {
+						var t = Date.now()
+						t - be > 16 ?
+							((be = t), e(t))
+						:	setTimeout(function () {
+								pt(e)
+							}, 0)
+					}),
+				ht = function (e) {
+					return clearTimeout(e)
+				},
+				vt =
+					'undefined' != typeof window ?
+						(window.requestAnimationFrame &&
+							window.requestAnimationFrame.bind(window)) ||
+						window.webkitRequestAnimationFrame ||
+						window.mozRequestAnimationFrame ||
+						pt
+					:	r.g.requestAnimationFrame || pt,
+				gt =
+					'undefined' != typeof window ?
+						window.cancelAnimationFrame ||
+						window.webkitCancelAnimationFrame ||
+						window.mozCancelAnimationFrame ||
+						ht
+					:	r.g.cancelAnimationFrame || ht,
+				bt = function (e) {
+					return console && 'function' == typeof console.warn && console.warn(e)
+				},
+				yt = null,
+				xt = function (e, t) {
+					var r = e.baseTag,
+						n = e.bodyAttributes,
+						a = e.htmlAttributes,
+						o = e.linkTags,
+						i = e.metaTags,
+						l = e.noscriptTags,
+						c = e.onChangeClientState,
+						s = e.scriptTags,
+						u = e.styleTags,
+						d = e.title,
+						f = e.titleAttributes
+					;(kt(je.BODY, n), kt(je.HTML, a), Et(d, f))
+					var m = {
+							baseTag: St(je.BASE, r),
+							linkTags: St(je.LINK, o),
+							metaTags: St(je.META, i),
+							noscriptTags: St(je.NOSCRIPT, l),
+							scriptTags: St(je.SCRIPT, s),
+							styleTags: St(je.STYLE, u),
+						},
+						p = {},
+						h = {}
+					;(Object.keys(m).forEach(function (e) {
+						var t = m[e],
+							r = t.newTags,
+							n = t.oldTags
+						;(r.length && (p[e] = r), n.length && (h[e] = m[e].oldTags))
+					}),
+						t && t(),
+						c(e, p, h))
+				},
+				wt = function (e) {
+					return Array.isArray(e) ? e.join('') : e
+				},
+				Et = function (e, t) {
+					;(void 0 !== e && document.title !== e && (document.title = wt(e)),
+						kt(je.TITLE, t))
+				},
+				kt = function (e, t) {
+					var r = document.getElementsByTagName(e)[0]
+					if (r) {
+						for (
+							var n = r.getAttribute(et),
+								a = n ? n.split(',') : [],
+								o = [].concat(a),
+								i = Object.keys(t),
+								l = 0;
+							l < i.length;
+							l++
+						) {
+							var c = i[l],
+								s = t[c] || ''
+							;(r.getAttribute(c) !== s && r.setAttribute(c, s),
+								-1 === a.indexOf(c) && a.push(c))
+							var u = o.indexOf(c)
+							;-1 !== u && o.splice(u, 1)
+						}
+						for (var d = o.length - 1; d >= 0; d--) r.removeAttribute(o[d])
+						a.length === o.length ?
+							r.removeAttribute(et)
+						:	r.getAttribute(et) !== i.join(',') &&
+							r.setAttribute(et, i.join(','))
+					}
+				},
+				St = function (e, t) {
+					var r = document.head || document.querySelector(je.HEAD),
+						n = r.querySelectorAll(e + '[' + 'data-react-helmet]'),
+						a = Array.prototype.slice.call(n),
+						o = [],
+						i = void 0
+					return (
+						t &&
+							t.length &&
+							t.forEach(function (t) {
+								var r = document.createElement(e)
+								for (var n in t)
+									if (t.hasOwnProperty(n))
+										if (n === Ue) r.innerHTML = t.innerHTML
+										else if (n === De)
+											r.styleSheet ?
+												(r.styleSheet.cssText = t.cssText)
+											:	r.appendChild(document.createTextNode(t.cssText))
+										else {
+											var l = void 0 === t[n] ? '' : t[n]
+											r.setAttribute(n, l)
+										}
+								;(r.setAttribute(et, 'true'),
+									(
+										a.some(function (e, t) {
+											return ((i = t), r.isEqualNode(e))
+										})
+									) ?
+										a.splice(i, 1)
+									:	o.push(r))
+							}),
+						a.forEach(function (e) {
+							return e.parentNode.removeChild(e)
+						}),
+						o.forEach(function (e) {
+							return r.appendChild(e)
+						}),
+						{ oldTags: a, newTags: o }
+					)
+				},
+				It = function (e) {
+					return Object.keys(e).reduce(function (t, r) {
+						var n = void 0 !== e[r] ? r + '="' + e[r] + '"' : '' + r
+						return t ? t + ' ' + n : n
+					}, '')
+				},
+				Ct = function (e) {
+					var t =
+						arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : {}
+					return Object.keys(e).reduce(function (t, r) {
+						return ((t[We[r] || r] = e[r]), t)
+					}, t)
+				},
+				Ot = function (e, t, r) {
+					switch (e) {
+						case je.TITLE:
+							return {
+								toComponent: function () {
+									return (
+										(e = t.title),
+										(r = t.titleAttributes),
+										((n = { key: e })[et] = !0),
+										(o = Ct(r, n)),
+										[a.createElement(je.TITLE, o, e)]
+									)
+									var e, r, n, o
+								},
+								toString: function () {
+									return (function (e, t, r, n) {
+										var a = It(r),
+											o = wt(t)
+										return a ?
+												'<' +
+													e +
+													' data-react-helmet="true" ' +
+													a +
+													'>' +
+													lt(o, n) +
+													'</' +
+													e +
+													'>'
+											:	'<' +
+													e +
+													' data-react-helmet="true">' +
+													lt(o, n) +
+													'</' +
+													e +
+													'>'
+									})(e, t.title, t.titleAttributes, r)
+								},
+							}
+						case Ae:
+						case Me:
+							return {
+								toComponent: function () {
+									return Ct(t)
+								},
+								toString: function () {
+									return It(t)
+								},
+							}
+						default:
+							return {
+								toComponent: function () {
+									return (function (e, t) {
+										return t.map(function (t, r) {
+											var n,
+												o = (((n = { key: r })[et] = !0), n)
+											return (
+												Object.keys(t).forEach(function (e) {
+													var r = We[e] || e
+													if (r === Ue || r === De) {
+														var n = t.innerHTML || t.cssText
+														o.dangerouslySetInnerHTML = { __html: n }
+													} else o[r] = t[e]
+												}),
+												a.createElement(e, o)
+											)
+										})
+									})(e, t)
+								},
+								toString: function () {
+									return (function (e, t, r) {
+										return t.reduce(function (t, n) {
+											var a = Object.keys(n)
+													.filter(function (e) {
+														return !(e === Ue || e === De)
+													})
+													.reduce(function (e, t) {
+														var a =
+															void 0 === n[t] ? t : t + '="' + lt(n[t], r) + '"'
+														return e ? e + ' ' + a : a
+													}, ''),
+												o = n.innerHTML || n.cssText || '',
+												i = -1 === Xe.indexOf(e)
+											return (
+												t +
+												'<' +
+												e +
+												' data-react-helmet="true" ' +
+												a +
+												(i ? '/>' : '>' + o + '</' + e + '>')
+											)
+										}, '')
+									})(e, t, r)
+								},
+							}
+					}
+				},
+				Tt = function (e) {
+					var t = e.baseTag,
+						r = e.bodyAttributes,
+						n = e.encode,
+						a = e.htmlAttributes,
+						o = e.linkTags,
+						i = e.metaTags,
+						l = e.noscriptTags,
+						c = e.scriptTags,
+						s = e.styleTags,
+						u = e.title,
+						d = void 0 === u ? '' : u,
+						f = e.titleAttributes
+					return {
+						base: Ot(je.BASE, t, n),
+						bodyAttributes: Ot(Ae, r, n),
+						htmlAttributes: Ot(Me, a, n),
+						link: Ot(je.LINK, o, n),
+						meta: Ot(je.META, i, n),
+						noscript: Ot(je.NOSCRIPT, l, n),
+						script: Ot(je.SCRIPT, c, n),
+						style: Ot(je.STYLE, s, n),
+						title: Ot(je.TITLE, { title: d, titleAttributes: f }, n),
+					}
+				},
+				Nt = Ce()(
+					function (e) {
+						return {
+							baseTag: dt([Fe, Ve], e),
+							bodyAttributes: ut(Ae, e),
+							defer: mt(e, Ke),
+							encode: mt(e, Ye),
+							htmlAttributes: ut(Me, e),
+							linkTags: ft(je.LINK, [ze, Fe], e),
+							metaTags: ft(je.META, [Ge, Pe, _e, Be, He], e),
+							noscriptTags: ft(je.NOSCRIPT, [Ue], e),
+							onChangeClientState: st(e),
+							scriptTags: ft(je.SCRIPT, [qe, Ue], e),
+							styleTags: ft(je.STYLE, [De], e),
+							title: ct(e),
+							titleAttributes: ut(Le, e),
+						}
+					},
+					function (e) {
+						;(yt && gt(yt),
+							e.defer ?
+								(yt = vt(function () {
+									xt(e, function () {
+										yt = null
+									})
+								}))
+							:	(xt(e), (yt = null)))
+					},
+					Tt
+				)(function () {
+					return null
+				}),
+				Rt =
+					((ye = Nt),
+					(we = xe =
+						(function (e) {
+							function t() {
+								return (rt(this, t), it(this, e.apply(this, arguments)))
+							}
+							return (
+								(function (e, t) {
+									if ('function' != typeof t && null !== t)
+										throw new TypeError(
+											'Super expression must either be null or a function, not ' +
+												typeof t
+										)
+									;((e.prototype = Object.create(t && t.prototype, {
+										constructor: {
+											value: e,
+											enumerable: !1,
+											writable: !0,
+											configurable: !0,
+										},
+									})),
+										t &&
+											(Object.setPrototypeOf ?
+												Object.setPrototypeOf(e, t)
+											:	(e.__proto__ = t)))
+								})(t, e),
+								(t.prototype.shouldComponentUpdate = function (e) {
+									return !Te()(this.props, e)
+								}),
+								(t.prototype.mapNestedChildrenToProps = function (e, t) {
+									if (!t) return null
+									switch (e.type) {
+										case je.SCRIPT:
+										case je.NOSCRIPT:
+											return { innerHTML: t }
+										case je.STYLE:
+											return { cssText: t }
+									}
+									throw new Error(
+										'<' +
+											e.type +
+											' /> elements are self-closing and can not contain children. Refer to our API for more information.'
+									)
+								}),
+								(t.prototype.flattenArrayTypeChildren = function (e) {
+									var t,
+										r = e.child,
+										n = e.arrayTypeChildren,
+										a = e.newChildProps,
+										o = e.nestedChildren
+									return at(
+										{},
+										n,
+										(((t = {})[r.type] = [].concat(n[r.type] || [], [
+											at({}, a, this.mapNestedChildrenToProps(r, o)),
+										])),
+										t)
+									)
+								}),
+								(t.prototype.mapObjectTypeChildren = function (e) {
+									var t,
+										r,
+										n = e.child,
+										a = e.newProps,
+										o = e.newChildProps,
+										i = e.nestedChildren
+									switch (n.type) {
+										case je.TITLE:
+											return at(
+												{},
+												a,
+												(((t = {})[n.type] = i),
+												(t.titleAttributes = at({}, o)),
+												t)
+											)
+										case je.BODY:
+											return at({}, a, { bodyAttributes: at({}, o) })
+										case je.HTML:
+											return at({}, a, { htmlAttributes: at({}, o) })
+									}
+									return at({}, a, (((r = {})[n.type] = at({}, o)), r))
+								}),
+								(t.prototype.mapArrayTypeChildrenToProps = function (e, t) {
+									var r = at({}, t)
+									return (
+										Object.keys(e).forEach(function (t) {
+											var n
+											r = at({}, r, (((n = {})[t] = e[t]), n))
+										}),
+										r
+									)
+								}),
+								(t.prototype.warnOnInvalidChildren = function (e, t) {
+									return !0
+								}),
+								(t.prototype.mapChildrenToProps = function (e, t) {
+									var r = this,
+										n = {}
+									return (
+										a.Children.forEach(e, function (e) {
+											if (e && e.props) {
+												var a = e.props,
+													o = a.children,
+													i = (function (e) {
+														var t =
+															arguments.length > 1 && void 0 !== arguments[1] ?
+																arguments[1]
+															:	{}
+														return Object.keys(e).reduce(function (t, r) {
+															return ((t[Je[r] || r] = e[r]), t)
+														}, t)
+													})(ot(a, ['children']))
+												switch ((r.warnOnInvalidChildren(e, o), e.type)) {
+													case je.LINK:
+													case je.META:
+													case je.NOSCRIPT:
+													case je.SCRIPT:
+													case je.STYLE:
+														n = r.flattenArrayTypeChildren({
+															child: e,
+															arrayTypeChildren: n,
+															newChildProps: i,
+															nestedChildren: o,
+														})
+														break
+													default:
+														t = r.mapObjectTypeChildren({
+															child: e,
+															newProps: t,
+															newChildProps: i,
+															nestedChildren: o,
+														})
+												}
+											}
+										}),
+										(t = this.mapArrayTypeChildrenToProps(n, t))
+									)
+								}),
+								(t.prototype.render = function () {
+									var e = this.props,
+										t = e.children,
+										r = ot(e, ['children']),
+										n = at({}, r)
+									return (
+										t && (n = this.mapChildrenToProps(t, n)),
+										a.createElement(ye, n)
+									)
+								}),
+								nt(t, null, [
+									{
+										key: 'canUseDOM',
+										set: function (e) {
+											ye.canUseDOM = e
+										},
+									},
+								]),
+								t
+							)
+						})(a.Component)),
+					(xe.propTypes = {
+						base: Se().object,
+						bodyAttributes: Se().object,
+						children: Se().oneOfType([Se().arrayOf(Se().node), Se().node]),
+						defaultTitle: Se().string,
+						defer: Se().bool,
+						encodeSpecialCharacters: Se().bool,
+						htmlAttributes: Se().object,
+						link: Se().arrayOf(Se().object),
+						meta: Se().arrayOf(Se().object),
+						noscript: Se().arrayOf(Se().object),
+						onChangeClientState: Se().func,
+						script: Se().arrayOf(Se().object),
+						style: Se().arrayOf(Se().object),
+						title: Se().string,
+						titleAttributes: Se().object,
+						titleTemplate: Se().string,
+					}),
+					(xe.defaultProps = { defer: !0, encodeSpecialCharacters: !0 }),
+					(xe.peek = ye.peek),
+					(xe.rewind = function () {
+						var e = ye.rewind()
+						return (
+							e ||
+								(e = Tt({
+									baseTag: [],
+									bodyAttributes: {},
+									encodeSpecialCharacters: !0,
+									htmlAttributes: {},
+									linkTags: [],
+									metaTags: [],
+									noscriptTags: [],
+									scriptTags: [],
+									styleTags: [],
+									title: '',
+									titleAttributes: {},
+								})),
+							e
+						)
+					}),
+					we)
+			Rt.renderStatic = Rt.rewind
+			var At = function (e) {
+				var t = e.description,
+					r = e.image,
+					n = e.title,
+					o = (0, fe.useStaticQuery)('4073690134').site.siteMetadata,
+					i = o.locale,
+					l = o.siteTitle
+				return a.createElement(
+					Rt,
+					{ defer: !1, defaultTitle: l, title: n, titleTemplate: '%s | ' + l },
+					a.createElement('html', { lang: i }),
+					a.createElement('meta', {
+						name: 'viewport',
+						content: 'width=device-width,initial-scale=1',
+					}),
+					a.createElement('meta', { name: 'description', content: t }),
+					a.createElement('meta', { property: 'og:type', content: 'website' }),
+					a.createElement('meta', { property: 'og:locale', content: i }),
+					a.createElement('meta', { property: 'og:site_name', content: l }),
+					a.createElement('meta', { property: 'og:image', content: r }),
+					a.createElement('meta', { property: 'og:description', content: t }),
+					a.createElement('meta', { name: 'twitter:card', content: 'summary' }),
+					a.createElement('meta', { name: 'twitter:image', content: r }),
+					a.createElement('meta', {
+						property: 'twitter:description',
+						content: t,
+					})
+				)
+			}
+			At.defaultProps = { image: '/social.png' }
+			var Mt = function (e) {
+				var t = e.href,
+					r = e.children,
+					n = e.className,
+					o = new URL((0 !== t.indexOf('http') ? 'http://' : '') + t.trim())
+				return (
+					o.searchParams.set('utm_source', 'MutualAidIndia.com'),
+					a.createElement(
+						c.M,
+						Object.assign({}, e, {
+							className:
+								'inline-block border border-urgent-600 text-center hover:shadow-lg\n        shadow-md rounded-md text-urgent-600 text-lg px-6 py-2 hover:bg-urgent-600\n        hover:text-white mr-3 mb-2 ' +
+								n,
+							href: o.href,
+							target: '_blank',
+						}),
+						r || 'Donate Online',
+						' ',
+						a.createElement(i.h0n, { className: 'inline h-4 w-4' })
+					)
+				)
+			}
+			function Lt(e, t, r) {
+				;(void 0 === t && (t = 'rupees'), void 0 === r && (r = !1))
+				var n = parseInt(e)
+				return 'rupees' === t ?
+						'₹' +
+							(function (e) {
+								var t = e.toString()
+								if (t.length <= 3) return t
+								var r = ',' + t.substring(t.length - 3)
+								return (
+									t
+										.substring(0, t.length - 3)
+										.replace(/\B(?=(\d{2})+(?!\d))/g, ',') + r
+								)
+							})(n)
+					:	'$' +
+							(function (e, t) {
+								var r = e >= 1e6 ? 1e3 : 100
+								return (
+									t ?
+										Math.round(e / r) * r
+									:	Math.round(e)).toLocaleString('en-US')
+							})(n / 72.95, r)
+			}
+			Mt.defaultProps = { className: '' }
+			var jt = function (e) {
+				var t = e.goal,
+					r = e.reached,
+					n = e.isForeignDonor,
+					o = Lt(r, n ? 'dollars' : 'rupees'),
+					i = Lt(t, n ? 'dollars' : 'rupees', !0)
+				return t || r ?
+						a.createElement(
+							'div',
+							{ className: 'mt-2 mb-5' },
+							a.createElement(
+								'p',
+								{ className: ' text-base text-primary-900 font-medium' },
+								o + ' raised ',
+								t > 0 ? 'of ' + i : 'so far'
+							),
+							t > 0 &&
+								a.createElement(
+									'div',
+									{
+										class: 'h-3 relative max-w-xl rounded-full overflow-hidden',
+									},
+									a.createElement('div', {
+										class: 'w-full h-full bg-gray-200 absolute',
+									}),
+									a.createElement('div', {
+										class:
+											'h-full bg-gradient-to-r from-secondary-500 via-secondary-500 to-urgent-500 absolute',
+										style: { width: (100 * r) / t + '%', minWidth: '5%' },
+									})
+								)
+						)
+					:	a.createElement(a.Fragment, null)
+			}
+			jt.defaultProps = { isForeignDonor: !1 }
+			var Pt =
+					r.p + 'static/mixtape-square-69112ae87c1f87a983b381eb84b8e492.jpg',
+				Dt = function (e) {
+					return a.createElement(
+						'div',
+						{ className: 'lg:container px-2 sm:px-4 md:px-7 mb-6 md:mb-0' },
+						a.createElement(
+							'div',
+							{
+								className: 'grid grid-cols-1 md:grid-cols-2 md:gap-x-8 md:py-6',
+							},
+							a.createElement(
+								'div',
+								{
+									className:
+										'relative z-10 col-start-1 row-start-1 px-4 pt-40 md:pt-4 pb-3 bg-gradient-to-t from-black md:bg-none',
+								},
+								a.createElement(
+									'h2',
+									{
+										className:
+											'text-xl font-semibold text-white sm:text-2xl sm:leading-7 md:text-black md:text-3xl',
+									},
+									'The MAI Mixtape is here'
+								)
+							),
+							a.createElement(
+								'div',
+								{
+									className:
+										'col-start-1 row-start-2 px-4 pt-4 md:pt-0 md:pb-6',
+								},
+								a.createElement(
+									'p',
+									{ className: 'my-2 text-md' },
+									'Thanks to our rad musician friends we now have a Mutual Aid India Mixtape, available on Bandcamp when you donate to one of the Mixtape campaigns.'
+								),
+								a.createElement(
+									'ol',
+									{ className: 'my-2 text-md list-decimal pl-7' },
+									a.createElement(
+										'li',
+										null,
+										'Make a donation of at least USD 8 / INR 500 to one or more of the campaigns in the mixtape section.'
+									),
+									a.createElement(
+										'li',
+										null,
+										'Send the receipt/screenshot of your donation to',
+										' ',
+										a.createElement(
+											'a',
+											{
+												className:
+													'text-primary-700 font-bold hover:text-primary-500',
+												href: 'mailto:mixtapeformai@gmail.com',
+											},
+											'MixtapeForMAI@gmail.com'
+										),
+										', or',
+										' ',
+										a.createElement(
+											'a',
+											{
+												className:
+													'text-primary-700 font-bold hover:text-primary-500',
+												href: 'https://docs.google.com/forms/d/e/1FAIpQLSfvA4L_qTK6ySDhAR_KF3_a5ilziEVpttdoSxQq5-NLvqT24Q/viewform',
+											},
+											'fill this form'
+										),
+										'.'
+									),
+									a.createElement(
+										'li',
+										null,
+										"Then we'll send you the bandcamp download code for the mixtape."
+									)
+								)
+							),
+							a.createElement(
+								'div',
+								{ className: 'col-start-1 row-start-3 md:px-4' },
+								a.createElement(
+									n.rU,
+									{
+										className:
+											'bg-urgent-600 my-4 block w-full md:w-max text-center shadow-sm rounded-md text-white text-xl px-8 py-2 mb-2 md:mb-0 hover:bg-urgent-400',
+										to: '/mixtape',
+									},
+									'Donate for the MAI Mixtape'
+								),
+								a.createElement(
+									c.M,
+									{
+										className:
+											'border border-primary-600 text-primary-600 my-4 block w-full md:w-max text-center shadow-sm rounded-md hover:bg-primary-600 hover:text-white text-xl px-8 py-2 mb-2 md:mb-0 hover:bg-primary-400',
+										href: 'https://maimixtape.bandcamp.com/releases',
+									},
+									'Preview on Bandcamp'
+								)
+							),
+							a.createElement(
+								'div',
+								{
+									class:
+										'col-start-1 row-start-1 flex md:col-start-2 md:row-span-3',
+								},
+								a.createElement(
+									'div',
+									{ className: 'w-full grid grid-cols-3 grid-rows-2 gap-2' },
+									a.createElement(
+										'div',
+										{ className: 'relative col-span-3 row-span-2' },
+										a.createElement('img', {
+											src: Pt,
+											alt: 'Cover art showing MAI Mixtape Edition 1',
+											className:
+												'absolute inset-0 w-full h-full object-cover bg-gray-100 sm:rounded-lg',
+										})
+									)
+								)
+							)
+						)
+					)
+				},
+				Ft =
+					r.p + 'static/mixtape-2-square-fa66a89e337aba548c3ca919a281663e.jpg',
+				_t = function (e) {
+					return a.createElement(
+						'div',
+						{ className: 'lg:container px-2 sm:px-4 md:px-7 mb-6 md:mb-0' },
+						a.createElement(
+							'div',
+							{
+								className: 'grid grid-cols-1 md:grid-cols-2 md:gap-x-8 md:py-6',
+							},
+							a.createElement(
+								'div',
+								{
+									className:
+										'relative z-10 col-start-1 row-start-1 px-4 pt-40 md:pt-4 pb-3 bg-gradient-to-t from-black md:bg-none',
+								},
+								a.createElement(
+									'h2',
+									{
+										className:
+											'text-xl font-semibold text-white sm:text-2xl sm:leading-7 md:text-black md:text-3xl',
+									},
+									'The MAI Mixtape: 2nd Edition is here'
+								)
+							),
+							a.createElement(
+								'div',
+								{
+									className:
+										'col-start-1 row-start-2 px-4 pt-4 md:pt-0 md:pb-6',
+								},
+								a.createElement(
+									'p',
+									{ className: 'my-2 text-md' },
+									'Thanks to our rad musician friends we now have a Mutual Aid India Mixtape, available on Bandcamp when you donate to one of the Mixtape campaigns.'
+								),
+								a.createElement(
+									'ol',
+									{ className: 'my-2 text-md list-decimal pl-7' },
+									a.createElement(
+										'li',
+										null,
+										'Buy the mixtape on Bandcamp or make a donation of at INR 500 to the featured campaign.'
+									),
+									a.createElement(
+										'li',
+										null,
+										'Send the receipt/screenshot of your donation to',
+										' ',
+										a.createElement(
+											'a',
+											{
+												className:
+													'text-primary-700 font-bold hover:text-primary-500',
+												href: 'mailto:mixtapeformai@gmail.com',
+											},
+											'MixtapeForMAI@gmail.com'
+										),
+										', or',
+										' ',
+										a.createElement(
+											c.M,
+											{
+												className:
+													'text-primary-700 font-bold hover:text-primary-500',
+												href: 'https://docs.google.com/forms/d/e/1FAIpQLSf-tfzfukazFDqwA59pAenESCoZ7KGgiW-OsSQmilZa_JqN8Q/viewform',
+												target: '_blank',
+											},
+											'attach the receipt to this form'
+										),
+										'.'
+									),
+									a.createElement(
+										'li',
+										null,
+										"Then we'll send you the Bandcamp download code for the mixtape."
+									)
+								)
+							),
+							a.createElement(
+								'div',
+								{ className: 'col-start-1 row-start-3 md:px-4' },
+								a.createElement(
+									n.rU,
+									{
+										className:
+											'bg-urgent-600 my-4 block w-full md:w-max text-center shadow-sm rounded-md text-white text-xl px-8 py-2 mb-2 md:mb-0 hover:bg-urgent-400',
+										to: '/mixtape-2',
+									},
+									'Donate for the MAI Mixtape'
+								),
+								a.createElement(
+									c.M,
+									{
+										className:
+											'border border-primary-600 text-primary-600 my-4 block w-full md:w-max text-center shadow-sm rounded-md hover:bg-primary-600 hover:text-white text-xl px-8 py-2 mb-2 md:mb-0 hover:bg-primary-400',
+										href: 'https://maimixtape.bandcamp.com/releases',
+									},
+									'Preview on Bandcamp'
+								)
+							),
+							a.createElement(
+								'div',
+								{
+									class:
+										'col-start-1 row-start-1 flex md:col-start-2 md:row-span-3',
+								},
+								a.createElement(
+									'div',
+									{ className: 'w-full grid grid-cols-3 grid-rows-2 gap-2' },
+									a.createElement(
+										'div',
+										{ className: 'relative col-span-3 row-span-2' },
+										a.createElement('img', {
+											src: Ft,
+											alt: 'Cover art showing MAI Mixtape Edition 1',
+											className:
+												'absolute inset-0 w-full h-full object-cover bg-gray-100 sm:rounded-lg',
+										})
+									)
+								)
+							)
+						)
+					)
+				},
+				Ut = r.p + 'static/zine-square-0354a50fdddd6324aad3472a4e61f35e.jpg',
+				Ht = function (e) {
+					return a.createElement(
+						'div',
+						{ className: 'lg:container px-2 sm:px-4 md:px-7 mb-6 md:mb-0' },
+						a.createElement(
+							'div',
+							{
+								className: 'grid grid-cols-1 md:grid-cols-2 md:gap-x-8 md:py-6',
+							},
+							a.createElement(
+								'div',
+								{
+									className:
+										'relative z-10 md:col-start-2 col-start-1 row-start-1 px-4 pt-40 md:pt-4 pb-3 bg-gradient-to-t from-black md:bg-none',
+								},
+								a.createElement(
+									'h2',
+									{
+										className:
+											'text-xl font-semibold text-white sm:text-2xl sm:leading-7 md:text-black md:text-3xl',
+									},
+									'The MAI Zine is here'
+								)
+							),
+							a.createElement(
+								'div',
+								{
+									className:
+										'col-start-1 md:col-start-2 row-start-2 px-4 pt-4 md:pt-3 md:pb-3',
+								},
+								a.createElement(
+									'p',
+									{ className: 'my-2 text-md' },
+									'In April 2021 the second wave of the Covid-19 pandemic decimated the healthcare infrastructure in India. Time, it felt, had gone mad.'
+								),
+								a.createElement(
+									'p',
+									{ className: 'my-2 text-md' },
+									'But for many of us at MAI, time has always been a little strange in the ways it slips into our lives. We made a small book about our time. You can buy the digital book on Gumroad at a suggested price of $12 if you’re in India and $15, if you’re outside India.'
+								),
+								a.createElement(
+									'p',
+									{ className: 'my-2 text-md italic' },
+									'100% of proceeds will be donated to a campaign supporting the trans community in Manipur with daily essentials.'
+								)
+							),
+							a.createElement(
+								'div',
+								{ className: 'col-start-1 md:col-start-2 row-start-3 md:px-4' },
+								a.createElement(
+									c.M,
+									{
+										className:
+											'bg-urgent-600 my-4 block w-full md:w-max text-center shadow-sm rounded-md text-white text-xl px-8 py-2 mb-2 md:mb-0 hover:bg-urgent-400',
+										href: 'https://gumroad.com/l/threewaysofunpeelingtime?utm_source=MutualAidIndia.com',
+									},
+									'Donate for the MAI Zine'
+								),
+								a.createElement(
+									n.rU,
+									{
+										className:
+											'border border-primary-600 text-primary-600 my-4 block w-full md:w-max text-center shadow-sm rounded-md hover:bg-primary-600 hover:text-white text-xl px-8 py-2 mb-2 md:mb-0 hover:bg-primary-400',
+										to: '/zine',
+									},
+									'More Info'
+								)
+							),
+							a.createElement(
+								'div',
+								{
+									class:
+										'col-start-1 md:col-start-1 row-start-1 flex md:row-span-3',
+								},
+								a.createElement(
+									'div',
+									{ className: 'w-full grid grid-cols-3 grid-rows-2 gap-2' },
+									a.createElement(
+										'div',
+										{ className: 'relative col-span-3 row-span-2' },
+										a.createElement('img', {
+											src: Ut,
+											alt: 'Cover art showing MAI Zine preview',
+											className:
+												'absolute inset-0 w-full h-full object-cover bg-gray-100 sm:rounded-lg',
+										})
+									)
+								)
+							)
+						)
+					)
+				},
+				Gt = function (e) {
+					var t = (0, a.useState)(!1),
+						r = t[0],
+						n = t[1]
+					return r ?
+							a.createElement(a.Fragment, null)
+						:	a.createElement(
+								'div',
+								{
+									className:
+										'md:container pt-2 mb-2 md:pt-4 md:mb-4 lg:pt-6 lg:mb-6',
+								},
+								a.createElement(
+									'div',
+									{
+										className:
+											'mx-3 md:mx-0 relative bg-yellow-100 shadow-md rounded-md py-5 px-8',
+									},
+									a.createElement(
+										'button',
+										{
+											className: 'absolute top-0 right-0 p-3',
+											onClick: function () {
+												n(!0)
+											},
+											'area-pressed': 'false',
+										},
+										'✕'
+									),
+									a.createElement(
+										'h1',
+										{ className: 'mt-2 mb-1 font-bold' },
+										'Info for donors/supporters:'
+									),
+									a.createElement(
+										'p',
+										{ className: 'mb-2' },
+										a.createElement(
+											'ul',
+											{ className: 'list-disc pl-5' },
+											a.createElement(
+												'li',
+												null,
+												'We vet and track everything we add to the website –',
+												' ',
+												a.createElement(
+													c.M,
+													{
+														className:
+															'text-primary-700 font-bold hover:text-primary-500',
+														href: 'https://docs.google.com/document/d/1HzDK589lbyUtS-sDyUF9U2T-zkkT6CyCa3RY7WYBk3E/edit',
+														target: '_blank',
+														rel: 'noopener noreferrer',
+													},
+													'click here to read about our internal process for vetting and listing fundraisers, our commitment to equity, and our team in the document here.'
+												)
+											),
+											a.createElement(
+												'li',
+												null,
+												'Please look for the most urgent needs first, marked in red as "Urgent".'
+											),
+											a.createElement(
+												'li',
+												null,
+												'If you are donating from abroad, please look for fundraisers accepting foreign donations, marked with "£ $ €".'
+											),
+											a.createElement(
+												'li',
+												null,
+												'If you are an NRI donating from an Indian bank account, your donations don\'t count as "foreign" and you don\'t have to worry about this.'
+											),
+											a.createElement(
+												'li',
+												null,
+												'If you have a campaign you want us to add, email',
+												' ',
+												a.createElement(
+													'span',
+													{ className: 'italic' },
+													'covidmutualaidindia',
+													a.createElement('wbr', null),
+													'@protonmail.com'
+												),
+												'.'
+											)
+										)
+									),
+									a.createElement(
+										'p',
+										{ className: 'italic text-gray-600 my-2' },
+										'Disclaimer: this list is curated by an informal group of volunteers. Nothing on this site should be taken as a warantee or legal advice. Give at your own discretion, but please do give generously.'
+									)
+								)
+							)
+				}
+		},
+		311: function (e, t, r) {
+			'use strict'
+			function n(e) {
+				return (
+					window.open(
+						'upi://pay?pa=' + e + '&pn=Mutual+Aid+Recipient&tn=&cu=INR',
+						'_blank'
+					),
+					!0
+				)
+			}
+			r.d(t, {
+				C: function () {
+					return n
+				},
+			})
+		},
+	},
+])
+//# sourceMappingURL=commons-0c5d1322e7b7e2b208bc.js.map

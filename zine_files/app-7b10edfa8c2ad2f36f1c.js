@@ -3367,57 +3367,59 @@
 		154: function (e, t, n) {
 			'use strict'
 			n.r(t)
-			var r = n(7343)
-			(
-				'https:' !== window.location.protocol &&
-				'localhost' !== window.location.hostname
-			) ?
-				console.error(
-					'Service workers can only be used over HTTPS, or on localhost for development'
-				)
-			:	'serviceWorker' in navigator &&
-				navigator.serviceWorker
-					.register('/sw.js')
-					.then(function (e) {
-						e.addEventListener('updatefound', function () {
-							;(0, r.h)('onServiceWorkerUpdateFound', { serviceWorker: e })
-							var t = e.installing
-							;(console.log('installingWorker', t),
-								t.addEventListener('statechange', function () {
-									switch (t.state) {
-										case 'installed':
-											navigator.serviceWorker.controller ?
-												((window.___swUpdated = !0),
-												(0, r.h)('onServiceWorkerUpdateReady', {
-													serviceWorker: e,
-												}),
-												window.___failedResources &&
-													(console.log(
-														'resources failed, SW updated - reloading'
-													),
-													window.location.reload()))
-											:	(console.log('Content is now available offline!'),
-												(0, r.h)('onServiceWorkerInstalled', {
-													serviceWorker: e,
-												}))
-											break
-										case 'redundant':
-											;(console.error(
-												'The installing service worker became redundant.'
-											),
-												(0, r.h)('onServiceWorkerRedundant', {
-													serviceWorker: e,
-												}))
-											break
-										case 'activated':
-											;(0, r.h)('onServiceWorkerActive', { serviceWorker: e })
-									}
-								}))
+			var r =
+				(
+					n(7343)(
+						'https:' !== window.location.protocol &&
+							'localhost' !== window.location.hostname
+					)
+				) ?
+					console.error(
+						'Service workers can only be used over HTTPS, or on localhost for development'
+					)
+				:	'serviceWorker' in navigator &&
+					navigator.serviceWorker
+						.register('/sw.js')
+						.then(function (e) {
+							e.addEventListener('updatefound', function () {
+								;(0, r.h)('onServiceWorkerUpdateFound', { serviceWorker: e })
+								var t = e.installing
+								;(console.log('installingWorker', t),
+									t.addEventListener('statechange', function () {
+										switch (t.state) {
+											case 'installed':
+												navigator.serviceWorker.controller ?
+													((window.___swUpdated = !0),
+													(0, r.h)('onServiceWorkerUpdateReady', {
+														serviceWorker: e,
+													}),
+													window.___failedResources &&
+														(console.log(
+															'resources failed, SW updated - reloading'
+														),
+														window.location.reload()))
+												:	(console.log('Content is now available offline!'),
+													(0, r.h)('onServiceWorkerInstalled', {
+														serviceWorker: e,
+													}))
+												break
+											case 'redundant':
+												;(console.error(
+													'The installing service worker became redundant.'
+												),
+													(0, r.h)('onServiceWorkerRedundant', {
+														serviceWorker: e,
+													}))
+												break
+											case 'activated':
+												;(0, r.h)('onServiceWorkerActive', { serviceWorker: e })
+										}
+									}))
+							})
 						})
-					})
-					.catch(function (e) {
-						console.error('Error during service worker registration:', e)
-					})
+						.catch(function (e) {
+							console.error('Error during service worker registration:', e)
+						})
 		},
 		1578: function (e, t, n) {
 			'use strict'
